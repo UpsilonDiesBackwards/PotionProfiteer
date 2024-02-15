@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public GameObject player;
+    public GameObject playerSkin;
 
     private void Awake() {
         instance = this;    

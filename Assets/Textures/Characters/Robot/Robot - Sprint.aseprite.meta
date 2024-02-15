@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: caf082a20ff714c43ae9e2c121b7bf51
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Robot - Sprint_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 24
+      height: 21
+    spriteID: 820e6892b96290247a0e875d7a8bbc5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Robot - Sprint_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 33
+      width: 24
+      height: 21
+    spriteID: 478b345049737ed468d35bcfcb52b63c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 33}
+  - name: Robot - Sprint_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 24
+      height: 21
+    spriteID: 6d4a71f5b79cbac42a392b7978c4333f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: Robot - Sprint_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 24
+      height: 21
+    spriteID: 28a98f6bb455d4b4a840e9a830533258
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: Robot - Sprint_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 149
+      width: 24
+      height: 20
+    spriteID: 516a510249e9f2042ab432c89fe8e045
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 149}
+  - name: Robot - Sprint_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 177
+      width: 24
+      height: 20
+    spriteID: 60e4d6c598f64ea45a616db9b1da2981
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 177}
+  - name: Robot - Sprint_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 205
+      width: 24
+      height: 20
+    spriteID: ef53c865796e10b4ca5662580afd1f16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 205}
+  - name: Robot - Sprint_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 233
+      width: 24
+      height: 20
+    spriteID: b0a8bc8caa77317408e0a364a47c4a6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 233}
+  - name: Robot - Sprint_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 261
+      width: 24
+      height: 20
+    spriteID: fdf353a3c9e32b74cb031139f6016145
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 261}
+  - name: Robot - Sprint_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 24
+      height: 21
+    spriteID: 0d81be0a2f6940c4cb033053ebe6c6f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Robot - Sprint_Frame_10
+    originalName: 
+    pivot: {x: 0.55, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 256
+      width: 20
+      height: 21
+    spriteID: e5aefd5cb53f9e14da652bbc5f113d41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 256}
+  - name: Robot - Sprint_Frame_11
+    originalName: 
+    pivot: {x: 0.55, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 285
+      width: 20
+      height: 21
+    spriteID: 224519e36b852f040bcac39587823871
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 285}
+  - name: Robot - Sprint_Frame_12
+    originalName: 
+    pivot: {x: 0.55, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 314
+      width: 20
+      height: 21
+    spriteID: f9541162d01c6dd4cb48cb9007ef6e5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 314}
+  - name: Robot - Sprint_Frame_13
+    originalName: 
+    pivot: {x: 0.55, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 343
+      width: 20
+      height: 21
+    spriteID: deb485ab7f67910499ea6906d2b9af9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 343}
+  - name: Robot - Sprint_Frame_14
+    originalName: 
+    pivot: {x: 0.55, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 409
+      width: 20
+      height: 20
+    spriteID: a8d7732df3712794ebd1ebff2cd7cf3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 409}
+  - name: Robot - Sprint_Frame_15
+    originalName: 
+    pivot: {x: 0.55, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 437
+      width: 20
+      height: 20
+    spriteID: 1d6f37464ccba0d478fac5305a374477
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 437}
+  - name: Robot - Sprint_Frame_16
+    originalName: 
+    pivot: {x: 0.55, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 465
+      width: 20
+      height: 20
+    spriteID: e92b8e0ce90605c44bfe21cc57859118
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 465}
+  - name: Robot - Sprint_Frame_17
+    originalName: 
+    pivot: {x: 0.55, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 317
+      width: 20
+      height: 20
+    spriteID: 898f76f45d8086c45b8926f7b1a8d73d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 317}
+  - name: Robot - Sprint_Frame_18
+    originalName: 
+    pivot: {x: 0.55, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 345
+      width: 20
+      height: 20
+    spriteID: cae27b70b495cf14f925d2336e9d9d6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 345}
+  - name: Robot - Sprint_Frame_19
+    originalName: 
+    pivot: {x: 0.55, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 372
+      width: 20
+      height: 21
+    spriteID: 3d64492fb34dad14ab2e15b13704a18c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 372}
+  - name: Robot - Sprint_Frame_20
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 347
+      width: 22
+      height: 20
+    spriteID: 02dece7bb3dc5ef4e919cd2ab50b271b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 347}
+  - name: Robot - Sprint_Frame_21
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 375
+      width: 22
+      height: 20
+    spriteID: 86a4ea0ac8acb7342a966209b5116f5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 375}
+  - name: Robot - Sprint_Frame_22
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 403
+      width: 22
+      height: 20
+    spriteID: f6c8d37f52b363b479e17e748cb7fe65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 403}
+  - name: Robot - Sprint_Frame_23
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 431
+      width: 22
+      height: 20
+    spriteID: ffe01b7d271f032499a662d6089b465a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 431}
+  - name: Robot - Sprint_Frame_24
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 4
+      width: 22
+      height: 19
+    spriteID: 4eb6db0ce6b5a05469c37544bb30179d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 4}
+  - name: Robot - Sprint_Frame_25
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 31
+      width: 22
+      height: 19
+    spriteID: 7b4223d162e4a1c42b899d4397177d86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 31}
+  - name: Robot - Sprint_Frame_26
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 58
+      width: 22
+      height: 19
+    spriteID: 4d65963e5ea8cb34fba611812aea2691
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 58}
+  - name: Robot - Sprint_Frame_27
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 85
+      width: 22
+      height: 19
+    spriteID: af37680bcd617bc488c0a2d5e48a32bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 85}
+  - name: Robot - Sprint_Frame_28
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 112
+      width: 22
+      height: 19
+    spriteID: 637f1dcdba4564f48b8ffa7e7d54d041
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 112}
+  - name: Robot - Sprint_Frame_29
+    originalName: 
+    pivot: {x: 0.54545456, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 459
+      width: 22
+      height: 20
+    spriteID: cda501bf94b02284ca9a5b414aaf66bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 459}
+  - name: Robot - Sprint_Frame_30
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 401
+      width: 21
+      height: 20
+    spriteID: bf089b0cdfbe66c4c92f0bb274009f8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 401}
+  - name: Robot - Sprint_Frame_31
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 429
+      width: 21
+      height: 20
+    spriteID: 0d6ccafe2a801c440911b33f807c9700
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 429}
+  - name: Robot - Sprint_Frame_32
+    originalName: 
+    pivot: {x: 0.5714286, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 289
+      width: 21
+      height: 21
+    spriteID: 6bbdeaaa777279647a352251b4ecfc7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 289}
+  - name: Robot - Sprint_Frame_33
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 457
+      width: 21
+      height: 20
+    spriteID: b0cff3a908b73024d861cec797bb3691
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 457}
+  - name: Robot - Sprint_Frame_34
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 4
+      width: 21
+      height: 19
+    spriteID: d393c9740f582c442adf19bfe80ce80c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 4}
+  - name: Robot - Sprint_Frame_35
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 31
+      width: 21
+      height: 19
+    spriteID: 4eb202a2e8ff4b54e9e59d2ea2db4194
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 31}
+  - name: Robot - Sprint_Frame_36
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.0500001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 485
+      width: 21
+      height: 20
+    spriteID: 5e94b559569ef1a4baa9c40052f1e851
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 485}
+  - name: Robot - Sprint_Frame_37
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 58
+      width: 21
+      height: 19
+    spriteID: 91486576e08c46f49b09b7db7f2b18c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 58}
+  - name: Robot - Sprint_Frame_38
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 85
+      width: 21
+      height: 19
+    spriteID: 39469fb5d16aebf4d898b950e7f22132
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 85}
+  - name: Robot - Sprint_Frame_39
+    originalName: 
+    pivot: {x: 0.5714286, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 21
+      height: 20
+    spriteID: d89bd57eaabd89948aa0307e6e89f8ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 4}
+  - name: Robot - Sprint_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 487
+      width: 22
+      height: 20
+    spriteID: 10e330d71c8d3b14b93f68327f0457cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 487}
+  - name: Robot - Sprint_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 22
+      height: 20
+    spriteID: d1eacdb3fee8063448000de8081a458f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 4}
+  - name: Robot - Sprint_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 32
+      width: 22
+      height: 20
+    spriteID: abce98d5360876845abdf0189d53de68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 32}
+  - name: Robot - Sprint_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 60
+      width: 22
+      height: 20
+    spriteID: 4c1d5c99d9694364896083351b3e9c4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 60}
+  - name: Robot - Sprint_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 139
+      width: 22
+      height: 19
+    spriteID: bd543db9796a3dc489f18c41cc1d15bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 139}
+  - name: Robot - Sprint_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 166
+      width: 22
+      height: 19
+    spriteID: 83eff0f3ed0ce59498c2f9ebc3d2c02b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 166}
+  - name: Robot - Sprint_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 193
+      width: 22
+      height: 19
+    spriteID: 4045aa6e0bc152a4d8e7f9b0c6081a75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 193}
+  - name: Robot - Sprint_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 220
+      width: 22
+      height: 19
+    spriteID: 61a8bc696634d9b44b5bcb20f12294bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 220}
+  - name: Robot - Sprint_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 247
+      width: 22
+      height: 19
+    spriteID: 6ef5ad617622cd24ab7d85e3117cf5a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 247}
+  - name: Robot - Sprint_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 88
+      width: 22
+      height: 20
+    spriteID: 48ffdc55f3e1dd6409b81b24227dd053
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 88}
+  - name: Robot - Sprint_Frame_50
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 32
+      width: 21
+      height: 20
+    spriteID: 78260278345799f45b263ff6717e854f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 32}
+  - name: Robot - Sprint_Frame_51
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 60
+      width: 21
+      height: 20
+    spriteID: 7083b4a0493374d40909d1b45a7ef215
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 60}
+  - name: Robot - Sprint_Frame_52
+    originalName: 
+    pivot: {x: 0.42857143, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 318
+      width: 21
+      height: 21
+    spriteID: efa78af0e9c4da544a622e8187173759
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 318}
+  - name: Robot - Sprint_Frame_53
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 88
+      width: 21
+      height: 20
+    spriteID: 79c476990da89f544a59295aef6728aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 88}
+  - name: Robot - Sprint_Frame_54
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 112
+      width: 21
+      height: 19
+    spriteID: 1a7c5dc1f7f786b45ab05e9243c31fc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 112}
+  - name: Robot - Sprint_Frame_55
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 139
+      width: 21
+      height: 19
+    spriteID: 4b746eab93f5353428daa122965162ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 139}
+  - name: Robot - Sprint_Frame_56
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.0500001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 116
+      width: 21
+      height: 20
+    spriteID: 140fee4cb6912c64fa1b879f1c7417d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 116}
+  - name: Robot - Sprint_Frame_57
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 166
+      width: 21
+      height: 19
+    spriteID: 3a91ad72dc2a3484ca196fb1f98d23fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 166}
+  - name: Robot - Sprint_Frame_58
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 193
+      width: 21
+      height: 19
+    spriteID: 411a857b788e74c4dbf4e7b4154dc165
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 193}
+  - name: Robot - Sprint_Frame_59
+    originalName: 
+    pivot: {x: 0.42857143, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 144
+      width: 21
+      height: 20
+    spriteID: bb574853048bffe468962d3d326b6c70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 144}
+  - name: Robot - Sprint_Frame_60
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 116
+      width: 22
+      height: 20
+    spriteID: 01fbcade78cb8b945a39e97356c9696f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 116}
+  - name: Robot - Sprint_Frame_61
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 144
+      width: 22
+      height: 20
+    spriteID: e18c9e5365ce66948847ed0fb779b76b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 144}
+  - name: Robot - Sprint_Frame_62
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 172
+      width: 22
+      height: 20
+    spriteID: aaaeee55948542b46a2ba8ee039008be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 172}
+  - name: Robot - Sprint_Frame_63
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 200
+      width: 22
+      height: 20
+    spriteID: a1d6dd4c0c2d3ac45be33d2a5668ae30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 200}
+  - name: Robot - Sprint_Frame_64
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 274
+      width: 22
+      height: 19
+    spriteID: 5e7dce08bd017d14db5ab0c9e6d10812
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 274}
+  - name: Robot - Sprint_Frame_65
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 301
+      width: 22
+      height: 19
+    spriteID: 7835ed900b7ec7e4480d369653d8abc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 301}
+  - name: Robot - Sprint_Frame_66
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 328
+      width: 22
+      height: 19
+    spriteID: 61a5244c13ee19f4bbd67a5552a1c356
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 328}
+  - name: Robot - Sprint_Frame_67
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 355
+      width: 22
+      height: 19
+    spriteID: 1864a7d43cb274a4780ded7bc9e9512d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 355}
+  - name: Robot - Sprint_Frame_68
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1578947}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 382
+      width: 22
+      height: 19
+    spriteID: 28df3ca528c4faf4a885be056c4441a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 382}
+  - name: Robot - Sprint_Frame_69
+    originalName: 
+    pivot: {x: 0.45454547, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 228
+      width: 22
+      height: 20
+    spriteID: f0671de204a64a447ac44ed7726c2879
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 228}
+  - name: Robot - Sprint_Frame_70
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 172
+      width: 20
+      height: 21
+    spriteID: 7882569550b494742aa783c990596256
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 172}
+  - name: Robot - Sprint_Frame_71
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 201
+      width: 20
+      height: 21
+    spriteID: 4cf2f693d5d88e845bdd972ee473a820
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 201}
+  - name: Robot - Sprint_Frame_72
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 230
+      width: 20
+      height: 21
+    spriteID: 8bb3a39e21d4cc843a58e44105e72c6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 230}
+  - name: Robot - Sprint_Frame_73
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 259
+      width: 20
+      height: 21
+    spriteID: 4b1914f967f43d34d881eeed3e318134
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 259}
+  - name: Robot - Sprint_Frame_74
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 373
+      width: 20
+      height: 20
+    spriteID: 7dd1fd8bf4396334990e17b131a2d712
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 373}
+  - name: Robot - Sprint_Frame_75
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 401
+      width: 20
+      height: 20
+    spriteID: 5711eda31394e3245bd837534a8a5789
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 401}
+  - name: Robot - Sprint_Frame_76
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 429
+      width: 20
+      height: 20
+    spriteID: c2046052a3f6cd84b90782ac49e807bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 429}
+  - name: Robot - Sprint_Frame_77
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 457
+      width: 20
+      height: 20
+    spriteID: 5d646f19750e5b0439f4f6c40c3cf4cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 457}
+  - name: Robot - Sprint_Frame_78
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 485
+      width: 20
+      height: 20
+    spriteID: 25cde87bb2d45954f9fe3ceac7631185
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 485}
+  - name: Robot - Sprint_Frame_79
+    originalName: 
+    pivot: {x: 0.45000002, y: -1.0476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 288
+      width: 20
+      height: 21
+    spriteID: 3e17cc4fab097004a9613a1c6ac4f365
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 288}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -102366449
+    name: Robot - Sprint
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Robot - Sprint_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 21
+      spriteId: 820e6892b96290247a0e875d7a8bbc5b
+    - name: Robot - Sprint_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 21
+      spriteId: 478b345049737ed468d35bcfcb52b63c
+    - name: Robot - Sprint_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 21
+      spriteId: 6d4a71f5b79cbac42a392b7978c4333f
+    - name: Robot - Sprint_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 21
+      spriteId: 28a98f6bb455d4b4a840e9a830533258
+    - name: Robot - Sprint_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 20
+      spriteId: 516a510249e9f2042ab432c89fe8e045
+    - name: Robot - Sprint_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 20
+      spriteId: 60e4d6c598f64ea45a616db9b1da2981
+    - name: Robot - Sprint_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 20
+      spriteId: ef53c865796e10b4ca5662580afd1f16
+    - name: Robot - Sprint_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 20
+      spriteId: b0a8bc8caa77317408e0a364a47c4a6c
+    - name: Robot - Sprint_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 20
+      spriteId: fdf353a3c9e32b74cb031139f6016145
+    - name: Robot - Sprint_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 20
+        y: 22
+        width: 24
+        height: 21
+      spriteId: 0d81be0a2f6940c4cb033053ebe6c6f5
+    - name: Robot - Sprint_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 21
+      spriteId: e5aefd5cb53f9e14da652bbc5f113d41
+    - name: Robot - Sprint_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 224519e36b852f040bcac39587823871
+    - name: Robot - Sprint_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 21
+      spriteId: f9541162d01c6dd4cb48cb9007ef6e5d
+    - name: Robot - Sprint_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 21
+      spriteId: deb485ab7f67910499ea6906d2b9af9e
+    - name: Robot - Sprint_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 20
+      spriteId: a8d7732df3712794ebd1ebff2cd7cf3a
+    - name: Robot - Sprint_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 20
+      spriteId: 1d6f37464ccba0d478fac5305a374477
+    - name: Robot - Sprint_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 20
+      spriteId: e92b8e0ce90605c44bfe21cc57859118
+    - name: Robot - Sprint_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 20
+      spriteId: 898f76f45d8086c45b8926f7b1a8d73d
+    - name: Robot - Sprint_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 20
+      spriteId: cae27b70b495cf14f925d2336e9d9d6e
+    - name: Robot - Sprint_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 21
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 3d64492fb34dad14ab2e15b13704a18c
+    - name: Robot - Sprint_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 20
+      spriteId: 02dece7bb3dc5ef4e919cd2ab50b271b
+    - name: Robot - Sprint_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 20
+      spriteId: 86a4ea0ac8acb7342a966209b5116f5f
+    - name: Robot - Sprint_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 20
+      spriteId: f6c8d37f52b363b479e17e748cb7fe65
+    - name: Robot - Sprint_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 20
+      spriteId: ffe01b7d271f032499a662d6089b465a
+    - name: Robot - Sprint_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 4eb6db0ce6b5a05469c37544bb30179d
+    - name: Robot - Sprint_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 7b4223d162e4a1c42b899d4397177d86
+    - name: Robot - Sprint_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 4d65963e5ea8cb34fba611812aea2691
+    - name: Robot - Sprint_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 19
+      spriteId: af37680bcd617bc488c0a2d5e48a32bc
+    - name: Robot - Sprint_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 637f1dcdba4564f48b8ffa7e7d54d041
+    - name: Robot - Sprint_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 20
+        y: 22
+        width: 22
+        height: 20
+      spriteId: cda501bf94b02284ca9a5b414aaf66bf
+    - name: Robot - Sprint_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 20
+      spriteId: bf089b0cdfbe66c4c92f0bb274009f8d
+    - name: Robot - Sprint_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 20
+      spriteId: 0d6ccafe2a801c440911b33f807c9700
+    - name: Robot - Sprint_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 20
+        y: 21
+        width: 21
+        height: 21
+      spriteId: 6bbdeaaa777279647a352251b4ecfc7e
+    - name: Robot - Sprint_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 20
+      spriteId: b0cff3a908b73024d861cec797bb3691
+    - name: Robot - Sprint_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 19
+      spriteId: d393c9740f582c442adf19bfe80ce80c
+    - name: Robot - Sprint_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 19
+      spriteId: 4eb202a2e8ff4b54e9e59d2ea2db4194
+    - name: Robot - Sprint_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 20
+        y: 21
+        width: 21
+        height: 20
+      spriteId: 5e94b559569ef1a4baa9c40052f1e851
+    - name: Robot - Sprint_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 19
+      spriteId: 91486576e08c46f49b09b7db7f2b18c1
+    - name: Robot - Sprint_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 19
+      spriteId: 39469fb5d16aebf4d898b950e7f22132
+    - name: Robot - Sprint_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 20
+        y: 22
+        width: 21
+        height: 20
+      spriteId: d89bd57eaabd89948aa0307e6e89f8ec
+    - name: Robot - Sprint_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 20
+      spriteId: 10e330d71c8d3b14b93f68327f0457cd
+    - name: Robot - Sprint_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 20
+      spriteId: d1eacdb3fee8063448000de8081a458f
+    - name: Robot - Sprint_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 20
+      spriteId: abce98d5360876845abdf0189d53de68
+    - name: Robot - Sprint_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 20
+      spriteId: 4c1d5c99d9694364896083351b3e9c4f
+    - name: Robot - Sprint_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 19
+      spriteId: bd543db9796a3dc489f18c41cc1d15bd
+    - name: Robot - Sprint_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 83eff0f3ed0ce59498c2f9ebc3d2c02b
+    - name: Robot - Sprint_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 4045aa6e0bc152a4d8e7f9b0c6081a75
+    - name: Robot - Sprint_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 61a8bc696634d9b44b5bcb20f12294bd
+    - name: Robot - Sprint_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 6ef5ad617622cd24ab7d85e3117cf5a8
+    - name: Robot - Sprint_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 21
+        y: 22
+        width: 22
+        height: 20
+      spriteId: 48ffdc55f3e1dd6409b81b24227dd053
+    - name: Robot - Sprint_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 20
+      spriteId: 78260278345799f45b263ff6717e854f
+    - name: Robot - Sprint_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 20
+      spriteId: 7083b4a0493374d40909d1b45a7ef215
+    - name: Robot - Sprint_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 23
+        y: 21
+        width: 21
+        height: 21
+      spriteId: efa78af0e9c4da544a622e8187173759
+    - name: Robot - Sprint_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 20
+      spriteId: 79c476990da89f544a59295aef6728aa
+    - name: Robot - Sprint_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 19
+      spriteId: 1a7c5dc1f7f786b45ab05e9243c31fc2
+    - name: Robot - Sprint_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 19
+      spriteId: 4b746eab93f5353428daa122965162ed
+    - name: Robot - Sprint_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 23
+        y: 21
+        width: 21
+        height: 20
+      spriteId: 140fee4cb6912c64fa1b879f1c7417d2
+    - name: Robot - Sprint_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 19
+      spriteId: 3a91ad72dc2a3484ca196fb1f98d23fb
+    - name: Robot - Sprint_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 19
+      spriteId: 411a857b788e74c4dbf4e7b4154dc165
+    - name: Robot - Sprint_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 23
+        y: 22
+        width: 21
+        height: 20
+      spriteId: bb574853048bffe468962d3d326b6c70
+    - name: Robot - Sprint_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 20
+      spriteId: 01fbcade78cb8b945a39e97356c9696f
+    - name: Robot - Sprint_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 20
+      spriteId: e18c9e5365ce66948847ed0fb779b76b
+    - name: Robot - Sprint_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 20
+      spriteId: aaaeee55948542b46a2ba8ee039008be
+    - name: Robot - Sprint_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 20
+      spriteId: a1d6dd4c0c2d3ac45be33d2a5668ae30
+    - name: Robot - Sprint_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 5e7dce08bd017d14db5ab0c9e6d10812
+    - name: Robot - Sprint_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 7835ed900b7ec7e4480d369653d8abc7
+    - name: Robot - Sprint_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 61a5244c13ee19f4bbd67a5552a1c356
+    - name: Robot - Sprint_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 1864a7d43cb274a4780ded7bc9e9512d
+    - name: Robot - Sprint_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 19
+      spriteId: 28df3ca528c4faf4a885be056c4441a3
+    - name: Robot - Sprint_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 22
+        y: 22
+        width: 22
+        height: 20
+      spriteId: f0671de204a64a447ac44ed7726c2879
+    - name: Robot - Sprint_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 7882569550b494742aa783c990596256
+    - name: Robot - Sprint_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 4cf2f693d5d88e845bdd972ee473a820
+    - name: Robot - Sprint_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 8bb3a39e21d4cc843a58e44105e72c6b
+    - name: Robot - Sprint_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 4b1914f967f43d34d881eeed3e318134
+    - name: Robot - Sprint_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 20
+      spriteId: 7dd1fd8bf4396334990e17b131a2d712
+    - name: Robot - Sprint_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 20
+      spriteId: 5711eda31394e3245bd837534a8a5789
+    - name: Robot - Sprint_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 20
+      spriteId: c2046052a3f6cd84b90782ac49e807bf
+    - name: Robot - Sprint_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 20
+      spriteId: 5d646f19750e5b0439f4f6c40c3cf4cf
+    - name: Robot - Sprint_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 20
+      spriteId: 25cde87bb2d45954f9fe3ceac7631185
+    - name: Robot - Sprint_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 23
+        y: 22
+        width: 20
+        height: 21
+      spriteId: 3e17cc4fab097004a9613a1c6ac4f365
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

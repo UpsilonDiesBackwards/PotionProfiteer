@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Gravitable
+  - enemy
+  - moveTowards
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 1947097817
+    locked: 0
+  - name: Player
+    uniqueID: 34939721
+    locked: 0
+  - name: Walls
+    uniqueID: 3690330551
+    locked: 0
+  - name: Planets
+    uniqueID: 2714163763
+    locked: 0
+  - name: UI
+    uniqueID: 2497289735
+    locked: 0
+  - name: Collectibles
+    uniqueID: 1409991239
+    locked: 0

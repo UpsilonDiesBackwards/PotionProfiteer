@@ -1,0 +1,1452 @@
+fileFormatVersion: 2
+guid: e02ee6d86fdc1244290467a2ca747337
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Milnop_Walk_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 64
+      height: 64
+    spriteID: e907a793c07fdb44ba3c413a4e9f0159
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Milnop_Walk_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 64
+      height: 64
+    spriteID: bf6d5a25e95faee4bbef0960281b31bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: Milnop_Walk_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 148
+      width: 64
+      height: 64
+    spriteID: ec0043130696ba843980f8e7c4053bee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 148}
+  - name: Milnop_Walk_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 220
+      width: 64
+      height: 64
+    spriteID: 719fad3bff562d846a20fb23b0fe29b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 220}
+  - name: Milnop_Walk_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 292
+      width: 64
+      height: 64
+    spriteID: 57c1c64ae0c453344ad488aa04192b62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 292}
+  - name: Milnop_Walk_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 364
+      width: 64
+      height: 64
+    spriteID: 5ba3d0cfabfb9574e847607bfd633564
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 364}
+  - name: Milnop_Walk_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 436
+      width: 64
+      height: 64
+    spriteID: e88133384aae4b64abcf5f406f11e570
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 436}
+  - name: Milnop_Walk_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 64
+      height: 64
+    spriteID: 58fed3ecf8b1dc9429048a5c44baf1a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: Milnop_Walk_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 212
+      width: 14
+      height: 28
+    spriteID: c9d2c71bc8f66af47b431ed9df1fa09c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 212}
+  - name: Milnop_Walk_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 248
+      width: 14
+      height: 28
+    spriteID: 68735f6360b59404a8ef5fa5cd680d7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 248}
+  - name: Milnop_Walk_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 284
+      width: 14
+      height: 28
+    spriteID: d8b43c64240d8d04483a4ef350ba0f62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 284}
+  - name: Milnop_Walk_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 320
+      width: 14
+      height: 28
+    spriteID: bca894ddac57c1c438a91201e66e4e45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 320}
+  - name: Milnop_Walk_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 356
+      width: 14
+      height: 28
+    spriteID: 5e7cfffa4fe8b7a4180be5a3456faf28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 356}
+  - name: Milnop_Walk_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 392
+      width: 14
+      height: 28
+    spriteID: 47d0e8dd0e3df374382894c9ef95dd87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 392}
+  - name: Milnop_Walk_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 428
+      width: 14
+      height: 28
+    spriteID: d85b38c61be16664abb484b386007cb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 428}
+  - name: Milnop_Walk_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 464
+      width: 14
+      height: 28
+    spriteID: ca931cb08a6ff7843a66abf34ab6d271
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 464}
+  - name: Milnop_Walk_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 425
+      width: 12
+      height: 26
+    spriteID: 9d524713af2e93d4d8dbf0e88c541f27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 425}
+  - name: Milnop_Walk_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 109
+      width: 14
+      height: 26
+    spriteID: 8dd9f3f1b23d58343b1a6c5668b04fdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 109}
+  - name: Milnop_Walk_Frame_18
+    originalName: 
+    pivot: {x: 0.65217394, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 110
+      width: 23
+      height: 26
+    spriteID: afce1b37d9439be4bb92328a8f676d9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 110}
+  - name: Milnop_Walk_Frame_19
+    originalName: 
+    pivot: {x: 0.68, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 76
+      width: 25
+      height: 26
+    spriteID: 2f303699fb0b19e49a62d37f8e1329d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 76}
+  - name: Milnop_Walk_Frame_20
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 144
+      width: 22
+      height: 26
+    spriteID: 578cc3ffbf0b41940bbefc0e1d1c2450
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 144}
+  - name: Milnop_Walk_Frame_21
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 178
+      width: 19
+      height: 26
+    spriteID: 748a4bd4c6158f0438c99ae4864270e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 178}
+  - name: Milnop_Walk_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 459
+      width: 12
+      height: 26
+    spriteID: df4c0a09b85923f47ae24cf1baba9488
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 459}
+  - name: Milnop_Walk_Frame_37
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.61538464}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 391
+      width: 13
+      height: 26
+    spriteID: d85b737a8882f5d4890b5a8f61e14da2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 391}
+  - name: Milnop_Walk_Frame_38
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.64}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 76
+      width: 15
+      height: 25
+    spriteID: 3514ceda52e462748afd83d68d6d4f97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 76}
+  - name: Milnop_Walk_Frame_39
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 143
+      width: 15
+      height: 23
+    spriteID: e52d3593ddd7e4d45bdabb2b6b383961
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 143}
+  - name: Milnop_Walk_Frame_40
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 174
+      width: 15
+      height: 23
+    spriteID: 2d2b0f828df1ad74eb812332e68ebc37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 174}
+  - name: Milnop_Walk_Frame_41
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 205
+      width: 15
+      height: 23
+    spriteID: ca9738dfc0279854c9f0ac17b2372788
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 205}
+  - name: Milnop_Walk_Frame_42
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 236
+      width: 15
+      height: 23
+    spriteID: ed9585e2b99f18140a758fb68616ca2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 236}
+  - name: Milnop_Walk_Frame_43
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 267
+      width: 15
+      height: 23
+    spriteID: 23bc0a7424f1e2c42bb0fd07e1600ddd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 267}
+  - name: Milnop_Walk_Frame_44
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 298
+      width: 15
+      height: 23
+    spriteID: fb8ce443cd8808a4aa91da90c1dc4ecc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 298}
+  - name: Milnop_Walk_Frame_45
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 329
+      width: 15
+      height: 23
+    spriteID: 61f751e77e6cf99458ed79237a5bf60a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 329}
+  - name: Milnop_Walk_Frame_46
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 360
+      width: 15
+      height: 23
+    spriteID: e3d1722ee712216419e6f197c9956d0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 360}
+  - name: Milnop_Walk_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 500
+      width: 2
+      height: 2
+    spriteID: 1a323e657656a044bb30e44b1974838b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 500}
+  - name: Milnop_Walk_Frame_48
+    originalName: 
+    pivot: {x: -0.5, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 500
+      width: 2
+      height: 2
+    spriteID: 1620f005c94302641b8ec4dc23315bd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 500}
+  - name: Milnop_Walk_Frame_49
+    originalName: 
+    pivot: {x: -1, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 143
+      width: 2
+      height: 2
+    spriteID: a2bd232305d6b9043bf97bd4106df850
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 143}
+  - name: Milnop_Walk_Frame_50
+    originalName: 
+    pivot: {x: -1, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 153
+      width: 2
+      height: 2
+    spriteID: a365e5449be92d742bd03f6e8306e2b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 153}
+  - name: Milnop_Walk_Frame_51
+    originalName: 
+    pivot: {x: 0.8888889, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 493
+      width: 9
+      height: 2
+    spriteID: 8977cfdb311625b41a3a4ec819949cd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 493}
+  - name: Milnop_Walk_Frame_52
+    originalName: 
+    pivot: {x: 1.6666667, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 503
+      width: 6
+      height: 2
+    spriteID: f74514f50d7aadf46a4fa525e242f843
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 503}
+  - name: Milnop_Walk_Frame_53
+    originalName: 
+    pivot: {x: 4, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 163
+      width: 2
+      height: 2
+    spriteID: 7758a871dd8460144bc5e21493a319ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 163}
+  - name: Milnop_Walk_Frame_54
+    originalName: 
+    pivot: {x: 3.5, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 174
+      width: 2
+      height: 2
+    spriteID: fe41c1b414c589442bc5e3986de21ac2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 174}
+  - name: Milnop_Walk_Frame_55
+    originalName: 
+    pivot: {x: 4, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 184
+      width: 2
+      height: 2
+    spriteID: f953a0a8e70cd4c4ebf5517414eaa26b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 184}
+  - name: Milnop_Walk_Frame_56
+    originalName: 
+    pivot: {x: 4, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 194
+      width: 2
+      height: 2
+    spriteID: 46298efc9ab216c44b03877965ba9d44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 194}
+  - name: Milnop_Walk_Frame_57
+    originalName: 
+    pivot: {x: 4, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 205
+      width: 2
+      height: 2
+    spriteID: dacf45964383d6e41af5a50cee6b8362
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 205}
+  - name: Milnop_Walk_Frame_58
+    originalName: 
+    pivot: {x: 4, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 215
+      width: 2
+      height: 2
+    spriteID: 5404efcf62a88fe428b6e9b435433280
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 215}
+  - name: Milnop_Walk_Frame_59
+    originalName: 
+    pivot: {x: 4, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 225
+      width: 2
+      height: 2
+    spriteID: cbd818823d42ac540aa3ab192d156efc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 225}
+  - name: Milnop_Walk_Frame_60
+    originalName: 
+    pivot: {x: 4, y: -15.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 236
+      width: 2
+      height: 2
+    spriteID: c5a1a05ef888cf6458431c1ec062404a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 236}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 237077455
+    name: Milnop_Walk
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Milnop_Walk_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: e907a793c07fdb44ba3c413a4e9f0159
+    - name: Milnop_Walk_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: bf6d5a25e95faee4bbef0960281b31bf
+    - name: Milnop_Walk_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: ec0043130696ba843980f8e7c4053bee
+    - name: Milnop_Walk_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 719fad3bff562d846a20fb23b0fe29b4
+    - name: Milnop_Walk_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 57c1c64ae0c453344ad488aa04192b62
+    - name: Milnop_Walk_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 5ba3d0cfabfb9574e847607bfd633564
+    - name: Milnop_Walk_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: e88133384aae4b64abcf5f406f11e570
+    - name: Milnop_Walk_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 58fed3ecf8b1dc9429048a5c44baf1a8
+    - name: Milnop_Walk_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: c9d2c71bc8f66af47b431ed9df1fa09c
+    - name: Milnop_Walk_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: 68735f6360b59404a8ef5fa5cd680d7f
+    - name: Milnop_Walk_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: d8b43c64240d8d04483a4ef350ba0f62
+    - name: Milnop_Walk_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: bca894ddac57c1c438a91201e66e4e45
+    - name: Milnop_Walk_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: 5e7cfffa4fe8b7a4180be5a3456faf28
+    - name: Milnop_Walk_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: 47d0e8dd0e3df374382894c9ef95dd87
+    - name: Milnop_Walk_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: d85b38c61be16664abb484b386007cb3
+    - name: Milnop_Walk_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 25
+        y: 15
+        width: 14
+        height: 28
+      spriteId: ca931cb08a6ff7843a66abf34ab6d271
+    - name: Milnop_Walk_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 26
+      spriteId: 9d524713af2e93d4d8dbf0e88c541f27
+    - name: Milnop_Walk_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 25
+        y: 16
+        width: 14
+        height: 26
+      spriteId: 8dd9f3f1b23d58343b1a6c5668b04fdd
+    - name: Milnop_Walk_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 17
+        y: 16
+        width: 23
+        height: 26
+      spriteId: afce1b37d9439be4bb92328a8f676d9a
+    - name: Milnop_Walk_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 15
+        y: 16
+        width: 25
+        height: 26
+      spriteId: 2f303699fb0b19e49a62d37f8e1329d7
+    - name: Milnop_Walk_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 19
+        y: 16
+        width: 22
+        height: 26
+      spriteId: 578cc3ffbf0b41940bbefc0e1d1c2450
+    - name: Milnop_Walk_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 26
+      spriteId: 748a4bd4c6158f0438c99ae4864270e7
+    - name: Milnop_Walk_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 26
+        y: 16
+        width: 12
+        height: 26
+      spriteId: df4c0a09b85923f47ae24cf1baba9488
+    - name: Milnop_Walk_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 26
+        y: 16
+        width: 13
+        height: 26
+      spriteId: d85b737a8882f5d4890b5a8f61e14da2
+    - name: Milnop_Walk_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 25
+      spriteId: 3514ceda52e462748afd83d68d6d4f97
+    - name: Milnop_Walk_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: e52d3593ddd7e4d45bdabb2b6b383961
+    - name: Milnop_Walk_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: 2d2b0f828df1ad74eb812332e68ebc37
+    - name: Milnop_Walk_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: ca9738dfc0279854c9f0ac17b2372788
+    - name: Milnop_Walk_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: ed9585e2b99f18140a758fb68616ca2d
+    - name: Milnop_Walk_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: 23bc0a7424f1e2c42bb0fd07e1600ddd
+    - name: Milnop_Walk_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: fb8ce443cd8808a4aa91da90c1dc4ecc
+    - name: Milnop_Walk_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: 61f751e77e6cf99458ed79237a5bf60a
+    - name: Milnop_Walk_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 24
+        y: 16
+        width: 15
+        height: 23
+      spriteId: e3d1722ee712216419e6f197c9956d0f
+    - name: Milnop_Walk_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 31
+        y: 31
+        width: 2
+        height: 2
+      spriteId: 1a323e657656a044bb30e44b1974838b
+    - name: Milnop_Walk_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 33
+        y: 31
+        width: 2
+        height: 2
+      spriteId: 1620f005c94302641b8ec4dc23315bd5
+    - name: Milnop_Walk_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 34
+        y: 31
+        width: 2
+        height: 2
+      spriteId: a2bd232305d6b9043bf97bd4106df850
+    - name: Milnop_Walk_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 34
+        y: 31
+        width: 2
+        height: 2
+      spriteId: a365e5449be92d742bd03f6e8306e2b4
+    - name: Milnop_Walk_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 24
+        y: 31
+        width: 9
+        height: 2
+      spriteId: 8977cfdb311625b41a3a4ec819949cd6
+    - name: Milnop_Walk_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 22
+        y: 31
+        width: 6
+        height: 2
+      spriteId: f74514f50d7aadf46a4fa525e242f843
+    - name: Milnop_Walk_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 24
+        y: 31
+        width: 2
+        height: 2
+      spriteId: 7758a871dd8460144bc5e21493a319ed
+    - name: Milnop_Walk_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 25
+        y: 31
+        width: 2
+        height: 2
+      spriteId: fe41c1b414c589442bc5e3986de21ac2
+    - name: Milnop_Walk_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 24
+        y: 31
+        width: 2
+        height: 2
+      spriteId: f953a0a8e70cd4c4ebf5517414eaa26b
+    - name: Milnop_Walk_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 24
+        y: 31
+        width: 2
+        height: 2
+      spriteId: 46298efc9ab216c44b03877965ba9d44
+    - name: Milnop_Walk_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 24
+        y: 31
+        width: 2
+        height: 2
+      spriteId: dacf45964383d6e41af5a50cee6b8362
+    - name: Milnop_Walk_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 24
+        y: 31
+        width: 2
+        height: 2
+      spriteId: 5404efcf62a88fe428b6e9b435433280
+    - name: Milnop_Walk_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 24
+        y: 31
+        width: 2
+        height: 2
+      spriteId: cbd818823d42ac540aa3ab192d156efc
+    - name: Milnop_Walk_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 24
+        y: 31
+        width: 2
+        height: 2
+      spriteId: c5a1a05ef888cf6458431c1ec062404a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

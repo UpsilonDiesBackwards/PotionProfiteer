@@ -79,6 +79,11 @@ public class Main : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
 
+    void Awake() {
+        GetComponent<SpriteRenderer>().sprite =
+            GameManager.instance.playerSkin.GetComponent<SpriteRenderer>().sprite;
+    }
+
     void FixedUpdate()
     {
         direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;

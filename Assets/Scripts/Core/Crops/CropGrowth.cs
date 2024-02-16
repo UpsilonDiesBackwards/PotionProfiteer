@@ -6,18 +6,16 @@ using UnityEngine;
 public class CropGrowth : MonoBehaviour {
     public SpriteRenderer spriteRend;
     public Sprite[] sprites;
-    public int currentSprite;
+    public static int currentSprite;
 
     public float timer;
     public float maxTimer = 4.0f;
 
-    public bool fullyGrown = false;
+    public static bool fullyGrown = false;
     private bool _canGrow = true;
 
     void Update() {
-        if (_canGrow) { timer += Time.deltaTime; }
-
-        if (currentSprite == sprites.Length) { fullyGrown = true; } // currently only works if sprite is on num 8
+        if (_canGrow == true) { timer += Time.deltaTime; }
 
         GrowingGreen();
     }
@@ -26,9 +24,15 @@ public class CropGrowth : MonoBehaviour {
         if (timer > maxTimer && currentSprite < sprites.Length) {
             currentSprite++;
             spriteRend.sprite = sprites[currentSprite];
+            fullyGrown = false;
 
             if (currentSprite == sprites.Length) {
                 currentSprite = sprites.Length;
+                _canGrow = false;
+                fullyGrown = true; //if sprite thats loaded is the last one in the spriteArray max it out
+            }
+            else
+            {
                 _canGrow = true;
             }
             timer = 0;

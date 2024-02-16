@@ -18,7 +18,7 @@ public class Harvest : MonoBehaviour
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetKeyDown(KeyCode.E) && CropGrowth.fullyGrown == true) {
             ChopDown();
         }
     }

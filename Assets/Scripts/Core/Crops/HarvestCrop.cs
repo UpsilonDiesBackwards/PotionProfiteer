@@ -20,6 +20,7 @@ public class HarvestCrop : Tool
             GameObject GO = Instantiate(loot);
             GO.transform.position = pos;
         }
-        Destroy(gameObject);
+        CropGrowth.currentSprite = 0; //instead of destroying resets plants back to baby stage
+        if (CropGrowth.fullyGrown == true) { yieldAmount = 3; }
     }
 }

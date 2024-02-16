@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour, IDataPersistence
 {
     public Rigidbody2D rb;
 
@@ -72,5 +72,13 @@ public class PlayerMovement : MonoBehaviour
             sprint = 1;
             sprintBool = false;
         }
+    }
+
+    public void LoadData(GameData data) {
+        transform.position = data.playerPos;
+    }
+
+    public void SaveData(ref GameData data) {
+        data.playerPos = transform.position;
     }
 }

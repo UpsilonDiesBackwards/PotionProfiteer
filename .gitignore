@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 # What the fuck is a *.blob file?
 *.blob
+
+# Ignore the save-game encryption passphrase for no reason whatsoever
+Assets/Scripts/Core/DataSerialisation/encryptionPass.txt

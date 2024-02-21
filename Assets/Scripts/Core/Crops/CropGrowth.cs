@@ -21,13 +21,13 @@ public class CropGrowth : MonoBehaviour {
     }
 
     void GrowingGreen() {
-        if (timer > maxTimer && currentSprite < sprites.Length) {
+        if (timer > maxTimer && currentSprite < sprites.Length && fullyGrown == false) {
             currentSprite++;
             spriteRend.sprite = sprites[currentSprite];
             fullyGrown = false;
 
             if (currentSprite == sprites.Length) {
-                currentSprite = sprites.Length;
+                timer = maxTimer;
                 _canGrow = false;
                 fullyGrown = true; //if sprite thats loaded is the last one in the spriteArray max it out
             }

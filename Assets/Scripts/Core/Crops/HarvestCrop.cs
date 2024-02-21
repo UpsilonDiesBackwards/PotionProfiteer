@@ -21,6 +21,7 @@ public class HarvestCrop : Tool
             GO.transform.position = pos;
         }
         CropGrowth.currentSprite = 0; //instead of destroying resets plants back to baby stage
+        CropGrowth.fullyGrown = false;
         if (CropGrowth.fullyGrown == true) { yieldAmount = 3; }
     }
 }

@@ -48,6 +48,9 @@ TagManager:
   - name: Floor
     uniqueID: 1947097817
     locked: 0
+  - name: Crops
+    uniqueID: 1349948295
+    locked: 0
   - name: Player
     uniqueID: 34939721
     locked: 0

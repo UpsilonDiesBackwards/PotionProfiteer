@@ -1,41 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using System.Text.RegularExpressions;
+using Cinemachine;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class CropGrowth : MonoBehaviour {
-    public SpriteRenderer spriteRend;
+    private SpriteRenderer _spriteRend;
     public Sprite[] sprites;
-    public static int currentSprite;
+    private int currentSprite;
+    public float growTimer = 0;
+    public float growTime = 4.0f;
+    [SerializeField] private float maxGrowTimeDeviation; // We don't want every plant of the same time to grow at the same rate!
 
-    public float timer;
-    public float maxTimer = 4.0f;
 
-    public static bool fullyGrown = false;
-    private bool _canGrow = true;
+    public bool fullyGrown = false;
 
-    void Update() {
-        if (_canGrow == true) { timer += Time.deltaTime; }
+    void Start() {
+        _spriteRend = GetComponent<SpriteRenderer>();
 
-        GrowingGreen();
+        growTime += Random.Range(growTime, maxGrowTimeDeviation);
     }
 
-    void GrowingGreen() {
-        if (timer > maxTimer && currentSprite < sprites.Length && fullyGrown == false) {
-            currentSprite++;
-            spriteRend.sprite = sprites[currentSprite];
-            fullyGrown = false;
+    void Update() {
+        growTimer += Time.deltaTime;
 
-            if (currentSprite == sprites.Length) {
-                timer = maxTimer;
-                _canGrow = false;
-                fullyGrown = true; //if sprite thats loaded is the last one in the spriteArray max it out
+        if (growTimer >= growTime && !fullyGrown) {
+            if (currentSprite < sprites.Length - 1) {
+                currentSprite++;
+                _spriteRend.sprite = sprites[currentSprite];
+            } else {
+                fullyGrown = true;
             }
-            else
-            {
-                _canGrow = true;
-            }
-            timer = 0;
+
+            growTimer = 0f;
         }
+    }
+
+    public void OnHarvested() {
+        currentSprite = 0;
+        _spriteRend.sprite = sprites[currentSprite];
+
+        growTimer = 0;
+        fullyGrown = false;
     }
 }

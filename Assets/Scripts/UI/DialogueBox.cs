@@ -1,8 +1,5 @@
 using System.Collections;
 using TMPro;
-using TMPro.EditorUtilities;
-using TMPro.Examples;
-using UnityEditor;
 using UnityEngine;
 
 public class DialogueBox : MonoBehaviour

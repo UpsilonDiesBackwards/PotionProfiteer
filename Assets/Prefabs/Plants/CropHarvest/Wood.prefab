@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86bd645d090eb8027a6b4710e09236c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: 4dbfe829aabc817c4929270540f90038, type: 2}
+  itemData: {fileID: 11400000, guid: 2a4d78fbc12ec6707bec86322024da1d, type: 2}
   speed: 2
   pickUpDist: 2.5
   despawnTime: 10

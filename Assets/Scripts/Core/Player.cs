@@ -49,7 +49,6 @@ public class Player : MonoBehaviour, IDataPersistence {
 
     public void OnMove(InputValue value) {
         direction = value.Get<Vector2>();
-        Debug.Log("sex on the beach!");
     }
 
     void FixedUpdate() {

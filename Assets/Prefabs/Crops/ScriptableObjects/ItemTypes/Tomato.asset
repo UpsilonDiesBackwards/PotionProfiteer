@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7933baf3bfe68674be4e8e8e31c3473, type: 3}
+  m_Script: {fileID: 11500000, guid: 3220dba3ce1b8b043bed892944bf7dc4, type: 3}
   m_Name: Tomato
   m_EditorClassIdentifier: 
   Icon: {fileID: 3268974733125562060, guid: 2b1ee2a4e04c76f6a98146e08d61ff4a, type: 3}
   ID: 0
   DisplayName: Tomato
   MaxStackSize: 4
-  Description: A red ball of Shite!
+  Description: Red Ball of Hell

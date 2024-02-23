@@ -8,16 +8,15 @@ public class Player : MonoBehaviour, IDataPersistence {
     private Rigidbody2D _rb;
     private Animator _animator;
     private Transform _rotTracker;
-    
-    [HideInInspector] public Vector2 direction;
-    private float _curAngle;
-    private float _dirDegrees;
 
     [Header("Properties")]
     public float moveSpeed;
     public bool frozen = false;
     [HideInInspector] public string groundType = "grass";
     private Vector3 _origLocalScale;
+    [SerializeField] public Vector2 direction;
+    private float _curAngle;
+    private float _dirDegrees;
 
     [Header("Sounds")]
     public AudioClip defaultWalkSound;
@@ -47,6 +46,7 @@ public class Player : MonoBehaviour, IDataPersistence {
 
     public void OnMove(InputValue value) {
         direction = value.Get<Vector2>();
+        Debug.Log("sex on the beach!");
     }
 
     void FixedUpdate() {

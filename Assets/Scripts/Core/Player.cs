@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour, IDataPersistence {
     [Header("References")]
     public AudioSource audioSource;
+    public Joystick joystick;
+   
     [SerializeField] private GameObject _graphic;
     private Rigidbody2D _rb;
     private Animator _animator;
@@ -42,6 +44,7 @@ public class Player : MonoBehaviour, IDataPersistence {
         _origLocalScale = transform.localScale;
 
         SetGroundType();
+
     }
 
     public void OnMove(InputValue value) {
@@ -52,6 +55,11 @@ public class Player : MonoBehaviour, IDataPersistence {
     void FixedUpdate() {
         if (!frozen) {
             _rb.velocity = direction * moveSpeed;
+
+            if (Input.touchSupported == true)
+            {
+               // -_rb.velocity = joystick.Horizontal * moveSpeed ~~ getting a bunch of error codes with this line it works in PlayerTouchMovement idk why not here
+            }
 
             // Handle rotational animations
             _dirDegrees = ((Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg) + 270) % 360;

@@ -6,6 +6,8 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
+namespace PPPS.Core{
+
 public class SkinManager : MonoBehaviour
 {
     public GameObject playerSkin;
@@ -38,6 +40,7 @@ public class SkinManager : MonoBehaviour
     public void PlayGame() { // Load the requested scene.
         PrefabUtility.SaveAsPrefabAsset(playerSkin, "Assets/Prefabs/SelectedSkin.prefab");
         SceneManager.LoadScene(sceneToLoad);
-        GameManager.instance.playerSkin = playerSkin;
+        // GameManager.Instance.playerSkin = playerSkin;
     }
+}
 }

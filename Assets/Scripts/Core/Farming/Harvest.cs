@@ -36,8 +36,7 @@ public class Harvest : MonoBehaviour {
     }
 
     void ChopDown() {
-        Debug.Log("Harvey");
-        Vector2 pos = _rb.position + Player.Instance.GetComponent<PlayerMovement>().direction * offsetDist;
+        Vector2 pos = _rb.position + Player.Instance.GetComponent<Player>().direction * offsetDist;
         Collider2D[] colliders = Physics2D.OverlapCircleAll(pos, pickUpRadius);
 
         foreach (Collider2D c in colliders) {

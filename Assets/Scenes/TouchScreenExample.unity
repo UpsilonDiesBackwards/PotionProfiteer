@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -232,36 +229,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57f39c2baebf104cb717398a8f84e5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &580088111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580088106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e1f3ccf73cb1e04cb355b3fde06e981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  joystick: {fileID: 847571961}
-  runSpeed: 40
+  Player: {fileID: 580088106}
 --- !u!224 &847571960 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
   m_PrefabInstance: {fileID: 2071837125}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &847571961 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-  m_PrefabInstance: {fileID: 2071837125}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1564942466
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,9 +561,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3148685711978483578, guid: 2aad85357be21f74c84da1ca5380c39b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 580088110}
-    - targetCorrespondingSourceObject: {fileID: 3148685711978483578, guid: 2aad85357be21f74c84da1ca5380c39b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 580088111}
   m_SourcePrefab: {fileID: 100100000, guid: 2aad85357be21f74c84da1ca5380c39b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

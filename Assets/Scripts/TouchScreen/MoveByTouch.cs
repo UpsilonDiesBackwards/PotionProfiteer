@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MoveByTouch : MonoBehaviour
 {
-    public GameObject Player;
-    private float moveSpeed;
+    private float moveSpeed = 4;
     // Update is called once per frame
     void Update()
     {
@@ -16,16 +15,15 @@ public class MoveByTouch : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            Touch touch = Input.GetTouch(0);
-            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+            var touch = Input.GetTouch(0);
+            var touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
             touchPosition.z = 0;
-            transform.position = touchPosition;
-
-            // IN THEORY this line should work but its not transform.position = Vector3.MoveTowards(transform.position, touchPosition, moveSpeed);
-           
+            transform.position = Vector3.MoveTowards(transform.position, touchPosition, moveSpeed * Time.deltaTime);
         }
     }
 
+
+    //this is here to show what multiTouch functionality would look like pls don't delete yet
     void MultiTouch() //draws a red line from the center of the screen to wherever the multiple fingers are at, doesn't work on PC need to test on phone
     {
         for (int i = 0; i < Input.touchCount; i++)
@@ -33,10 +31,5 @@ public class MoveByTouch : MonoBehaviour
             Vector3 multiTouchPos = Camera.main.ScreenToWorldPoint(Input.touches[i].position);
             Debug.DrawLine(Vector3.zero, multiTouchPos, Color.red);
         }
-    }
-
-    void TouchTowardsMove()
-    {
-        
     }
 }

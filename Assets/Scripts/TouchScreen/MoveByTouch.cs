@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MoveByTouch : MonoBehaviour
 {
     private float moveSpeed = 4;
+
+    [SerializeField] private InputActionReference movement, harvest; //put craft; here after thats been made for the game
     // Update is called once per frame
     void Update()
     {
@@ -31,5 +34,10 @@ public class MoveByTouch : MonoBehaviour
             Vector3 multiTouchPos = Camera.main.ScreenToWorldPoint(Input.touches[i].position);
             Debug.DrawLine(Vector3.zero, multiTouchPos, Color.red);
         }
+    }
+
+    void InputSystemMovement()
+    {
+        movement.action.ReadValue<Vector2>();
     }
 }

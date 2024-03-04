@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-    public class DayNightCycle : MonoBehaviour
+public class DayNightCycle : MonoBehaviour
     {
     [Header ("Day Counter")]
     private float dayTimer;
@@ -19,6 +19,11 @@ using UnityEngine.UI;
     public bool isInBed = false; //checks to see if the player has gone to sleep for the day
     public GameObject player; //needs to check if the player is in da bed, -- make bed a OnTrigger
         // Update is called once per frame
+
+    void Awake() {
+        player = Player.Instance.gameObject;
+    }
+
     void Update()
     {
         dayTimer += Time.deltaTime;

@@ -7666,7 +7666,7 @@ MonoBehaviour:
   inGameSeconds: 0
   inGameMinutes: 0
   inGameHours: 0
-  whatTimeIsIt: {fileID: 1480209819}
+  whatHourIsIt: {fileID: 1480209819}
   DayTracker: {fileID: 910616556}
   dayNumber: 1
   Day: 1

@@ -161,9 +161,6 @@ public class DayNightCycle : MonoBehaviour
             case 5:
                 whatMinuteIsIt = "50";
                 break;
-            case 6:
-                whatMinuteIsIt = "30";
-                break;
         } 
 
         if (clock >= 0 && clock < 12)

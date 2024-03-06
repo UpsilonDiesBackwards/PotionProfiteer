@@ -15,7 +15,8 @@ public class DayNightCycle : MonoBehaviour
     public float inGameHours;
     private float clock;
     private float goblinRaid = 3;
-    public TextMeshProUGUI whatTimeIsIt;
+    public TextMeshProUGUI whatHourIsIt;
+    private string whatMinuteIsIt;
     public TextMeshProUGUI DayTracker; 
     public int dayNumber = 1;
 
@@ -46,21 +47,17 @@ public class DayNightCycle : MonoBehaviour
 
     void CreatingTime()
     {
-        inGameSeconds += Time.deltaTime * 20;
+        inGameSeconds += Time.deltaTime * 12; //the multiplyer can be adjusted to whatever, its a high number to see how well the times work
 
         if (inGameSeconds >= 6)
         {
             inGameSeconds = 0;
             inGameMinutes += 1;
         }
-        if (inGameMinutes >= 3)
+        if (inGameMinutes >= 6)
         {
-            inGameHours += 0.30f;
-            if (inGameMinutes >= 6)
-            {
-                inGameMinutes = 0;
-                inGameHours += 1;
-            }
+            inGameMinutes = 0;
+            inGameHours += 1;
         }
         if (inGameHours >= 24)
         {
@@ -144,13 +141,38 @@ public class DayNightCycle : MonoBehaviour
 
     void DayCounterAndTimeDisplay()
     {
-        if (clock > 0 && clock < 12)
+        switch(inGameMinutes)
         {
-            whatTimeIsIt.text = inGameHours.ToString("00") + (":") + inGameMinutes.ToString("00") + "AM";
+            case 0:
+                whatMinuteIsIt = "00";
+                break;
+            case 1:
+                whatMinuteIsIt = "10";
+                break;
+            case 2:
+                whatMinuteIsIt = "20";
+                break;
+            case 3:
+                whatMinuteIsIt = "30";
+                break;
+            case 4:
+                whatMinuteIsIt = "40";
+                break;
+            case 5:
+                whatMinuteIsIt = "50";
+                break;
+            case 6:
+                whatMinuteIsIt = "30";
+                break;
+        } 
+
+        if (clock >= 0 && clock < 12)
+        {
+            whatHourIsIt.text = inGameHours.ToString("00") + (":") + whatMinuteIsIt + "AM";
         }
         if (clock >= 12 && clock < 24)
         {
-            whatTimeIsIt.text = clock.ToString("00") + (":") + inGameMinutes.ToString("00") + "PM";
+            whatHourIsIt.text = clock.ToString("00") + (":") + whatMinuteIsIt + "PM";
         }
         DayTracker.text = "Day: " + dayNumber;
     }

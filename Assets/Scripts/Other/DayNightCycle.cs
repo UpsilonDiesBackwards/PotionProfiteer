@@ -107,7 +107,7 @@ public class DayNightCycle : MonoBehaviour
             Night = false;
             Day = true;
             isInBed = false;
-
+            inGameHours = 6;
             //Kick player out of bed
         }
     }

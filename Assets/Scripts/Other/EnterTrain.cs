@@ -5,15 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class EnterTrain : MonoBehaviour
 {
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    void OnTriggerEnter2D(Collider other)
+    private void OnCollisionEnter2D(Collision2D ChangeScene)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (ChangeScene.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene("TrainInterior");
         }

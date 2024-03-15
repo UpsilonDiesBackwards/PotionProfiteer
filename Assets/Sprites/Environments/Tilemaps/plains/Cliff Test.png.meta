@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -577,31 +579,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cliff Test_6: -1448436475
-      Cliff Test_21: -363579590
-      Cliff Test_20: 474960467
-      Cliff Test_8: -1140532445
-      Cliff Test_9: -547121634
-      Cliff Test_7: -1470614026
-      Cliff Test_16: 714799466
-      Cliff Test_4: -562282662
       Cliff Test_0: 115477887
+      Cliff Test_1: 1562989006
+      Cliff Test_10: 451613032
       Cliff Test_11: 72291351
       Cliff Test_12: 1018062926
-      Cliff Test_14: 2035745180
-      Cliff Test_1: 1562989006
-      Cliff Test_3: -1677592048
       Cliff Test_13: -2104685288
+      Cliff Test_14: 2035745180
+      Cliff Test_15: -1451681695
+      Cliff Test_16: 714799466
+      Cliff Test_17: 1013750907
+      Cliff Test_18: 1663834717
       Cliff Test_19: -544562357
       Cliff Test_2: -1217713597
-      Cliff Test_18: 1663834717
-      Cliff Test_10: 451613032
+      Cliff Test_20: 474960467
+      Cliff Test_21: -363579590
+      Cliff Test_3: -1677592048
+      Cliff Test_4: -562282662
       Cliff Test_5: 521744401
-      Cliff Test_15: -1451681695
-      Cliff Test_17: 1013750907
-  spritePackingTag: 
+      Cliff Test_6: -1448436475
+      Cliff Test_7: -1470614026
+      Cliff Test_8: -1140532445
+      Cliff Test_9: -547121634
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

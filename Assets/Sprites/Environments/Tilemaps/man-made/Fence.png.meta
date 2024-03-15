@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -772,34 +774,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fence_13: -1921167505
-      Fence_19: -1849071354
-      Fence_15: -1877682874
-      Fence_11: 76849008
-      Fence_16: -492263028
-      Fence_1: -732750732
-      Fence_22: 1310832537
-      Fence_21: -1079513895
-      Fence_6: -2113837144
-      Fence_18: -968775885
-      Fence_9: -293974780
-      Fence_20: -45839303
-      Fence_4: -1952571240
-      Fence_14: -618504967
-      Fence_17: -1295638289
-      Fence_10: 544118336
-      Fence_2: 63759524
-      Fence_7: 974850604
       Fence_0: -121876481
-      Fence_5: -2144691396
+      Fence_1: -732750732
+      Fence_10: 544118336
+      Fence_11: 76849008
+      Fence_12: -89623587
+      Fence_13: -1921167505
+      Fence_14: -618504967
+      Fence_15: -1877682874
+      Fence_16: -492263028
+      Fence_17: -1295638289
+      Fence_18: -968775885
+      Fence_19: -1849071354
+      Fence_2: 63759524
+      Fence_20: -45839303
+      Fence_21: -1079513895
+      Fence_22: 1310832537
+      Fence_23: -1581346414
       Fence_24: -1420074313
       Fence_3: -1725297566
-      Fence_23: -1581346414
-      Fence_12: -89623587
+      Fence_4: -1952571240
+      Fence_5: -2144691396
+      Fence_6: -2113837144
+      Fence_7: 974850604
       Fence_8: 84782139
-  spritePackingTag: 
+      Fence_9: -293974780
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

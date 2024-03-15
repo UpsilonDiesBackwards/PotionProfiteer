@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -1459,73 +1461,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Floor2_0: -334363249
+      Floor2_1: 694380312
+      Floor2_10: 651194488
+      Floor2_11: 813023702
+      Floor2_12: -1570528945
+      Floor2_13: -1812221279
+      Floor2_14: -701452742
+      Floor2_15: 883060265
+      Floor2_16: 374561854
+      Floor2_17: 289394276
       Floor2_18: -908224857
       Floor2_19: 2067189343
-      Floor2_52: 846245544
-      Floor2_5: -1143018257
+      Floor2_2: -1856028924
       Floor2_20: -374383145
+      Floor2_21: 1650343318
+      Floor2_22: 1247543441
+      Floor2_23: 804813431
+      Floor2_24: 822793538
+      Floor2_25: 1404495877
+      Floor2_26: -553565822
+      Floor2_27: -2047945633
+      Floor2_28: 1681687472
+      Floor2_29: 1799710781
+      Floor2_3: 196425275
+      Floor2_30: 575168804
+      Floor2_31: 1894051722
+      Floor2_32: -795476635
+      Floor2_33: -1568128270
+      Floor2_34: 863209275
+      Floor2_35: -38784653
+      Floor2_36: -80310763
+      Floor2_37: 1679281631
+      Floor2_38: 1710054551
+      Floor2_39: 330507696
+      Floor2_4: -1822049072
+      Floor2_40: -1553361424
+      Floor2_41: 1239102794
+      Floor2_42: -2025523652
+      Floor2_43: -821797282
+      Floor2_44: 424365367
+      Floor2_45: 295584046
+      Floor2_46: -1090637871
+      Floor2_47: 1861182782
+      Floor2_48: 2033519275
+      Floor2_49: 1362619583
+      Floor2_5: -1143018257
+      Floor2_50: -1748013725
+      Floor2_51: -1361166577
+      Floor2_52: 846245544
+      Floor2_53: -1763013918
+      Floor2_54: 2021848860
+      Floor2_55: 1007507058
       Floor2_56: -1395222534
+      Floor2_57: -1873836061
+      Floor2_58: -1255756347
+      Floor2_59: -368822073
       Floor2_6: -878889460
       Floor2_60: 724034745
-      Floor2_24: 822793538
-      Floor2_26: -553565822
-      Floor2_50: -1748013725
-      Floor2_33: -1568128270
-      Floor2_15: 883060265
-      Floor2_28: 1681687472
-      Floor2_58: -1255756347
-      Floor2_22: 1247543441
-      Floor2_7: -355078752
-      Floor2_31: 1894051722
-      Floor2_49: 1362619583
-      Floor2_21: 1650343318
-      Floor2_48: 2033519275
-      Floor2_45: 295584046
-      Floor2_53: -1763013918
-      Floor2_0: -334363249
-      Floor2_14: -701452742
-      Floor2_46: -1090637871
-      Floor2_40: -1553361424
-      Floor2_43: -821797282
-      Floor2_29: 1799710781
-      Floor2_9: -146142684
-      Floor2_27: -2047945633
-      Floor2_11: 813023702
-      Floor2_13: -1812221279
-      Floor2_41: 1239102794
-      Floor2_3: 196425275
-      Floor2_4: -1822049072
-      Floor2_38: 1710054551
-      Floor2_51: -1361166577
-      Floor2_63: -260543385
-      Floor2_35: -38784653
-      Floor2_47: 1861182782
-      Floor2_55: 1007507058
-      Floor2_12: -1570528945
-      Floor2_17: 289394276
-      Floor2_23: 804813431
-      Floor2_1: 694380312
-      Floor2_57: -1873836061
-      Floor2_54: 2021848860
-      Floor2_25: 1404495877
-      Floor2_36: -80310763
-      Floor2_16: 374561854
-      Floor2_2: -1856028924
-      Floor2_30: 575168804
-      Floor2_59: -368822073
-      Floor2_42: -2025523652
-      Floor2_32: -795476635
-      Floor2_44: 424365367
-      Floor2_8: -1950619564
       Floor2_61: -1313009222
       Floor2_62: -1637596754
-      Floor2_37: 1679281631
-      Floor2_34: 863209275
-      Floor2_39: 330507696
-      Floor2_10: 651194488
-  spritePackingTag: 
+      Floor2_63: -260543385
+      Floor2_7: -355078752
+      Floor2_8: -1950619564
+      Floor2_9: -146142684
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

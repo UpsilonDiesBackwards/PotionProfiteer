@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerSelection.unity
     guid: d7f9f53453f104656b92764f71c60fd7
+  - enabled: 1
+    path: Assets/Scenes/TrainInterior.unity
+    guid: 5a08557692794d942a3ad2632d10658c
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 52a702de00cc6fccc860f4adfac94ab7, type: 2}
   m_UseUCBPForAssetBundles: 0

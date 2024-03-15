@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -1459,73 +1461,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Floor0_24: -2124664470
-      Floor0_42: 1309573644
-      Floor0_53: 394079671
-      Floor0_34: -816567263
-      Floor0_48: 1073566862
-      Floor0_56: -1952930955
-      Floor0_35: -2100515689
-      Floor0_52: -89284567
-      Floor0_60: 859466051
-      Floor0_22: -772967863
-      Floor0_44: -103111617
-      Floor0_55: -728668656
-      Floor0_21: 699178327
       Floor0_0: -688965602
-      Floor0_37: 1956858140
-      Floor0_59: 662767122
-      Floor0_61: -2076146911
+      Floor0_1: -1170695259
+      Floor0_10: -1837256169
+      Floor0_11: -1650479968
+      Floor0_12: 398172527
+      Floor0_13: -270851623
+      Floor0_14: 101474224
+      Floor0_15: 1375738997
+      Floor0_16: 741272694
+      Floor0_17: -1153087490
       Floor0_18: -1995149127
       Floor0_19: 1463782169
-      Floor0_1: -1170695259
-      Floor0_23: 638496197
-      Floor0_7: 910965425
-      Floor0_28: -1813395552
-      Floor0_38: -868017135
-      Floor0_47: -1470084920
-      Floor0_63: -548125681
       Floor0_2: 1859864862
-      Floor0_3: 814023904
-      Floor0_26: 2010287348
-      Floor0_17: -1153087490
-      Floor0_41: 1928421848
-      Floor0_45: 1464766121
-      Floor0_6: 1204419795
-      Floor0_50: -102160634
-      Floor0_33: -515247147
-      Floor0_57: -1171272878
-      Floor0_58: 462280735
-      Floor0_40: 2059750911
-      Floor0_8: -640846461
-      Floor0_43: 548036079
-      Floor0_12: 398172527
-      Floor0_39: 941397582
-      Floor0_25: 943214448
-      Floor0_54: 98740321
-      Floor0_5: -1488024566
-      Floor0_9: 2026940995
-      Floor0_10: -1837256169
-      Floor0_49: 194386234
-      Floor0_11: -1650479968
-      Floor0_15: 1375738997
-      Floor0_4: 930850350
-      Floor0_36: -669002661
-      Floor0_14: 101474224
-      Floor0_62: 215896616
-      Floor0_16: 741272694
-      Floor0_51: 879820374
-      Floor0_32: -1386318722
-      Floor0_29: -256457194
-      Floor0_46: -2109083775
-      Floor0_13: -270851623
       Floor0_20: -1038435639
+      Floor0_21: 699178327
+      Floor0_22: -772967863
+      Floor0_23: 638496197
+      Floor0_24: -2124664470
+      Floor0_25: 943214448
+      Floor0_26: 2010287348
       Floor0_27: 1402900428
+      Floor0_28: -1813395552
+      Floor0_29: -256457194
+      Floor0_3: 814023904
       Floor0_30: -519477329
       Floor0_31: 294331670
-  spritePackingTag: 
+      Floor0_32: -1386318722
+      Floor0_33: -515247147
+      Floor0_34: -816567263
+      Floor0_35: -2100515689
+      Floor0_36: -669002661
+      Floor0_37: 1956858140
+      Floor0_38: -868017135
+      Floor0_39: 941397582
+      Floor0_4: 930850350
+      Floor0_40: 2059750911
+      Floor0_41: 1928421848
+      Floor0_42: 1309573644
+      Floor0_43: 548036079
+      Floor0_44: -103111617
+      Floor0_45: 1464766121
+      Floor0_46: -2109083775
+      Floor0_47: -1470084920
+      Floor0_48: 1073566862
+      Floor0_49: 194386234
+      Floor0_5: -1488024566
+      Floor0_50: -102160634
+      Floor0_51: 879820374
+      Floor0_52: -89284567
+      Floor0_53: 394079671
+      Floor0_54: 98740321
+      Floor0_55: -728668656
+      Floor0_56: -1952930955
+      Floor0_57: -1171272878
+      Floor0_58: 462280735
+      Floor0_59: 662767122
+      Floor0_6: 1204419795
+      Floor0_60: 859466051
+      Floor0_61: -2076146911
+      Floor0_62: 215896616
+      Floor0_63: -548125681
+      Floor0_7: 910965425
+      Floor0_8: -640846461
+      Floor0_9: 2026940995
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -1627,81 +1629,80 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Leaves_63: 349563436
-      Leaves_50: 786684333
-      Leaves_34: 1671757818
-      Leaves_10: 614739293
-      Leaves_19: -1505426769
-      Leaves_47: -1240751536
-      Leaves_60: -1214172965
-      Leaves_7: 6915871
-      Leaves_69: 1503418941
-      Leaves_35: 1133250762
-      Leaves_2: 584086249
-      Leaves_39: 2070176380
-      Leaves_0: 1344651908
-      Leaves_11: -598132738
-      Leaves_17: 2028943663
-      Leaves_14: -1430365054
       Hand_Idle_BlockMan_0: 1521661942
-      Leaves_51: -1610682480
-      Leaves_44: -1453865306
+      Leaves_0: 1344651908
+      Leaves_1: -1076955607
+      Leaves_10: 614739293
+      Leaves_11: -598132738
+      Leaves_12: 2140161553
+      Leaves_13: 518461152
+      Leaves_14: -1430365054
+      Leaves_15: 242097472
+      Leaves_16: -1904081947
+      Leaves_17: 2028943663
+      Leaves_18: -1326840401
+      Leaves_19: -1505426769
+      Leaves_2: 584086249
+      Leaves_20: -950080657
+      Leaves_21: 1660847094
       Leaves_22: 2117769431
       Leaves_23: 578565464
-      Leaves_40: 501117940
-      Leaves_26: -565524070
-      Leaves_54: -1569918349
-      Leaves_52: 499291444
-      Leaves_29: 493583230
-      Leaves_5: 58491686
-      Leaves_32: 1073530064
-      Leaves_56: 1464403262
-      Leaves_16: -1904081947
-      Leaves_61: -541798060
-      Leaves_59: 1037479023
-      Leaves_66: -847321697
-      Leaves_30: 1754571942
-      Leaves_6: 1356501315
-      Leaves_20: -950080657
-      Leaves_45: -795036313
-      Leaves_18: -1326840401
-      Leaves_41: 1508162877
-      Leaves_3: -462276743
-      Leaves_28: 542501086
-      Leaves_48: -802608318
-      Leaves_9: 373368851
-      Leaves_1: -1076955607
-      Leaves_38: 2016218471
-      Leaves_57: -865968332
-      Leaves_49: -1559088341
-      Leaves_36: 1344702776
-      Leaves_65: 500120019
-      Leaves_8: -516173830
-      Leaves_4: -233279486
       Leaves_24: 487993594
-      Leaves_67: 2025246009
       Leaves_25: 1882050038
+      Leaves_26: -565524070
+      Leaves_27: -858299550
+      Leaves_28: 542501086
+      Leaves_29: 493583230
+      Leaves_3: -462276743
+      Leaves_30: 1754571942
+      Leaves_31: -391318217
+      Leaves_32: 1073530064
+      Leaves_33: -752293373
+      Leaves_34: 1671757818
+      Leaves_35: 1133250762
+      Leaves_36: 1344702776
+      Leaves_37: -1179593158
+      Leaves_38: 2016218471
+      Leaves_39: 2070176380
+      Leaves_4: -233279486
+      Leaves_40: 501117940
+      Leaves_41: 1508162877
       Leaves_42: 200374376
       Leaves_43: -2009409958
-      Leaves_12: 2140161553
-      Leaves_70: -177676034
-      Leaves_68: -1816423455
-      Leaves_15: 242097472
-      Leaves_37: -1179593158
-      Leaves_53: 732779543
-      Leaves_58: 2074991255
-      Leaves_33: -752293373
-      Leaves_64: -708502803
-      Leaves_55: 581720649
-      Leaves_62: -735411796
+      Leaves_44: -1453865306
+      Leaves_45: -795036313
       Leaves_46: -1725470344
-      Leaves_31: -391318217
-      Leaves_21: 1660847094
-      Leaves_13: 518461152
-      Leaves_27: -858299550
-  spritePackingTag: 
+      Leaves_47: -1240751536
+      Leaves_48: -802608318
+      Leaves_49: -1559088341
+      Leaves_5: 58491686
+      Leaves_50: 786684333
+      Leaves_51: -1610682480
+      Leaves_52: 499291444
+      Leaves_53: 732779543
+      Leaves_54: -1569918349
+      Leaves_55: 581720649
+      Leaves_56: 1464403262
+      Leaves_57: -865968332
+      Leaves_58: 2074991255
+      Leaves_59: 1037479023
+      Leaves_6: 1356501315
+      Leaves_60: -1214172965
+      Leaves_61: -541798060
+      Leaves_62: -735411796
+      Leaves_63: 349563436
+      Leaves_64: -708502803
+      Leaves_65: 500120019
+      Leaves_66: -847321697
+      Leaves_67: 2025246009
+      Leaves_68: -1816423455
+      Leaves_69: 1503418941
+      Leaves_7: 6915871
+      Leaves_70: -177676034
+      Leaves_8: -516173830
+      Leaves_9: 373368851
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

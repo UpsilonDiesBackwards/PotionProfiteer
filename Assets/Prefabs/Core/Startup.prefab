@@ -31,6 +31,7 @@ Transform:
   m_Children:
   - {fileID: 4483584237762422165}
   - {fileID: 2523266428971053707}
+  - {fileID: 8508863161348499800}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5915606911670182202
@@ -77,6 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21e76707087b02df3889dc79705b0f56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _fileName: 
+  encryptSaveData: 0
 --- !u!1 &6830489838112066708
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,5 +124,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af296f1cdd1d9e85a91267ac3839a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 7929700535328977719, guid: bfaa7f20925aa2d8f9a2b61567a17caf, type: 3}
-  playerSkin: {fileID: 0}
+  audioSource: {fileID: 0}
+  gameMusic: {fileID: 0}
+  gameAmbience: {fileID: 0}
+--- !u!1 &7695995940016695996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8508863161348499800}
+  - component: {fileID: 2916160742217106630}
+  m_Layer: 0
+  m_Name: TimeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8508863161348499800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7695995940016695996}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1033952229150290595}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2916160742217106630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7695995940016695996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1e9115f5b2b384baf7e71488d1b0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatTimeIsIt: {fileID: 0}
+  dayNumber: 1
+  Day: 1
+  Night: 0
+  isInBed: 0
+  player: {fileID: 0}

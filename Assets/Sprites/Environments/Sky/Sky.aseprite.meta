@@ -129,7 +129,7 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 1026
-      height: 313
+      height: 576
     spriteID: 9f6cf36eb79dda9498e0c77c367764b3
     spriteBone: []
     spriteOutline: []
@@ -146,10 +146,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 325
+      x: 1038
+      y: 4
       width: 1026
-      height: 313
+      height: 576
     spriteID: 95f7ebd3c14c6134a965a92b85777df7
     spriteBone: []
     spriteOutline: []
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 325}
+    uvTransform: {x: 1038, y: 4}
   - name: Sky_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -166,10 +166,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 646
+      x: 2072
+      y: 4
       width: 1026
-      height: 313
+      height: 576
     spriteID: 23fe4c7ce2ab82f43ac3c9e3abc8dc69
     spriteBone: []
     spriteOutline: []
@@ -178,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 646}
+    uvTransform: {x: 2072, y: 4}
   - name: Sky_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -187,9 +187,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 967
+      y: 588
       width: 1026
-      height: 313
+      height: 576
     spriteID: 7177c9eb5ade66f49b92113b0d1f9f59
     spriteBone: []
     spriteOutline: []
@@ -198,7 +198,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 967}
+    uvTransform: {x: 4, y: 588}
   - name: Sky_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -206,10 +206,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1288
+      x: 1038
+      y: 588
       width: 1026
-      height: 313
+      height: 576
     spriteID: 1f1dc7ae7c2abae41aaff1dd47d90264
     spriteBone: []
     spriteOutline: []
@@ -218,7 +218,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1288}
+    uvTransform: {x: 1038, y: 588}
   - name: Sky_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -226,10 +226,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1609
+      x: 2072
+      y: 588
       width: 1026
-      height: 313
+      height: 576
     spriteID: b24d451a0376a0d4db95930d9fc6c4f7
     spriteBone: []
     spriteOutline: []
@@ -238,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1609}
+    uvTransform: {x: 2072, y: 588}
   - name: Sky_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -247,9 +247,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1930
+      y: 1172
       width: 1026
-      height: 313
+      height: 576
     spriteID: 82e458fc99f7a4243a2a3691f739a650
     spriteBone: []
     spriteOutline: []
@@ -258,7 +258,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 1930}
+    uvTransform: {x: 4, y: 1172}
   - name: Sky_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -266,11 +266,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 2251
+      x: 1038
+      y: 1172
       width: 1026
-      height: 313
-    spriteID: 071ab57810010ec42a6b38e42b95c6ef
+      height: 576
+    spriteID: ea907d114bc1e8b47a7e0ea34ab6ef45
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -278,7 +278,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2251}
+    uvTransform: {x: 1038, y: 1172}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -294,7 +294,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
+        height: 576
       spriteId: 9f6cf36eb79dda9498e0c77c367764b3
     - name: Sky_Frame_1
       frameIndex: 1
@@ -302,7 +302,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
+        height: 576
       spriteId: 95f7ebd3c14c6134a965a92b85777df7
     - name: Sky_Frame_2
       frameIndex: 2
@@ -310,7 +310,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
+        height: 576
       spriteId: 23fe4c7ce2ab82f43ac3c9e3abc8dc69
     - name: Sky_Frame_3
       frameIndex: 3
@@ -318,7 +318,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
+        height: 576
       spriteId: 7177c9eb5ade66f49b92113b0d1f9f59
     - name: Sky_Frame_4
       frameIndex: 4
@@ -326,7 +326,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
+        height: 576
       spriteId: 1f1dc7ae7c2abae41aaff1dd47d90264
     - name: Sky_Frame_5
       frameIndex: 5
@@ -334,7 +334,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
+        height: 576
       spriteId: b24d451a0376a0d4db95930d9fc6c4f7
     - name: Sky_Frame_6
       frameIndex: 6
@@ -342,7 +342,7 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
+        height: 576
       spriteId: 82e458fc99f7a4243a2a3691f739a650
     - name: Sky_Frame_7
       frameIndex: 7
@@ -350,8 +350,8 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 1026
-        height: 313
-      spriteId: 071ab57810010ec42a6b38e42b95c6ef
+        height: 576
+      spriteId: ea907d114bc1e8b47a7e0ea34ab6ef45
     linkedCells: []
     parentIndex: -1
   platformSettings: []

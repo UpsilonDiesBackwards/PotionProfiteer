@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "New/Inventory/Item")]
+[CreateAssetMenu(menuName = "New/Item")]
 public class InventoryItemData : ScriptableObject
 {
     public Sprite Icon;

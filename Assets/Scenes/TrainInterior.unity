@@ -1036,6 +1036,7 @@ MonoBehaviour:
   - {fileID: 6764070524649254821, guid: 3d3d66021911d8e478d899783997c94c, type: 3}
   - {fileID: 7496145243176734354, guid: 344ee17832f7e8d43ba0f554567917cd, type: 3}
   - {fileID: 1352954735709826294, guid: 242d5ee64737bf14880c0f4b039df5d1, type: 3}
+  npcEntrance: {fileID: 372535187}
 --- !u!4 &372535189
 Transform:
   m_ObjectHideFlags: 0
@@ -1045,7 +1046,7 @@ Transform:
   m_GameObject: {fileID: 372535187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.97, y: 0.46, z: 89.9962}
+  m_LocalPosition: {x: -4.97, y: -0.31, z: 89.9962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1069,7 +1070,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CounterDesk: {fileID: 302297778}
-  moveSpeed: 8
 --- !u!1001 &437387433
 PrefabInstance:
   m_ObjectHideFlags: 0

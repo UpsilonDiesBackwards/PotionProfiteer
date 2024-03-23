@@ -17,3 +17,4 @@ MonoBehaviour:
   DisplayName: Tomato
   MaxStackSize: 4
   Description: Red Ball of Hell
+  category: 3

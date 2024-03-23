@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3220dba3ce1b8b043bed892944bf7dc4, type: 3}
   m_Name: Chilli
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
+  Icon: {fileID: -1952571240, guid: d50d13914e433fd4884533f09be88ad9, type: 3}
   ID: 0
-  DisplayName: 
-  MaxStackSize: 0
-  Description: 
-  category: 0
+  DisplayName: Chilli
+  MaxStackSize: 8
+  Description: Spicy!
+  category: 1

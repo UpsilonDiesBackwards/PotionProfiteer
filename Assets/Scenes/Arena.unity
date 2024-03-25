@@ -8927,6 +8927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551865609}
   - component: {fileID: 1551865610}
+  - component: {fileID: 1551865611}
   m_Layer: 0
   m_Name: Wagon
   m_TagString: Untagged
@@ -8996,6 +8997,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.1358323, y: 0.5569949}
   m_EdgeRadius: 0
+--- !u!114 &1551865611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551865608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39682d3c365590649a1f092a0ebb33b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventorySize: 16
+  inventorySystem:
+    inventorySlots: []
 --- !u!1 &1552140984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7567572146865478270, guid: ca1a561c0833b8945ba1233f6da6fad1, type: 3}

@@ -23,7 +23,7 @@ public class InventoryUIController : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current.bKey.wasPressedThisFrame) DisplayInventory(new InventorySystem(16));
+       // if (Keyboard.current.bKey.wasPressedThisFrame) DisplayInventory(new InventorySystem(16));
         
         if (inventoryPanel.gameObject.activeInHierarchy && Keyboard.current.escapeKey.wasPressedThisFrame)
             inventoryPanel.gameObject.SetActive(false);

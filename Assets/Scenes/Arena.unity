@@ -7038,6 +7038,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1001282589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001282590}
+  m_Layer: 0
+  m_Name: InteractionPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1001282590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001282589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.632, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1031529355}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1021549064 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7567572145851669195, guid: ca1a561c0833b8945ba1233f6da6fad1, type: 3}
@@ -8928,7 +8959,7 @@ GameObject:
   - component: {fileID: 1551865609}
   - component: {fileID: 1551865610}
   - component: {fileID: 1551865611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wagon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40422,6 +40453,23 @@ MonoBehaviour:
   inventorySize: 8
   inventorySystem:
     inventorySlots: []
+--- !u!114 &1703433941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703433928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc0376d8f44c2240b445a364973d849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionPoint: {fileID: 1001282590}
+  InteractionPointRadius: 0
+  InteractionLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1725428216 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3736245874345624144, guid: b3103903c6ab4928092fa1544d4e6e24, type: 3}
@@ -57051,7 +57099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2137025159}
   - component: {fileID: 2137025160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57115,7 +57163,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.46226418, g: 0.2466178, b: 0.06759523, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -57530,7 +57578,10 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4640560357921312518, guid: bfaa7f20925aa2d8f9a2b61567a17caf, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 9094665069468011849, guid: bfaa7f20925aa2d8f9a2b61567a17caf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1001282590}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7929700535328977719, guid: bfaa7f20925aa2d8f9a2b61567a17caf, type: 3}
       insertIndex: 2
@@ -57538,6 +57589,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7929700535328977719, guid: bfaa7f20925aa2d8f9a2b61567a17caf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1703433939}
+    - targetCorrespondingSourceObject: {fileID: 7929700535328977719, guid: bfaa7f20925aa2d8f9a2b61567a17caf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1703433941}
   m_SourcePrefab: {fileID: 100100000, guid: bfaa7f20925aa2d8f9a2b61567a17caf, type: 3}
 --- !u!1001 &5498075634203922370
 PrefabInstance:

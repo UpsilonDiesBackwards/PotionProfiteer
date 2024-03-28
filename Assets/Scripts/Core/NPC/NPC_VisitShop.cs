@@ -11,18 +11,16 @@ public class NPC_VisitShop : MonoBehaviour
     private int randomNPCPull;
     DayNightCycle dayTracker;
 
-    private bool isNPCInShop = false;
+    public int daysToShop;
+    public bool isNPCInShop = false;
 
-    int daysChecker;
-    int dayReturnRange;
+
     // Start is called before the first frame update
     void Start()
     {
         randomNPCPull = Random.Range(0, 7);
-        dayTracker = GetComponent<DayNightCycle>();
-
-        daysChecker = dayTracker.dayNumber;
-        dayReturnRange = Random.Range(3, 6);
+        daysToShop = Random.Range(1, 3);
+        dayTracker = GetComponent<DayNightCycle>();   
     }
 
     // Update is called once per frame
@@ -30,13 +28,26 @@ public class NPC_VisitShop : MonoBehaviour
     {
         if (isNPCInShop == false) 
         {
-            PullNPCFromList();
-            isNPCInShop = true;
+            if (DayNightCycle.inGameHours >= 8) 
+            {
+                PullNPCFromList();
+                testDayRange();
+                isNPCInShop = true;
+            } 
         }
     }
 
     public void PullNPCFromList()
     {
-        GameObject currentNPC = Instantiate(npcList[randomNPCPull], npcEntrance.transform.position, Quaternion.identity);
+        //if time is between  8 am and 5pm spawn them 
+            GameObject currentNPC = Instantiate(npcList[randomNPCPull], npcEntrance.transform.position, Quaternion.identity);
+    }
+
+    void testDayRange()
+    {
+        if (DayNightCycle.shopDays >= daysToShop)
+        {
+            PullNPCFromList();
+        }
     }
 }

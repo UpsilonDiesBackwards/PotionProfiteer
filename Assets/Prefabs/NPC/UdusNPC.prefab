@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 785637556045469470}
   - component: {fileID: 9035244084902034649}
   - component: {fileID: 7527067712904908035}
+  - component: {fileID: -6352836590058561789}
   m_Layer: 0
   m_Name: UdusNPC
   m_TagString: Untagged
@@ -107,3 +108,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-6352836590058561789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352954735709826294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6b89ae03382614eb2d96a021ee1470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CounterDesk: {fileID: 0}
+  upAnim: {fileID: 7527067712904908035}

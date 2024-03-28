@@ -11,11 +11,11 @@ public class NPC_InStore : MonoBehaviour
     private float moveSpeed;
 
     public Animator upAnim;
-    private bool isWalking = false;
 
     private void Start()
     {
         upAnim = GetComponent<Animator>();
+        CounterDesk = GameObject.FindGameObjectWithTag("Desk");
     }
 
     // Update is called once per frame
@@ -27,18 +27,7 @@ public class NPC_InStore : MonoBehaviour
 
     void MoveTowardsCounter()
     {
-      
         moveSpeed = 4f;
         transform.position = Vector2.MoveTowards(transform.position, CounterDesk.transform.position, moveSpeed * Time.deltaTime);
-        isWalking = false;
-    }
-
-    void PlayAnimation()
-    {
-        isWalking = true;
-        while (isWalking)
-        {
-            upAnim.Play("WalkUp");
-        }
     }
 }

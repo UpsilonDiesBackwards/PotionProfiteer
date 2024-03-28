@@ -8,6 +8,7 @@ TagManager:
   - enemy
   - moveTowards
   - Startup
+  - Desk
   layers:
   - Default
   - TransparentFX

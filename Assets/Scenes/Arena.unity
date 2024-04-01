@@ -8072,10 +8072,8 @@ MonoBehaviour:
   PostProcessingVolume: {fileID: 1335459739}
   inGameSeconds: 0
   inGameMinutes: 0
-  inGameHours: 0
   whatHourIsIt: {fileID: 1480209819}
   DayTracker: {fileID: 910616556}
-  dayNumber: 1
   Day: 1
   Night: 0
   isInBed: 0
@@ -8959,6 +8957,7 @@ GameObject:
   - component: {fileID: 1551865609}
   - component: {fileID: 1551865610}
   - component: {fileID: 1551865611}
+  - component: {fileID: 1551865612}
   m_Layer: 6
   m_Name: Wagon
   m_TagString: Untagged
@@ -9043,6 +9042,19 @@ MonoBehaviour:
   inventorySize: 16
   inventorySystem:
     inventorySlots: []
+--- !u!114 &1551865612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551865608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16cecf49b5acdb044ab7492b24ccbfb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: b9c21c0a-6a41-4366-be9f-ae5ec127d9ee
 --- !u!1 &1552140984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7567572146865478270, guid: ca1a561c0833b8945ba1233f6da6fad1, type: 3}

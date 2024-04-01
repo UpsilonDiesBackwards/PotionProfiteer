@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 31512653158995946}
   - component: {fileID: 767618190529811029}
   - component: {fileID: 2205877314851211781}
+  - component: {fileID: 495726472408918643}
   m_Layer: 0
   m_Name: AlexNPC
   m_TagString: Untagged
@@ -107,3 +108,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &495726472408918643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767787721412960043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6b89ae03382614eb2d96a021ee1470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CounterDesk: {fileID: 0}
+  upAnim: {fileID: 2205877314851211781}

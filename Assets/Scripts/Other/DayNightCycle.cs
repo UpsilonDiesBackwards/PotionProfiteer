@@ -12,13 +12,14 @@ public class DayNightCycle : MonoBehaviour
     [Header ("Day Counter")]
     public float inGameSeconds; 
     public float inGameMinutes;
-    public float inGameHours;
+    public static float inGameHours;
     private float clock;
-    private float goblinRaid = 3;
+
     public TextMeshProUGUI whatHourIsIt;
     private string whatMinuteIsIt;
     public TextMeshProUGUI DayTracker; 
-    public int dayNumber = 1;
+    public static int dayNumber = 1;
+    public static int shopDays = 0;
 
     [Header("DayMan ahaaa")]
     
@@ -47,7 +48,7 @@ public class DayNightCycle : MonoBehaviour
 
     void CreatingTime()
     {
-        inGameSeconds += Time.deltaTime * 12; //the multiplyer can be adjusted to whatever, its a high number to see how well the times work
+        inGameSeconds += Time.deltaTime * 48; //the multiplyer can be adjusted to whatever, its a high number to see how well the times work
 
         if (inGameSeconds >= 6)
         {
@@ -63,6 +64,7 @@ public class DayNightCycle : MonoBehaviour
         {
             inGameHours = 0;
             dayNumber += 1;
+            shopDays += 1;
         }
         clock = inGameHours;
         DayCounterAndTimeDisplay();
@@ -93,22 +95,8 @@ public class DayNightCycle : MonoBehaviour
 
         if (Night == true)
         {
-            //make NPCs go "home" 
+            //make NPCs go "home" this would be controlled in an NPC script
             //Any night time events
-        }
-        ZZZ();
-    }
-
-    void ZZZ()
-    {
-        if (Night == true && isInBed == true) 
-        {
-            dayNumber++;
-            Night = false;
-            Day = true;
-            isInBed = false;
-            inGameHours = 6;
-            //Kick player out of bed
         }
     }
 
@@ -129,14 +117,6 @@ public class DayNightCycle : MonoBehaviour
                 StreetLampsOn = false;
             }
         }
-
-
-
-        for (int i = 0; i < goblinRaid; i ++)
-        {
-            //goblin raid
-        }
-        //crops grow different days
     }
 
     void DayCounterAndTimeDisplay()

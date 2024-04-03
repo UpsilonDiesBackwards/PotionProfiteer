@@ -10,6 +10,7 @@ TagManager:
   - Startup
   - Desk
   - DoorExit
+  - Dialogue
   layers:
   - Default
   - TransparentFX

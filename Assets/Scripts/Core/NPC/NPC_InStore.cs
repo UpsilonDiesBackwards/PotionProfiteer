@@ -9,6 +9,7 @@ public class NPC_InStore : MonoBehaviour
 {
     public GameObject CounterDesk;
     public GameObject ExitDoor;
+    public GameObject TalkWithNPCs;
     private float moveSpeed;
 
     public Animator upAnim;
@@ -19,6 +20,7 @@ public class NPC_InStore : MonoBehaviour
         upAnim = GetComponent<Animator>();
         CounterDesk = GameObject.FindGameObjectWithTag("Desk");
         ExitDoor = GameObject.FindGameObjectWithTag("DoorExit");
+        TalkWithNPCs = GameObject.FindGameObjectWithTag("Dialogue");
     }
 
     // Update is called once per frame
@@ -38,14 +40,15 @@ public class NPC_InStore : MonoBehaviour
         if (transform.position == CounterDesk.transform.position)
         {
             atCounter = true;
+           // GameObject.FindGameObjectWithTag("Dialogue").SetActive(true);
         }
     }
 
     void LeaveShop()
     {
-        if (atCounter == true)
+        if (DialogueBox.finishedDial == true)
         {
-            Invoke("HeadToExit", 5f);
+            HeadToExit();
         }
     }
 
@@ -56,6 +59,7 @@ public class NPC_InStore : MonoBehaviour
         if (transform.position == ExitDoor.transform.position)
         {
             NPC_Shopping.isNPCInShop = false;
+            //gameObject.SetActive(false);
         }
     }
 }

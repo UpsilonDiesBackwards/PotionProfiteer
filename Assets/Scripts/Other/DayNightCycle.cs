@@ -6,8 +6,7 @@ using TMPro;
 using UnityEngine.UI;
 
 public class DayNightCycle : MonoBehaviour
-    {
-
+{
     public Volume PostProcessingVolume;
     [Header ("Day Counter")]
     public float inGameSeconds; 
@@ -116,6 +115,10 @@ public class DayNightCycle : MonoBehaviour
                 }
                 StreetLampsOn = false;
             }
+        }
+        if (NPC_Shopping.ResetDays == true)
+        {
+            shopDays = 0;
         }
     }
 

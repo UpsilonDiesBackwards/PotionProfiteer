@@ -55,7 +55,7 @@ public class NPC_InStore : MonoBehaviour
 
         if (transform.position == ExitDoor.transform.position)
         {
-            NPC_VisitShop.isNPCInShop = false;
+            NPC_Shopping.isNPCInShop = false;
         }
     }
 }

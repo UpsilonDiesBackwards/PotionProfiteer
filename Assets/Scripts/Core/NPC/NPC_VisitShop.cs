@@ -12,7 +12,7 @@ public class NPC_VisitShop : MonoBehaviour
     DayNightCycle dayTracker;
 
     public int daysToShop;
-    public bool isNPCInShop = false;
+    public static bool isNPCInShop = false;
 
 
     // Start is called before the first frame update
@@ -31,19 +31,20 @@ public class NPC_VisitShop : MonoBehaviour
             if (DayNightCycle.inGameHours >= 8) 
             {
                 PullNPCFromList();
-                testDayRange();
-                isNPCInShop = true;
-            } 
+                TestDayRange();
+                
+            }
         }
     }
 
     public void PullNPCFromList()
     {
-        //if time is between  8 am and 5pm spawn them 
-            GameObject currentNPC = Instantiate(npcList[randomNPCPull], npcEntrance.transform.position, Quaternion.identity);
+        //if time is between  8 am and 5pm spawn them
+        GameObject currentNPC = Instantiate(npcList[randomNPCPull], npcEntrance.transform.position, Quaternion.identity);
+        isNPCInShop = true;
     }
 
-    void testDayRange()
+    void TestDayRange()
     {
         if (DayNightCycle.shopDays >= daysToShop)
         {

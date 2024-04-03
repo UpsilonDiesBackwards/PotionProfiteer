@@ -9,6 +9,7 @@ TagManager:
   - moveTowards
   - Startup
   - Desk
+  - DoorExit
   layers:
   - Default
   - TransparentFX

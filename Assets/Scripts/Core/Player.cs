@@ -5,6 +5,7 @@ public class Player : MonoBehaviour, IDataPersistence {
     [Header("References")]
     public AudioSource audioSource;
     public Joystick joystick;
+    public CameraEffects cameraEffects;
    
     [SerializeField] private GameObject _graphic;
     private Rigidbody2D _rb;

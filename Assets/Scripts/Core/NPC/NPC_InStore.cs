@@ -29,6 +29,7 @@ public class NPC_InStore : MonoBehaviour
         //PlayAnimation();
         MoveTowardsCounter();
         LeaveShop();
+       
     }
 
     void MoveTowardsCounter()
@@ -39,8 +40,11 @@ public class NPC_InStore : MonoBehaviour
         }
         if (transform.position == CounterDesk.transform.position)
         {
+            Debug.Log(CounterDesk.transform.position);
+            Debug.Log(gameObject.transform.position);
             atCounter = true;
-           // GameObject.FindGameObjectWithTag("Dialogue").SetActive(true);
+            Invoke("OpenDialogue", 0.2f);
+            Invoke("HeadToExit", 3f);
         }
     }
 
@@ -58,8 +62,14 @@ public class NPC_InStore : MonoBehaviour
 
         if (transform.position == ExitDoor.transform.position)
         {
-            NPC_Shopping.isNPCInShop = false;
-            //gameObject.SetActive(false);
+            gameObject.SetActive(false);
+            NPC_Shopping.isNPCInShop = false; 
         }
+        gameObject.SetActive(false);
+    }
+
+    void OpenDialogue()
+    {
+        TalkWithNPCs.SetActive(true);
     }
 }

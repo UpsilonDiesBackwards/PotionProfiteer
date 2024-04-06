@@ -15,6 +15,11 @@ public class DialogueBox : MonoBehaviour
     public bool startDial = false;
     public static bool finishedDial = false;
 
+    private void Start()
+    {
+        gameObject.SetActive(false);
+    }
+
     void Update() {
 
         player = GameObject.FindGameObjectWithTag("Player");
@@ -22,12 +27,6 @@ public class DialogueBox : MonoBehaviour
         if ( NPC_Shopping.isNPCInShop == true)
         {
             gameObject.SetActive(true);
-        }
-
-        if (startDial == true)
-        {
-            _textComp.text = "";
-            StartDialogue();
         }
         NPCTalk();
         if (Input.GetMouseButtonDown(0)) {
@@ -41,6 +40,7 @@ public class DialogueBox : MonoBehaviour
     }
 
     void StartDialogue() {
+        _textComp.text = "";
         _index = 0;
         StartCoroutine(TypeLines());
     }
@@ -55,7 +55,7 @@ public class DialogueBox : MonoBehaviour
     void NextLine() {
         if (_index < _dialLines.Length -1 ) {
             _index++; //goes to the next line in the array
-            _textComp.tag = ""; //makes the text empty so its not the previous line
+            _textComp.text = string.Empty; //makes the text empty so its not the previous line
             StartCoroutine(TypeLines()); //types the current array line
         } else {
             gameObject.SetActive(false);
@@ -69,7 +69,7 @@ public class DialogueBox : MonoBehaviour
         {
             player.GetComponent<Player>().frozen = true;
             
-            startDial = true;
+            StartDialogue();
             
         }
        

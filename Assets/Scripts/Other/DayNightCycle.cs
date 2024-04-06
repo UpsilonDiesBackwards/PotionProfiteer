@@ -28,11 +28,12 @@ public class DayNightCycle : MonoBehaviour
 
     [Header ("Beddie Byes")]
     public bool isInBed = false; //checks to see if the player has gone to sleep for the day
-    public GameObject player = Player.Instance.gameObject; //needs to check if the player is in da bed, -- make bed a OnTrigger
-    public bool StreetLampsOn;
-    public GameObject[] StreetLamps; //all lights that are not the sun turn on
+    
+   // public bool StreetLampsOn;
+   // public GameObject[] StreetLamps; //all lights that are not the sun turn on
 
     //can have a sprite renderer here for a moon/stars if we want
+
 
 
     void Update()
@@ -73,7 +74,7 @@ public class DayNightCycle : MonoBehaviour
             Night = true;
         }
 
-        if (inGameHours >= 17.30f &&  inGameHours <= 19) //from 5:30pm til 7pm aka transition from afternoon to night
+     /*   if (inGameHours >= 17.30f &&  inGameHours <= 19) //from 5:30pm til 7pm aka transition from afternoon to night
         {
             Day = false;
             Night = true;
@@ -87,7 +88,7 @@ public class DayNightCycle : MonoBehaviour
                 }
                 StreetLampsOn = true;
             }
-        }
+        } */
 
         if (Night == true)
         {
@@ -98,11 +99,11 @@ public class DayNightCycle : MonoBehaviour
 
     void DayEvents()
     {
-        if (inGameHours >= 6 && inGameHours < 17.30f)
+       /* if (inGameHours >= 6 && inGameHours < 17.30f)
         {
             Night = false;
             Day = true;
-            PostProcessingVolume.weight = 1 - (float)inGameMinutes / 60; //goes from 1 strength to 0
+           PostProcessingVolume.weight = 1 - (float)inGameMinutes / 60; //goes from 1 strength to 0
 
             if (StreetLampsOn == true)
             {
@@ -112,7 +113,7 @@ public class DayNightCycle : MonoBehaviour
                 }
                 StreetLampsOn = false;
             }
-        }
+        } */
         if (NPC_Shopping.ResetDays == true)
         {
             shopDays = 0;

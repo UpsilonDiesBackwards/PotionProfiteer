@@ -9,6 +9,7 @@ public class DayNightCycle : MonoBehaviour
 {
     public Volume PostProcessingVolume;
     [Header ("Day Counter")]
+    public float timeScale = 48f;
     public float inGameSeconds; 
     public float inGameMinutes;
     public static float inGameHours;
@@ -47,7 +48,7 @@ public class DayNightCycle : MonoBehaviour
 
     void CreatingTime()
     {
-        inGameSeconds += Time.deltaTime * 48; //the multiplyer can be adjusted to whatever, its a high number to see how well the times work
+        inGameSeconds += Time.deltaTime * timeScale; //the multiplyer can be adjusted to whatever, its a high number to see how well the times work
 
         if (inGameSeconds >= 6)
         {
@@ -148,12 +149,12 @@ public class DayNightCycle : MonoBehaviour
 
         if (clock >= 0 && clock < 12)
         {
-            whatHourIsIt.text = inGameHours.ToString("00") + (":") + whatMinuteIsIt + "AM";
+            whatHourIsIt.text = inGameHours.ToString("00") + (":") + whatMinuteIsIt + " AM";
         }
         if (clock >= 12 && clock < 24)
         {
-            whatHourIsIt.text = clock.ToString("00") + (":") + whatMinuteIsIt + "PM";
+            whatHourIsIt.text = clock.ToString("00") + (":") + whatMinuteIsIt + " PM";
         }
-        DayTracker.text = "Day: " + dayNumber;
+        DayTracker.text = "Day:   " + dayNumber;
     }
 }

@@ -29,6 +29,9 @@ public class Player : MonoBehaviour, IDataPersistence {
     public AudioClip bayouSound;
     public AudioClip stepSound;
 
+    [Header("Inventory")]
+    public int spondulixs;
+
     private static Player instance;
     public static Player Instance {
         get {

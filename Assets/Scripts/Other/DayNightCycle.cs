@@ -28,16 +28,12 @@ public class DayNightCycle : MonoBehaviour
 
     [Header ("Beddie Byes")]
     public bool isInBed = false; //checks to see if the player has gone to sleep for the day
-    public GameObject player; //needs to check if the player is in da bed, -- make bed a OnTrigger
+    public GameObject player = Player.Instance.gameObject; //needs to check if the player is in da bed, -- make bed a OnTrigger
     public bool StreetLampsOn;
     public GameObject[] StreetLamps; //all lights that are not the sun turn on
 
     //can have a sprite renderer here for a moon/stars if we want
 
-    void Awake() {
-        player = Player.Instance.gameObject;
-        PostProcessingVolume = GetComponent<Volume>();
-    }
 
     void Update()
     {

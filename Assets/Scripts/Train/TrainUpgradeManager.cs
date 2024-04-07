@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class TrainUpgradeManager : MonoBehaviour {
@@ -15,21 +16,27 @@ public class TrainUpgradeManager : MonoBehaviour {
     private bool hasBroughtGreenHouse = false;
     private bool hasBroughtStorage = false;
     
-    void Update() {
-        if (Input.GetKey(KeyCode.Minus) && Player.Instance.spondulixs >= greenHouseCarridgeCost && !hasBroughtGreenHouse) {
+    public bool BuyGreenHouse() {
+        if (Player.Instance.spondulixs >= greenHouseCarridgeCost && !hasBroughtGreenHouse) {
             greenHouseCarridge.SetActive(true);
             greenHouseCarridgeCollider.SetActive(false);
 
             Player.Instance.spondulixs -= greenHouseCarridgeCost;
             hasBroughtGreenHouse = true;
+            return true;
         }
+        return false;
+    }
 
-        if (Input.GetKey(KeyCode.Equals) && Player.Instance.spondulixs >= storageCarridgeCost && !hasBroughtStorage) {
+    public bool BuyStorage() {
+        if (Player.Instance.spondulixs >= storageCarridgeCost && !hasBroughtStorage) {
             storageCarridge.SetActive(true);
             storageCarridgeCollider.SetActive(false);
             
             Player.Instance.spondulixs -= storageCarridgeCost;
             hasBroughtStorage = true;
+            return true;
         }
+        return false;
     }
 }

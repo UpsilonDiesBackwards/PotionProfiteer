@@ -1,4 +1,5 @@
 using System.Collections;
+using PPPS.Core;
 using Unity.PlasticSCM.Editor.WebApi;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
@@ -15,6 +16,7 @@ public class RegionManager : MonoBehaviour {
     void Awake() {
         foreach (string scene in scenesToLoad) {
             StartCoroutine(LoadSceneAsync(scene));
+            Debug.Log("Loaded" + scene);
         }
     }
 
@@ -28,7 +30,9 @@ public class RegionManager : MonoBehaviour {
         Scene loadedScene = SceneManager.GetSceneByName(sceneName);
         loadedScene.GetRootGameObjects()[0].SetActive(false);
 
-        ActivateScene(2); // '2' is the index for the train interior scene.
+        ActivateScene(5); // '0' is the index for the desert scene.
+
+        GameManager.Instance.UpdatePreviousScene();
     }
 
     public void ActivateScene(int sceneIndex) {
@@ -41,7 +45,7 @@ public class RegionManager : MonoBehaviour {
                 }
             }
 
-            // Debug.Log("CurrentScene: " + currentSceneIndex + " sceneIndex: " + sceneIndex);
+            Debug.Log("CurrentScene: " + currentSceneIndex + " sceneIndex: " + sceneIndex);
 
             // activate root obj of new scene
             Scene nextScene = SceneManager.GetSceneAt(sceneIndex);
@@ -50,7 +54,7 @@ public class RegionManager : MonoBehaviour {
             foreach (GameObject rootObject in nextRootObjects) {
                 rootObject.SetActive(true);
             }
-
+            
             TeleportPlayerToIndicator(nextScene);
 
             currentSceneIndex = sceneIndex;

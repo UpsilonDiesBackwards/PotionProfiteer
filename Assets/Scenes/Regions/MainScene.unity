@@ -357,6 +357,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7661198373220996489, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.7999992
+      objectReference: {fileID: 0}
     - target: {fileID: 7814478077312771406, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -768,6 +772,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8948103810397216636, guid: a8927b4529dbb7e16a2b35a61be5755c, type: 3}
+      propertyPath: previousScene
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1072,14 +1080,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1961577950}
-    - target: {fileID: 1818312807179206494, guid: 97e26a2dcfdd807db977c75a6b9d39a6, type: 3}
-      propertyPath: 'scenesToLoad.Array.data[0]'
-      value: Desert
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818312807179206494, guid: 97e26a2dcfdd807db977c75a6b9d39a6, type: 3}
-      propertyPath: 'scenesToLoad.Array.data[1]'
-      value: TrainInterior
-      objectReference: {fileID: 0}
     - target: {fileID: 5418054745669422635, guid: 97e26a2dcfdd807db977c75a6b9d39a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.4476665

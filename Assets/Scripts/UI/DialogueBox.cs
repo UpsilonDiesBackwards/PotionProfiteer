@@ -6,6 +6,7 @@ using UnityEngine;
 public class DialogueBox : MonoBehaviour
 {
     public GameObject player;
+    public GameObject[] npcs;
 
     [SerializeField] private TextMeshProUGUI _textComp;
     [SerializeField] private string[] _dialLines;
@@ -17,7 +18,9 @@ public class DialogueBox : MonoBehaviour
 
     private void Start()
     {
-       // gameObject.SetActive(false);
+        // gameObject.SetActive(false);
+
+        npcs = GameObject.FindGameObjectsWithTag("NPC");
     }
 
     void Update() {
@@ -65,13 +68,21 @@ public class DialogueBox : MonoBehaviour
 
     void NPCTalk()
     {
-        if (NPC_InStore.atCounter == true && finishedDial == false)
+        for (int i = 0; i < npcs.Length; i++) //getting the npc index and seeing if that npc is close to the player if they are starts dialogue
         {
-            player.GetComponent<Player>().frozen = true;
-            
-            StartDialogue();
-            
+            float proximity = 5f;
+
+            Vector3 npcPos = npcs[i].transform.position;
+            Vector3 playerPos = player.transform.position;
+
+            float distance = Vector3.Distance(npcPos, playerPos);
+
+            if (distance < proximity)
+            {
+                player.GetComponent<Player>().frozen = true;
+
+                StartDialogue();
+            }
         }
-       
     }
 }

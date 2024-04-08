@@ -25,13 +25,10 @@ public class NPC_Shopping : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isNPCInShop == false)
+        if (isNPCInShop == false && DayNightCycle.inGameHours >= 8)
         {
-            if (DayNightCycle.inGameHours >= 8)
-            {
-               TestDayRange();
-                ResetDays = false;
-            }
+            TestDayRange();
+            ResetDays = false;
         }
     }
 
@@ -47,7 +44,7 @@ public class NPC_Shopping : MonoBehaviour
         if (DayNightCycle.shopDays >= daysToShop)
         {
             PullNPCFromList();
-            ResetDays = true;
+            ResetDays = true; //this bool used in DayNightCycle script
         }
     }
 }

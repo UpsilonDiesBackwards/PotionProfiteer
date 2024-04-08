@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -8782157888969130944}
   m_Layer: 0
   m_Name: TrissNPC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,4 +121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CounterDesk: {fileID: 0}
+  ExitDoor: {fileID: 0}
+  TalkWithNPCs: {fileID: 0}
   upAnim: {fileID: 5045144247789777437}

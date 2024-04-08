@@ -2631,11 +2631,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6262427093707906465, guid: 1fcdd7e2e28374a799057ee3d9258407, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.49312317
+      value: -0.4931072
       objectReference: {fileID: 0}
     - target: {fileID: 6262427093707906465, guid: 1fcdd7e2e28374a799057ee3d9258407, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.64480853
+      value: -0.6470256
       objectReference: {fileID: 0}
     - target: {fileID: 6262427093707906465, guid: 1fcdd7e2e28374a799057ee3d9258407, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3282,7 +3282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1403155134
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3354,6 +3354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 979202010}
+  npcs: []
   _textComp: {fileID: 63328524}
   _dialLines:
   - test

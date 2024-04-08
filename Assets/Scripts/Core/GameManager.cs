@@ -6,6 +6,8 @@ namespace PPPS.Core {
         [SerializeField] public AudioTrigger gameMusic;
         [SerializeField] public AudioTrigger gameAmbience;
 
+        public string previousScene = "";
+
         private static GameManager instance;
         public static GameManager Instance {
             get {
@@ -16,6 +18,10 @@ namespace PPPS.Core {
 
         void Start() {
             audioSource = GetComponent<AudioSource>();
+        }
+
+        void Update() {
+            previousScene = Application.loadedLevelName;
         }
     }
 }

@@ -11,6 +11,8 @@ TagManager:
   - Desk
   - DoorExit
   - Dialogue
+  - TeleportIndicator
+  - RegionManager
   layers:
   - Default
   - TransparentFX

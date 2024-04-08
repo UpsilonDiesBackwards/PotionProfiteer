@@ -147,7 +147,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 75
       y: 4
       width: 131
       height: 72
@@ -167,7 +167,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 136
+      x: 207
       y: 4
       width: 116
       height: 72
@@ -187,7 +187,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 14
+      x: 85
       y: 95
       width: 10
       height: 11
@@ -207,7 +207,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 30
+      x: 101
       y: 95
       width: 32
       height: 12
@@ -227,7 +227,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 30
+      x: 101
       y: 82
       width: 32
       height: 12
@@ -247,7 +247,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 66
+      x: 138
       y: 95
       width: 9
       height: 16
@@ -267,7 +267,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 66
+      x: 137
       y: 82
       width: 25
       height: 10
@@ -287,7 +287,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 82
+      x: 153
       y: 98
       width: 25
       height: 10
@@ -307,11 +307,71 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 111
+      x: 182
       y: 96
       width: 14
       height: 14
     spriteID: fd1f06970860ce58881a2e6908ced1e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: TrainInterior_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 70
+      height: 72
+    spriteID: 58a490af03d4c4ac99c3f83b8e0034c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: TrainInterior_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 79
+      width: 16
+      height: 12
+    spriteID: 78a3eac9fe1c3243688528efe7342fac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: TrainInterior_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 91
+      width: 27
+      height: 5
+    spriteID: d2397da9d41ac7e199dbb47a024d2009
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -331,9 +391,9 @@ ScriptedImporter:
     - name: TrainInterior
       frameIndex: 0
       cellRect:
-        x: 6
+        x: 32
         y: 4
-        width: 248
+        width: 319
         height: 107
       spriteId: 26b2585b1e57b04dead17728357d0355
     linkedCells: []
@@ -374,4 +434,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 277, y: 111}
+  canvasSize: {x: 374, y: 111}

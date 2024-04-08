@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3403033886747159929}
   - component: {fileID: 5059909028939300450}
   - component: {fileID: 8536747159032455260}
+  - component: {fileID: 4567528947225331223}
   m_Layer: 5
   m_Name: ItemImage
   m_TagString: Untagged
@@ -75,6 +76,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4567528947225331223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822464082134967951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34363da03c05df8448e46461ad5832cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHeld: 0
+  tomato: {fileID: 1057018727562672877, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
+  cauldron: {fileID: 8569208757442789178, guid: d0f44264818c0417c9799cd588c1213d, type: 3}
 --- !u!1 &4218399567751178707
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +347,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1171154892735573014}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2799549065229229688, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
+        m_TargetAssemblyTypeName: DragAndDrop, Assembly-CSharp
+        m_MethodName: OnMouseDrag
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3525246841843070973
 MonoBehaviour:
   m_ObjectHideFlags: 0

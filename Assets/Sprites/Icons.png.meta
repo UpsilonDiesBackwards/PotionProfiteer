@@ -269,8 +269,8 @@ TextureImporter:
       name: Icons_7
       rect:
         serializedVersion: 2
-        x: 4
-        y: 43
+        x: 2
+        y: 63
         width: 68
         height: 22
       alignment: 0
@@ -290,8 +290,8 @@ TextureImporter:
       name: Icons_8
       rect:
         serializedVersion: 2
-        x: 80
-        y: 48
+        x: 16
+        y: 97
         width: 15
         height: 15
       alignment: 0
@@ -311,8 +311,8 @@ TextureImporter:
       name: Icons_9
       rect:
         serializedVersion: 2
-        x: 9
-        y: 69
+        x: 7
+        y: 90
         width: 58
         height: 1
       alignment: 0
@@ -324,6 +324,132 @@ TextureImporter:
       bones: []
       spriteID: 10040497f2801a1cdac95e542db57f21
       internalID: -300417543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 62
+        width: 68
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cf8601a6b1f738089287413ef20711
+      internalID: 1132862084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 68
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c09ea64437717d33bb6698e53e49087
+      internalID: 1433084510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 90
+        width: 58
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dadaf81c9cf88b18cdef689768fd84
+      internalID: 1718750121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 40
+        width: 68
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 4, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6c9faa493defc6e96129c1b37bac8a
+      internalID: 971230518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 63
+        width: 68
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057393b785306fdbb70a27e5456767c
+      internalID: -1246805350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 40
+        width: 68
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb247fe3a7f6613bad32c68bbd237a7
+      internalID: 830816492
       vertices: []
       indices: 
       edges: []
@@ -341,6 +467,12 @@ TextureImporter:
     nameFileIdTable:
       Icons_0: 1797574226
       Icons_1: 1764481402
+      Icons_10: 1132862084
+      Icons_11: 1433084510
+      Icons_12: 1718750121
+      Icons_13: 971230518
+      Icons_14: -1246805350
+      Icons_15: 830816492
       Icons_2: -1611930410
       Icons_3: 110651535
       Icons_4: -164294199

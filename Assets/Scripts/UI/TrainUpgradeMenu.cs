@@ -4,15 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TrainUpgradeMenu : MonoBehaviour {
-    private bool isInRange = false;
+    [SerializeField] private TrainUpgradeManager _upgradeManager;
 
-    [SerializeField] private GameObject _upgradeMenu;
+    [Header("References")]
+    
+     [SerializeField] private GameObject _upgradeMenu;
     [SerializeField] private GameObject _greenhouseBuyButton;
     [SerializeField] private GameObject _storageBuyButton;
 
-    [SerializeField] private TrainUpgradeManager _upgradeManager;
+    [SerializeField] private TextMeshProUGUI _greenhousePrice;
+    [SerializeField] private TextMeshProUGUI _storagePrice;
+
+    private bool isInRange = false;
+
     private bool hasGreenhouse = false;
     private bool hasStorage = false;
+
+    void Awake() {
+        _greenhousePrice.text = _upgradeManager.greenHouseCarridgeCost.ToString() + " Spondulixs";
+        _storagePrice.text = _upgradeManager.storageCarridgeCost.ToString() + " Spondulixs";
+    }
 
     void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.CompareTag("Player")) {
@@ -34,10 +45,12 @@ public class TrainUpgradeMenu : MonoBehaviour {
 
         if (hasGreenhouse) {
             _greenhouseBuyButton.GetComponent<Button>().interactable = false;
+            _greenhousePrice.text = "Brought!";
         }
 
         if (hasStorage) {
             _storageBuyButton.GetComponent<Button>().interactable = false;
+            _storagePrice.text = "Brought!s";
         }
     }
 

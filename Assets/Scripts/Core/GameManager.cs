@@ -20,7 +20,7 @@ namespace PPPS.Core {
             audioSource = GetComponent<AudioSource>();
         }
 
-        void Update() {
+        public void UpdatePreviousScene() {
             previousScene = Application.loadedLevelName;
         }
     }

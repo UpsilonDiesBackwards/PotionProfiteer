@@ -144,7 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8b503b91fe53406aa74a7397936429f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 2
+  sceneIndex: 5
+  useGlobalLastScene: 0
 --- !u!1 &9058902922606352429
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +156,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1895099215356045535}
   - component: {fileID: 6421321373594096826}
-  - component: {fileID: 854180259385404270}
   - component: {fileID: 4642651803727557778}
   m_Layer: 0
   m_Name: Train
@@ -233,18 +233,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &854180259385404270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9058902922606352429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5b5a0c88c39fc745a411ce0ac2e8a30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &4642651803727557778
 BoxCollider2D:
   m_ObjectHideFlags: 0

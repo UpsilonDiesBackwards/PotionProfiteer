@@ -17,7 +17,7 @@ public class DialogueBox : MonoBehaviour
 
     private void Start()
     {
-        gameObject.SetActive(false);
+       // gameObject.SetActive(false);
     }
 
     void Update() {

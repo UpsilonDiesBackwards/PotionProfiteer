@@ -813,9 +813,6 @@ MonoBehaviour:
   Day: 1
   Night: 0
   isInBed: 0
-  player: {fileID: 0}
-  StreetLampsOn: 0
-  StreetLamps: []
 --- !u!1001 &4175611220079072483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -827,18 +824,6 @@ PrefabInstance:
     - target: {fileID: 7400000, guid: 0a45d01e426a58b6d9659bc46d400fb3, type: 2}
       propertyPath: m_Name
       value: Cameras
-      objectReference: {fileID: 0}
-    - target: {fileID: 3, guid: f0733c4e88e25cc1fbb4cff2c42fb1cc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1233.554
-      objectReference: {fileID: 0}
-    - target: {fileID: 3, guid: f0733c4e88e25cc1fbb4cff2c42fb1cc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -369.58084
-      objectReference: {fileID: 0}
-    - target: {fileID: 3, guid: f0733c4e88e25cc1fbb4cff2c42fb1cc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 11.837356
       objectReference: {fileID: 0}
     - target: {fileID: 4541581393303701074, guid: 2b13aca4944a02f8fae98e369fda15af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -879,6 +864,18 @@ PrefabInstance:
     - target: {fileID: 4541581393303701074, guid: 2b13aca4944a02f8fae98e369fda15af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3, guid: f0733c4e88e25cc1fbb4cff2c42fb1cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1233.554
+      objectReference: {fileID: 0}
+    - target: {fileID: 3, guid: f0733c4e88e25cc1fbb4cff2c42fb1cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -369.58084
+      objectReference: {fileID: 0}
+    - target: {fileID: 3, guid: f0733c4e88e25cc1fbb4cff2c42fb1cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.837356
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

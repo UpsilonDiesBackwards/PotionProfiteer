@@ -8,8 +8,18 @@ using UnityEngine.EventSystems;
 public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler
 {
     public bool isHeld = false;
+    
+    public GameObject itemImage;
     public GameObject tomato;
     public GameObject cauldron;
+
+    private CanvasGroup canvasGroup;
+
+    private void Awake()
+    {
+       canvasGroup = GetComponent<CanvasGroup>();
+    }
+
     public void OnMouseDrag()
     {
         transform.position = GetMousePos(); //setting the mouse to the world position
@@ -24,24 +34,31 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Instantiate(tomato, Input.mousePosition, Quaternion.identity);
+        Debug.Log("something");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        transform.position = GetMousePos();
+        Debug.Log("Begin Drag");
+        canvasGroup.alpha = 0.6f;
+        canvasGroup.blocksRaycasts = false;
+       // Instantiate(tomato, Input.mousePosition, Quaternion.identity);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        Debug.Log("Dragging");
         transform.position = GetMousePos();
-        WhereItsAt();
+        
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        WhereItsAt();
+        Debug.Log("End Drag");
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
     }
+
 
     public void WhereItsAt()
     {
@@ -59,7 +76,7 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
         }
         else
         {
-            Destroy(tomato); //WILL NEED TO BE PUT BACK INTO THE INVENTORY SLOT
+           // DestroyImmediate(tomato, true); //WILL NEED TO BE PUT BACK INTO THE INVENTORY SLOT
         }
 
     }

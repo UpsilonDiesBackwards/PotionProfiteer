@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6649092616124251489}
   - component: {fileID: 9116995449593242988}
   - component: {fileID: 6545119585606672246}
-  - component: {fileID: 2799549065229229688}
-  - component: {fileID: 267806309754784972}
+  - component: {fileID: 8427407851190897263}
+  - component: {fileID: -2148889055800995495}
   m_Layer: 0
   m_Name: TomatoItem
   m_TagString: Untagged
@@ -29,7 +29,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057018727562672877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9.98822}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.10103, y: -7.011034}
+  m_AnchoredPosition: {x: -3.8685954, y: -2.0386634}
   m_SizeDelta: {x: 0.16, y: 0.16}
   m_Pivot: {x: 0.5, y: -0}
 --- !u!212 &6649092616124251489
@@ -78,8 +78,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1409991239
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 3268974733125562060, guid: 2b1ee2a4e04c76f6a98146e08d61ff4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 3268974733125562060, guid: 2b1ee2a4e04c76f6a98146e08d61ff4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2799549065229229688
+--- !u!114 &8427407851190897263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,22 +139,54 @@ MonoBehaviour:
   m_GameObject: {fileID: 1057018727562672877}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34363da03c05df8448e46461ad5832cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f4b4d7e33989fe4ba4b3544bb7770f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHeld: 0
-  itemImage: {fileID: 0}
-  tomato: {fileID: 1057018727562672877}
-  cauldron: {fileID: 8569208757442789178, guid: d0f44264818c0417c9799cd588c1213d, type: 3}
---- !u!225 &267806309754784972
-CanvasGroup:
+  item: {fileID: 1057018727562672877}
+  _rectTransform: {fileID: 236072160820023944}
+--- !u!61 &-2148889055800995495
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057018727562672877}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.08}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_EdgeRadius: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3403033886747159929}
   - component: {fileID: 5059909028939300450}
   - component: {fileID: 8536747159032455260}
-  - component: {fileID: 4567528947225331223}
+  - component: {fileID: 6626694212220903522}
   m_Layer: 5
   m_Name: ItemImage
   m_TagString: Untagged
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4567528947225331223
+--- !u!114 &6626694212220903522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,13 +85,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2822464082134967951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34363da03c05df8448e46461ad5832cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 44c6040a05455004cad6a9223ce1d069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHeld: 0
-  itemImage: {fileID: 2822464082134967951}
-  tomato: {fileID: 1057018727562672877, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
-  cauldron: {fileID: 8569208757442789178, guid: d0f44264818c0417c9799cd588c1213d, type: 3}
+  collectible: {fileID: 1057018727562672877, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
 --- !u!1 &4218399567751178707
 GameObject:
   m_ObjectHideFlags: 0

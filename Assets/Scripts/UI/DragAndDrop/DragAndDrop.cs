@@ -10,14 +10,15 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
     public bool isHeld = false;
     
     public GameObject itemImage;
+    public GameObject inventorySlot;
     public GameObject tomato;
     public GameObject cauldron;
 
-    private CanvasGroup canvasGroup;
+    
 
     private void Awake()
     {
-       canvasGroup = GetComponent<CanvasGroup>();
+       
     }
 
     public void OnMouseDrag()
@@ -40,9 +41,8 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("Begin Drag");
-        canvasGroup.alpha = 0.6f;
-        canvasGroup.blocksRaycasts = false;
-       // Instantiate(tomato, Input.mousePosition, Quaternion.identity);
+        Instantiate(itemImage, Input.mousePosition, Quaternion.identity);
+       
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -55,8 +55,7 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("End Drag");
-        canvasGroup.alpha = 1f;
-        canvasGroup.blocksRaycasts = true;
+        itemImage.transform.SetParent(inventorySlot.transform, false);
     }
 
 

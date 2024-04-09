@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class GetDroppedOn : MonoBehaviour, IDropHandler
+public class GetDroppedOn : MonoBehaviour
 {
-    public void OnDrop(PointerEventData eventData)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("item dropped on me");
-
-        if (eventData.pointerDrag != null)
+        if (other.gameObject.CompareTag("Resource"))
         {
-            eventData.pointerDrag.transform.position = transform.position; //item position becomes the position of the cauldron
+            Destroy(other.gameObject);
         }
     }
 }

@@ -8,6 +8,9 @@ public class InventorySlot_UI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI itemCount;
     [SerializeField] private InventorySlot assignedInventorySlot;
 
+    Ray2D ray2;
+    RaycastHit2D hit2;
+
     private Button button;
 
     public InventorySlot AssignedInventorySlot => assignedInventorySlot;
@@ -33,8 +36,18 @@ public class InventorySlot_UI : MonoBehaviour
     {
         if(slot.ItemData != null)
         {
+            gameObject.layer = 7; //should be set to Resource Layer aka Num 7 
             itemSprite.sprite = slot.ItemData.Icon;
             itemSprite.color = Color.white;
+
+            Vector2 worldpoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            hit2 = Physics2D.Raycast(worldpoint, Vector2.zero);
+            if (hit2.collider != null)
+            {
+                Debug.Log(hit2.collider.name);
+                Debug.Log("Maybe this works");
+            }
+
 
             if (slot.StackSize > 1) itemCount.text = slot.StackSize.ToString();
             else itemCount.text = "";

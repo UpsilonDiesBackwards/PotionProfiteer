@@ -63,6 +63,7 @@ public class DialogueBox : MonoBehaviour
         } else {
             gameObject.SetActive(false);
             finishedDial = true;
+            //SOMEHOW GET NPC_INSTORE HEAD TO EXIT FUNCTION HERE
         }
     }
 

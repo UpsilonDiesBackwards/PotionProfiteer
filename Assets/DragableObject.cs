@@ -17,8 +17,8 @@ public class DragableObject : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             isDragging = true;
-            Debug.Log(Input.mousePosition);
-            Debug.Log("TEST");
+            //Debug.Log(Input.mousePosition);
+            //Debug.Log("TEST");
             _rectTransform.position = Vector3.MoveTowards(transform.position, mousePos, moveSpeed);
         }
         isDragging = false;

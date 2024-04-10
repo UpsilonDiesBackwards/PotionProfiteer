@@ -58,7 +58,7 @@ public class NPC_InStore : MonoBehaviour
         }
     }
 
-    void HeadToExit()
+   public void HeadToExit()
     {
         transform.position = Vector2.MoveTowards(transform.position, ExitDoor.transform.position, moveSpeed * Time.deltaTime);
 
@@ -73,6 +73,7 @@ public class NPC_InStore : MonoBehaviour
     {
         if (atCounter && Input.GetKeyDown(KeyCode.E))
         {
+            isTalking = true;
             TalkWithNPCs.SetActive(true); //activates dialogue box if unticked
         }
     }

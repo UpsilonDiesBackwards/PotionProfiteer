@@ -15,13 +15,6 @@ public class DragAndDrop : MonoBehaviour, IInitializePotentialDragHandler, IPoin
     public GameObject tomato;
     public GameObject cauldron;
 
-    
-
-    private void Awake()
-    {
-       
-    }
-
     public void OnMouseDrag()
     {
         tomato.transform.position = GetMousePos(); //setting the mouse to the world position

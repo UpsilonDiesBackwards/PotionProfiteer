@@ -31,18 +31,6 @@ public class BrewingManager : MonoBehaviour {
             Debug.Log("Confirming ingredients...");
             ConfirmIngredients();
         }
-
-        DetectCollision();
-    }
-
-    void DetectCollision()
-    {
-        Collider2D[] brewing = Physics2D.OverlapCircleAll(resource.transform.position, range, resourceLayer);
-
-        foreach(Collider2D c in brewing)
-        {
-            Debug.Log("Its in the Pot");
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -50,6 +38,8 @@ public class BrewingManager : MonoBehaviour {
         if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
         {
             Debug.Log("ITs On Trigger");
+
+            AddIngredient(tomato);
         }
     }
     private void OnTriggerStay2D(Collider2D other)
@@ -60,24 +50,13 @@ public class BrewingManager : MonoBehaviour {
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
-        {
-            Debug.Log("ITs On Collision");
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
-        {
-            Debug.Log("ITs On STAY Collision");
-        }
-    }
-
     public void AddIngredient(InventoryItemData ingredientItem) {
         cauldronContents.Add(ingredientItem);
+
+        if (ingredientItem != null)
+        {
+            Debug.Log("ITEM ADDED TO CAULDRON");
+        }
     }
 
     public void ConfirmIngredients() {

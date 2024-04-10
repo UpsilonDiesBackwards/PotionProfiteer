@@ -2353,9 +2353,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6148987873826422880, guid: 070872bf95f07ba3a95dec51ea33b014, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3550132960388796246}
-    - targetCorrespondingSourceObject: {fileID: 6148987873826422880, guid: 070872bf95f07ba3a95dec51ea33b014, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 5691383250476814375}
   m_SourcePrefab: {fileID: 100100000, guid: 070872bf95f07ba3a95dec51ea33b014, type: 3}
 --- !u!114 &1315481231787129633 stripped
@@ -2374,30 +2371,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6148987873826422880, guid: 070872bf95f07ba3a95dec51ea33b014, type: 3}
   m_PrefabInstance: {fileID: 2498853920965840092}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3550132960388796246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8644696329841872060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 22, y: 22}
-  m_Spacing: {x: 0, y: 0}
-  m_Constraint: 0
-  m_ConstraintCount: 2
 --- !u!225 &5691383250476814375
 CanvasGroup:
   m_ObjectHideFlags: 0

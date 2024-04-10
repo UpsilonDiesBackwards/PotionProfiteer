@@ -14,6 +14,8 @@ TagManager:
   - TeleportIndicator
   - RegionManager
   - Cauldron
+  - Resource
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Water
   - UI
   - Interactable
-  - 
+  - Resource
   - 
   - 
   - 

@@ -5,10 +5,11 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Image))]
-public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler
+public class DragAndDrop : MonoBehaviour, IInitializePotentialDragHandler, IPointerClickHandler, IDragHandler, IEndDragHandler
 {
     public bool isHeld = false;
-    
+
+    public GameObject player;
     public GameObject itemImage;
     public GameObject inventorySlot;
     public GameObject tomato;
@@ -23,7 +24,7 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
 
     public void OnMouseDrag()
     {
-        transform.position = GetMousePos(); //setting the mouse to the world position
+        tomato.transform.position = GetMousePos(); //setting the mouse to the world position
     }
 
     Vector3 GetMousePos()
@@ -38,24 +39,29 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
         Debug.Log("something");
     }
 
+    public void OnInitializePotentialDrag(PointerEventData eventData)
+    {
+        Instantiate(tomato, player.transform.position, Quaternion.identity);
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("Begin Drag");
-        Instantiate(itemImage, Input.mousePosition, Quaternion.identity);
+        //Instantiate(itemImage, Input.mousePosition, Quaternion.identity);
        
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         Debug.Log("Dragging");
-        transform.position = GetMousePos();
+        tomato.transform.position = GetMousePos();
         
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("End Drag");
-        itemImage.transform.SetParent(inventorySlot.transform, false);
+       // itemImage.transform.SetParent(inventorySlot.transform, false);
     }
 
 
@@ -65,7 +71,7 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
 
         Vector3 cauldronPos = cauldron.transform.position;
         cauldronPos.z = 0;
-        Vector3 itemPos = Input.mousePosition;
+        Vector3 itemPos = tomato.transform.position;
 
         float distance = Vector3.Distance(cauldronPos, itemPos);
 
@@ -79,5 +85,7 @@ public class DragAndDrop : MonoBehaviour, IPointerClickHandler, IDragHandler, IE
         }
 
     }
+
+
 }
 

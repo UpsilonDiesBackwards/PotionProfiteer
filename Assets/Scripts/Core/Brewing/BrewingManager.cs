@@ -12,6 +12,10 @@ public class BrewingManager : MonoBehaviour {
     public InventoryItemData tomato;
     public InventoryItemData chilli;
 
+    public GameObject resource;
+    public float range = 2f;
+    public LayerMask resourceLayer;
+
     public void Update() {
         if (Input.GetKeyUp(KeyCode.I)) {
             Debug.Log("Added Tomato");
@@ -26,6 +30,49 @@ public class BrewingManager : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.P)) {
             Debug.Log("Confirming ingredients...");
             ConfirmIngredients();
+        }
+
+        DetectCollision();
+    }
+
+    void DetectCollision()
+    {
+        Collider2D[] brewing = Physics2D.OverlapCircleAll(resource.transform.position, range, resourceLayer);
+
+        foreach(Collider2D c in brewing)
+        {
+            Debug.Log("Its in the Pot");
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
+        {
+            Debug.Log("ITs On Trigger");
+        }
+    }
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
+        {
+            Debug.Log("ITs On STAYING in the Pot");
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
+        {
+            Debug.Log("ITs On Collision");
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
+        {
+            Debug.Log("ITs On STAY Collision");
         }
     }
 

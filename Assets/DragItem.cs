@@ -7,7 +7,7 @@ public class DragItem : MonoBehaviour, IInitializePotentialDragHandler, IDragHan
 {
     public GameObject collectible;
     public GameObject player;
-    public GameObject canvas;
+    
 
     public void OnInitializePotentialDrag(PointerEventData eventData)
     {

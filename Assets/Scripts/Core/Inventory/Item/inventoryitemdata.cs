@@ -6,6 +6,7 @@ using UnityEngine;
 public class InventoryItemData : ScriptableObject
 {
     public Sprite Icon;
+    public GameObject go;
     public int ID;
     public string DisplayName;
     public int MaxStackSize;

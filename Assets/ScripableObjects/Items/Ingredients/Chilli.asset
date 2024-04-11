@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Chilli
   m_EditorClassIdentifier: 
   Icon: {fileID: -1952571240, guid: d50d13914e433fd4884533f09be88ad9, type: 3}
+  go: {fileID: 5498075633898439532, guid: 84644bc98b446e145b538b7fab9c7fdb, type: 3}
   ID: 0
   DisplayName: Chilli
   MaxStackSize: 8

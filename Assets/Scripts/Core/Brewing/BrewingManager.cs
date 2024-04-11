@@ -9,10 +9,15 @@ public class BrewingManager : MonoBehaviour {
 
     public List<InventoryItemData> cauldronContents = new List<InventoryItemData>();
 
+    public AudioSource plop;
+    public AudioSource error;
+    public AudioSource createdPotion;
+
     public InventoryItemData tomato;
     public InventoryItemData chilli;
 
     public GameObject resource;
+    public GameObject potionSpawn;
     public float range = 2f;
     public LayerMask resourceLayer;
 
@@ -40,6 +45,8 @@ public class BrewingManager : MonoBehaviour {
             Debug.Log("ITs On Trigger");
 
             AddIngredient(tomato);
+            other.GetComponent<SpriteRenderer>().enabled = false;
+            
         }
     }
     private void OnTriggerStay2D(Collider2D other)
@@ -55,6 +62,7 @@ public class BrewingManager : MonoBehaviour {
 
         if (ingredientItem != null)
         {
+            plop.Play();
             Debug.Log("ITEM ADDED TO CAULDRON");
         }
     }
@@ -65,12 +73,15 @@ public class BrewingManager : MonoBehaviour {
         foreach (PotionRecipe recipe in potionRecipes) {
             if (AreListsEqual(cauldronContents, recipe.ingredients)) {
                 Debug.Log("Recipe match found: " + recipe.name);
+                createdPotion.Play();
+                Instantiate(recipe.potion, potionSpawn.transform.position, Quaternion.identity);
                 matchFound = true;
                 break;
             }
 
             if (!matchFound) {
                 Debug.Log("No recipe found for those ingredients!");
+                error.Play();
             }
         }
 

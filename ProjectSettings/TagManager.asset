@@ -16,6 +16,7 @@ TagManager:
   - Cauldron
   - Resource
   - NPC
+  - Potion
   layers:
   - Default
   - TransparentFX

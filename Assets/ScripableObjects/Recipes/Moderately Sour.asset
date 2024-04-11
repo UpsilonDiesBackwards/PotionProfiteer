@@ -16,3 +16,4 @@ MonoBehaviour:
   ingredients:
   - {fileID: 11400000, guid: 2a4d78fbc12ec6707bec86322024da1d, type: 2}
   - {fileID: 11400000, guid: 2a4d78fbc12ec6707bec86322024da1d, type: 2}
+  potion: {fileID: 8297941263728505269, guid: ddf5acbcb4633ef409914ffe22be8ce0, type: 3}

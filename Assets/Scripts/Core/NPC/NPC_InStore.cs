@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NPC_InStore : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class NPC_InStore : MonoBehaviour
     public Animator upAnim;
     public static bool atCounter = false;
     public static bool isTalking = false;
-    private void Start()
+
+    private void Awake()
     {
         moveSpeed = 4f;
         upAnim = GetComponent<Animator>();
@@ -23,12 +25,12 @@ public class NPC_InStore : MonoBehaviour
         ExitDoor = GameObject.FindGameObjectWithTag("DoorExit");
         TalkWithNPCs = GameObject.FindGameObjectWithTag("Dialogue");
     }
-
     // Update is called once per frame
     void Update()
     {
         //PlayAnimation();
         MoveTowardsCounter();
+        DialogueBox.panel.enabled = true;
         LeaveShop();
        
     }

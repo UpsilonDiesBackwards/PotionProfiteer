@@ -2,11 +2,14 @@ using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueBox : MonoBehaviour
 {
     public GameObject player;
     public GameObject[] npcs;
+
+    public static Image panel;
 
     [SerializeField] private TextMeshProUGUI _textComp;
     [SerializeField] private string[] _dialLines;
@@ -18,7 +21,9 @@ public class DialogueBox : MonoBehaviour
 
     private void Start()
     {
-        // gameObject.SetActive(false);
+        panel = GetComponent<Image>();
+        panel.enabled = false;
+        _textComp.enabled = false;
 
         npcs = GameObject.FindGameObjectsWithTag("NPC");
     }
@@ -27,10 +32,11 @@ public class DialogueBox : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player");
        
-        if ( NPC_Shopping.isNPCInShop == true)
+        if (panel.enabled == true) //if the dialogue box is showing so should the text 
         {
-            gameObject.SetActive(true);
+            _textComp.enabled = true; //idk if this would keep spamming the same line i hope not 
         }
+
         NPCTalk();
         if (Input.GetMouseButtonDown(0)) {
             if (_textComp.text == _dialLines[_index]) { //if the dialogue is complete go to the next line

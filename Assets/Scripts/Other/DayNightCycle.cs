@@ -9,7 +9,7 @@ public class DayNightCycle : MonoBehaviour
 {
     public Volume PostProcessingVolume;
     [Header ("Day Counter")]
-    public float timeScale = 48f;
+    public float timeScale = 48; //was 48
     public float inGameSeconds; 
     public float inGameMinutes;
     public static float inGameHours;
@@ -45,7 +45,7 @@ public class DayNightCycle : MonoBehaviour
 
     void CreatingTime()
     {
-        inGameSeconds += Time.deltaTime * timeScale; //the multiplyer can be adjusted to whatever, its a high number to see how well the times work
+        inGameSeconds += timeScale * Time.deltaTime; //PUT BACK IN TIME.DELTA TIME * TIMESCALE - I AINT WAITING 5 MINUTES TO SEE IF NPCS CAN TALK
 
         if (inGameSeconds >= 6)
         {

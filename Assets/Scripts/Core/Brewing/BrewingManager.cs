@@ -45,8 +45,8 @@ public class BrewingManager : MonoBehaviour {
             Debug.Log("ITs On Trigger");
 
             AddIngredient(tomato);
-            other.GetComponent<SpriteRenderer>().enabled = false;
-            
+            //other.GetComponent<SpriteRenderer>().enabled = false;
+            Destroy(other.gameObject);
         }
     }
     private void OnTriggerStay2D(Collider2D other)

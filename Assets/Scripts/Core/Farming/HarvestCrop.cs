@@ -23,7 +23,8 @@ public class HarvestCrop : Tool
 
             GameObject GO = Instantiate(loot);
             GO.transform.localPosition = new Vector2(transform.position.x + spreadOffset, transform.position.y + spreadOffset);
-            yieldAmount = 3;
+            
         }
+       
     }
 }

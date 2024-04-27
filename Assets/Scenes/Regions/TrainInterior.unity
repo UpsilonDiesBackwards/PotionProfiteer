@@ -9047,8 +9047,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00009995699, y: -0.0022000074, z: 0}
-    m_Extent: {x: 1.0069001, y: 1.0051, z: 0}
+    m_Center: {x: -0.00044995546, y: 0.00040000677, z: 0}
+    m_Extent: {x: 1.00495, y: 1.003, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9834,6 +9834,8 @@ MonoBehaviour:
   createdPotion: {fileID: 1981623578}
   tomato: {fileID: 11400000, guid: 2a4d78fbc12ec6707bec86322024da1d, type: 2}
   chilli: {fileID: 11400000, guid: 9c8828a1c8599efbe99d0dca88ac903c, type: 2}
+  wompWomp: {fileID: 0}
+  emptyPotion: {fileID: 0}
   resource: {fileID: 1057018727562672877, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
   potionSpawn: {fileID: 317287447}
   range: 2
@@ -10787,6 +10789,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1894013001}
     m_Modifications:
+    - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
+      propertyPath: wompWomp
+      value: 
+      objectReference: {fileID: 11400000, guid: 373225b0d10fa8d4e87ad1f18562fcec, type: 2}
+    - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
+      propertyPath: emptyPotion
+      value: 
+      objectReference: {fileID: 8297941263728505269, guid: 0dcfdbbd4a2e0eb42ac6e113c7253918, type: 3}
     - target: {fileID: 2948128236314874715, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.822264

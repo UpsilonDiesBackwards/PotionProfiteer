@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3220dba3ce1b8b043bed892944bf7dc4, type: 3}
   m_Name: Natures_Potion
   m_EditorClassIdentifier: 
-  Icon: {fileID: 0}
-  go: {fileID: 0}
+  Icon: {fileID: 6698527483230418069, guid: 4c585350182e8254fa17403fa41dc53a, type: 3}
+  go: {fileID: 8297941263728505269, guid: ddf5acbcb4633ef409914ffe22be8ce0, type: 3}
   ID: 0
-  DisplayName: 
-  MaxStackSize: 0
-  Description: 
+  DisplayName: Natures Potion
+  MaxStackSize: 1
+  Description: Want to make things grow quicker?
   category: 0

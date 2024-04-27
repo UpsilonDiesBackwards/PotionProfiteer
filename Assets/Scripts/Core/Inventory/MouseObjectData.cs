@@ -26,6 +26,11 @@ public class MouseItemData : MonoBehaviour
         ItemSprite.sprite = invSlot.ItemData.Icon;
         ItemCount.text = invSlot.StackSize.ToString();
         ItemSprite.color = Color.white;
+
+        if (Mouse.current.leftButton.wasPressedThisFrame && !IsPointerOverUIObject())
+        {
+            invSlot.RemoveFromStack(1);
+        }
     }
 
     private void Update()
@@ -34,11 +39,13 @@ public class MouseItemData : MonoBehaviour
         {
             transform.position = Mouse.current.position.ReadValue();
 
-            if (Mouse.current.leftButton.wasPressedThisFrame && !IsPointerOverUIObject())
+           /* if (Mouse.current.leftButton.wasPressedThisFrame && !IsPointerOverUIObject())
             {
                 ClearSlot();
                 // TO DO: drop item on ground instead of deleting it
-            }
+
+               
+            } */
             
         }
     }

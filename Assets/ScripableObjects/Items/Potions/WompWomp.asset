@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3220dba3ce1b8b043bed892944bf7dc4, type: 3}
-  m_Name: love_potion
+  m_Name: WompWomp
   m_EditorClassIdentifier: 
-  Icon: {fileID: -395892446034280830, guid: 1a44095fdefeef64b9c9fbfd9d06bc27, type: 3}
-  go: {fileID: 2614092196779797170, guid: 040c68c1dfe9d234a992bfafdd640565, type: 3}
+  Icon: {fileID: -3720027903894922356, guid: 761d72e9749d71c4d996d6f1cc7defe7, type: 3}
+  go: {fileID: 8297941263728505269, guid: 0dcfdbbd4a2e0eb42ac6e113c7253918, type: 3}
   ID: 0
-  DisplayName: Love Potion
-  MaxStackSize: 1
-  Description: Want to make someone go head over heels?
+  DisplayName: WompWomp_flask
+  MaxStackSize: 0
+  Description: better luck next time
   category: 0

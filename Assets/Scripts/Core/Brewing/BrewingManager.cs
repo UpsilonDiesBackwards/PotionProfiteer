@@ -15,6 +15,9 @@ public class BrewingManager : MonoBehaviour {
 
     public InventoryItemData tomato;
     public InventoryItemData chilli;
+    public InventoryItemData wompWomp;
+
+    public GameObject emptyPotion;
 
     public GameObject resource;
     public GameObject potionSpawn;
@@ -76,11 +79,11 @@ public class BrewingManager : MonoBehaviour {
                 createdPotion.Play();
                 Instantiate(recipe.potion, potionSpawn.transform.position, Quaternion.identity);
                 matchFound = true;
-                break;
+                break;   
             }
-
             if (!matchFound) {
                 // Debug.Log("No recipe found for those ingredients!");
+                Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
                 error.Play();
             }
         }

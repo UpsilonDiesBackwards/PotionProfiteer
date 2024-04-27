@@ -23,12 +23,12 @@ public class BrewingManager : MonoBehaviour {
 
     public void Update() {
         if (Input.GetKeyUp(KeyCode.I)) {
-            Debug.Log("Added Tomato");
+            // Debug.Log("Added Tomato");
             AddIngredient(tomato);
         }
 
         if (Input.GetKeyUp(KeyCode.O)) {
-            Debug.Log("Added Chilli");
+            // Debug.Log("Added Chilli");
             AddIngredient(chilli);
         }
 
@@ -42,7 +42,7 @@ public class BrewingManager : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
         {
-            Debug.Log("ITs On Trigger");
+            // Debug.Log("ITs On Trigger");
 
             AddIngredient(tomato);
             //other.GetComponent<SpriteRenderer>().enabled = false;
@@ -51,10 +51,10 @@ public class BrewingManager : MonoBehaviour {
     }
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
-        {
-            Debug.Log("ITs On STAYING in the Pot");
-        }
+        // if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
+        // {
+        //     // Debug.Log("ITs On STAYING in the Pot");
+        // }
     }
 
     public void AddIngredient(InventoryItemData ingredientItem) {
@@ -63,7 +63,7 @@ public class BrewingManager : MonoBehaviour {
         if (ingredientItem != null)
         {
             plop.Play();
-            Debug.Log("ITEM ADDED TO CAULDRON");
+            // Debug.Log("ITEM ADDED TO CAULDRON");
         }
     }
 
@@ -72,7 +72,7 @@ public class BrewingManager : MonoBehaviour {
 
         foreach (PotionRecipe recipe in potionRecipes) {
             if (AreListsEqual(cauldronContents, recipe.ingredients)) {
-                Debug.Log("Recipe match found: " + recipe.name);
+                // Debug.Log("Recipe match found: " + recipe.name);
                 createdPotion.Play();
                 Instantiate(recipe.potion, potionSpawn.transform.position, Quaternion.identity);
                 matchFound = true;
@@ -80,7 +80,7 @@ public class BrewingManager : MonoBehaviour {
             }
 
             if (!matchFound) {
-                Debug.Log("No recipe found for those ingredients!");
+                // Debug.Log("No recipe found for those ingredients!");
                 error.Play();
             }
         }

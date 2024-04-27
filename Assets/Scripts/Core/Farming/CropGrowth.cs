@@ -9,7 +9,7 @@ using UnityEngine;
 public class CropGrowth : MonoBehaviour {
     private SpriteRenderer _spriteRend;
     public Sprite[] sprites;
-    private int currentSprite;
+    public int currentSprite;
     public float growTimer = 0;
     public float growTime = 4.0f;
     [SerializeField] private float maxGrowTimeDeviation; // We don't want every plant of the same time to grow at the same rate!

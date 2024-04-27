@@ -4,24 +4,26 @@ using UnityEngine;
 
 public class HarvestCrop : Tool
 {
+    public CropGrowth _cropGrowth;
+
     public GameObject loot;
     public int yieldAmount = 3;
-    public float spread = 2f;
+    public float spread = 0.0935f;
+
+    private void Start() {
+        _cropGrowth = gameObject.GetComponentInParent<CropGrowth>();
+    }
 
     public override void Hit() {
+        Vector3 pos = transform.position;
+
         float spreadOffset = UnityEngine.Random.value - spread / 2;
         while (yieldAmount > 0) {
             yieldAmount -= 1;
 
-            Vector3 pos = transform.position;
-            pos.x += spread * spreadOffset;
-            pos.y += spread * spreadOffset;
-            
             GameObject GO = Instantiate(loot);
-            GO.transform.position = pos;
+            GO.transform.localPosition = new Vector2(transform.position.x + spreadOffset, transform.position.y + spreadOffset);
+            yieldAmount = 3;
         }
-        // CropGrowth.currentSprite = 0; //instead of destroying resets plants back to baby stage
-        // CropGrowth.fullyGrown = false;
-        // if (CropGrowth.fullyGrown == true) { yieldAmount = 3; }
     }
 }

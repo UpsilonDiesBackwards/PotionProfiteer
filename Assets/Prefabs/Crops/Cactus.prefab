@@ -47,13 +47,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0444b8cfc58ab898824b12cf4672c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRend: {fileID: 5213910316266420051}
   sprites:
   - {fileID: 7873444928579934181, guid: 6632f884d859d314fbdfe3f14f7c0a90, type: 3}
   - {fileID: 4438351552130452648, guid: 6632f884d859d314fbdfe3f14f7c0a90, type: 3}
   - {fileID: -8484647995636279456, guid: 6632f884d859d314fbdfe3f14f7c0a90, type: 3}
-  timer: 0
-  maxTimer: 4
+  currentSprite: 0
+  growTimer: 0
+  growTime: 4
+  maxGrowTimeDeviation: 0
+  fullyGrown: 0
 --- !u!114 &4195742589981821899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,6 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2afa5168e1436800d9c00413dc6faa7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _cropGrowth: {fileID: 0}
   loot: {fileID: 4240675380302691923, guid: ef05e41ac64da321381f46a480465fe1, type: 3}
   yieldAmount: 3
   spread: 2
@@ -107,8 +110,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1349948295
-  m_SortingLayer: 2
+  m_SortingLayerID: -604636745
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 7873444928579934181, guid: 6632f884d859d314fbdfe3f14f7c0a90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -155,6 +158,6 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.15854001, y: 2.695198}
-  m_Size: {x: 8.069384, y: 16.984644}
+  m_Offset: {x: 0.15854001, y: 1.1046422}
+  m_Size: {x: 8.069384, y: 10.895085}
   m_Direction: 0

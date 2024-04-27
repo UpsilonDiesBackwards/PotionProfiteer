@@ -42,11 +42,11 @@ public class InventorySlot_UI : MonoBehaviour
 
             Vector2 worldpoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             hit2 = Physics2D.Raycast(worldpoint, Vector2.zero);
-            if (hit2.collider != null)
-            {
-                Debug.Log(hit2.collider.name);
-                Debug.Log("Maybe this works");
-            }
+            // if (hit2.collider != null)
+            // {
+            //     Debug.Log(hit2.collider.name);
+            //     Debug.Log("Maybe this works");
+            // }
 
 
             if (slot.StackSize > 1) itemCount.text = slot.StackSize.ToString();

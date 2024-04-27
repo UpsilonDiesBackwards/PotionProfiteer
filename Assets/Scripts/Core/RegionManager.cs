@@ -16,7 +16,7 @@ public class RegionManager : MonoBehaviour {
     void Awake() {
         foreach (string scene in scenesToLoad) {
             StartCoroutine(LoadSceneAsync(scene));
-            Debug.Log("Loaded" + scene);
+            // Debug.Log("Loaded" + scene);
         }
     }
 
@@ -45,7 +45,7 @@ public class RegionManager : MonoBehaviour {
                 }
             }
 
-            Debug.Log("CurrentScene: " + currentSceneIndex + " sceneIndex: " + sceneIndex);
+            // Debug.Log("CurrentScene: " + currentSceneIndex + " sceneIndex: " + sceneIndex);
 
             // activate root obj of new scene
             Scene nextScene = SceneManager.GetSceneAt(sceneIndex);

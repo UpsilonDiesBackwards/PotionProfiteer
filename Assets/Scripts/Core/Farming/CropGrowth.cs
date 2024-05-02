@@ -32,6 +32,7 @@ public class CropGrowth : MonoBehaviour {
                 _spriteRend.sprite = sprites[currentSprite];
             } else {
                 fullyGrown = true;
+                HarvestCrop.yieldAmount = 3;
             }
 
             growTimer = 0f;

@@ -75,7 +75,7 @@ public class BrewingManager : MonoBehaviour {
             }
             if (!matchFound) {
                 // Debug.Log("No recipe found for those ingredients!");
-                Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
+                //Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
                 error.Play();
             }
         }

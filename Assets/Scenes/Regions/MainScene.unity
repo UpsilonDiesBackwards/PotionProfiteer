@@ -913,6 +913,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1961577950}
+    - target: {fileID: 8744593136297356478, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: assignedItem.itemData
+      value: 
+      objectReference: {fileID: 11400000, guid: 373225b0d10fa8d4e87ad1f18562fcec, type: 2}
+    - target: {fileID: 8744593136297356478, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: assignedItem.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8881250555000823192, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

@@ -7,7 +7,7 @@ public class HarvestCrop : Tool
     public CropGrowth _cropGrowth;
 
     public GameObject loot;
-    public int yieldAmount = 3;
+    public static int yieldAmount = 2;
     public float spread = 0.0935f;
 
     private void Start() {

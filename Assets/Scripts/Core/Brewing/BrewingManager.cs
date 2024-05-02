@@ -52,14 +52,6 @@ public class BrewingManager : MonoBehaviour {
             Destroy(other.gameObject);
         }
     }
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        // if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
-        // {
-        //     // Debug.Log("ITs On STAYING in the Pot");
-        // }
-    }
-
     public void AddIngredient(InventoryItemData ingredientItem) {
         cauldronContents.Add(ingredientItem);
 

@@ -9,7 +9,7 @@ public class DragItem : MonoBehaviour, IInitializePotentialDragHandler, IDragHan
     public GameObject collectible;
     public GameObject player;
 
-    public GameObject[] bits; 
+    
 
     public Image uiPic;
 

@@ -561,6 +561,138 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 48.599976
       objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_text
+      value: This is the Brewing Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_xAdvance
+      value: 46.153954
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_lineNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_lineOffset
+      value: 17.823486
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_characterCount
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_ElementAscender
+      value: -3.791748
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_maxLineAscender
+      value: 14.031738
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_ElementDescender
+      value: -21.108154
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_maxLineDescender
+      value: -3.284668
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_lastCharacterOfLine
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_startOfLineAscender
+      value: 14.031738
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_totalCharacterCount
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_firstCharacterOfLine
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_lineVisibleCharacterCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_lastVisibleCharacterOfLine
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_firstVisibleCharacterOfLine
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Unicode
+      value: 109
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_InternalTextProcessingArraySize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_GlyphIndex
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Index
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_X
+      value: 378
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_Y
+      value: 222
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_Width
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_Height
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_Width
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_GlyphRect.m_Height
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_HorizontalAdvance
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_HorizontalBearingX
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259411964348790883, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_cached_TextElement.m_Glyph.m_Metrics.m_HorizontalBearingY
+      value: 46
+      objectReference: {fileID: 0}
     - target: {fileID: 4272320686857442134, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
       propertyPath: m_Name
       value: UserInterface
@@ -648,6 +780,22 @@ PrefabInstance:
     - target: {fileID: 6480142196612040128, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: _dialLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: '_dialLines.Array.data[0]'
+      value: Drag an item from your inventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: '_dialLines.Array.data[1]'
+      value: Drop it into the cauldron for a SPLASH
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: '_dialLines.Array.data[2]'
+      value: Press P to brew your Potion
       objectReference: {fileID: 0}
     - target: {fileID: 7506892834740345229, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
       propertyPath: player

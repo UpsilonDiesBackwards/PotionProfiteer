@@ -25,7 +25,7 @@ public class InventorySlot
     public void ClearSlot() // clears the slot
     {
         itemData = null;
-        stackSize = -1;
+        
     }
 
     public void AssignItem(InventorySlot invSlot) // assigns item to a slot

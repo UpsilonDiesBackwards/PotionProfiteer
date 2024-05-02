@@ -89,6 +89,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectible: {fileID: 1057018727562672877, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
+  player: {fileID: 0}
+  bits:
+  - {fileID: 8297941263728505269, guid: 0dcfdbbd4a2e0eb42ac6e113c7253918, type: 3}
+  - {fileID: 8297941263728505269, guid: ddf5acbcb4633ef409914ffe22be8ce0, type: 3}
+  - {fileID: 2614092196779797170, guid: 040c68c1dfe9d234a992bfafdd640565, type: 3}
+  uiPic: {fileID: 8536747159032455260}
 --- !u!1 &4218399567751178707
 GameObject:
   m_ObjectHideFlags: 0

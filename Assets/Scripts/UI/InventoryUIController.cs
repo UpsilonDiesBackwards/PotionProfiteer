@@ -35,4 +35,5 @@ public class InventoryUIController : MonoBehaviour
         inventoryPanel.RefreshDynamicInventory(invToDisplay);
     }
 
+
 }

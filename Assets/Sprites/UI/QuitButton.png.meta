@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 14bce2d970371663a9d319fa402ed02d
+guid: e46dae81fe9d63d4aa3a93633b50ddf4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8290801393488398338
-    second: purple_berries_0
+      213: 4304446102398311253
+    second: QuitButton_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: purple_berries_0
+      name: QuitButton_0
       rect:
         serializedVersion: 2
-        x: 237
-        y: 96
-        width: 607
-        height: 963
+        x: 96
+        y: 23
+        width: 3362
+        height: 2351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef77fc52f0821fc80800000000000000
-      internalID: -8290801393488398338
+      spriteID: 55b14489ce67cbb30800000000000000
+      internalID: 4304446102398311253
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      purple_berries_0: -8290801393488398338
+      QuitButton_0: 4304446102398311253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

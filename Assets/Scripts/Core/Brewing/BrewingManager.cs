@@ -47,7 +47,7 @@ public class BrewingManager : MonoBehaviour {
         {
             // Debug.Log("ITs On Trigger");
 
-            AddIngredient(tomato);
+            AddIngredient(other.gameObject.GetComponent<DragableObject>().data);
             //other.GetComponent<SpriteRenderer>().enabled = false;
             Destroy(other.gameObject);
         }

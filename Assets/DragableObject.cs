@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class DragableObject : MonoBehaviour
 {
+    public InventoryItemData data;
+
     public GameObject item;
     public RectTransform _rectTransform;
     private int moveSpeed = 2;

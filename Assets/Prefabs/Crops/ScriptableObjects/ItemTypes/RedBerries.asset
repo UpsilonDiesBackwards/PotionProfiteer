@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RedBerries
   m_EditorClassIdentifier: 
   Icon: {fileID: -8273952346019660760, guid: 60d3ee4301a8ed781aba8cee658191c3, type: 3}
-  go: {fileID: 0}
+  go: {fileID: 1057018727562672877, guid: dfd39a805e6ab6145b92a5ee705d024d, type: 3}
   ID: 0
   DisplayName: Red Berries
   MaxStackSize: 2

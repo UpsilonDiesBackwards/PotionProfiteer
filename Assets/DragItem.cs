@@ -9,8 +9,6 @@ public class DragItem : MonoBehaviour, IInitializePotentialDragHandler, IDragHan
     public GameObject collectible;
     public GameObject player;
 
-    
-
     public Image uiPic;
 
     Ray ray;
@@ -19,19 +17,18 @@ public class DragItem : MonoBehaviour, IInitializePotentialDragHandler, IDragHan
     void Awake()
     {
         uiPic = GetComponent<Image>();
-        
     }
 
     public void OnInitializePotentialDrag(PointerEventData eventData)
     {
         if (uiPic.sprite != null)
         {
-            Instantiate(collectible, player.transform.position, Quaternion.identity);
+            // Instantiate(collectible, player.transform.position, Quaternion.identity);
             // RemoveFromInventory(inventorySlot inv);
             
             //collectible.transform.SetParent(canvas.transform, false);
 
-            eventData.pointerDrag = collectible;
+            // eventData.pointerDrag = collectible;
         }   
     }
 
@@ -42,6 +39,7 @@ public class DragItem : MonoBehaviour, IInitializePotentialDragHandler, IDragHan
 
     public void OnDrag(PointerEventData eventData)
     {
+        collectible = GetComponentInParent<InventorySlot_UI>().assignedInventorySlot.ItemData.go;
         collectible.transform.position = GetMousePos();
     }
 

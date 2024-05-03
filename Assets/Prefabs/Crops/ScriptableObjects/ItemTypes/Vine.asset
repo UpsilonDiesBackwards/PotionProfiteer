@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Vine
   m_EditorClassIdentifier: 
   Icon: {fileID: 3116049041778836063, guid: 1d34dfaf19f4cce928f956a3035fc70b, type: 3}
-  go: {fileID: 0}
+  go: {fileID: 1057018727562672877, guid: 479f1b69443c4deac8eb9682df21071a, type: 3}
   ID: 0
   DisplayName: VInes
   MaxStackSize: 2

@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Tomato
   m_EditorClassIdentifier: 
   Icon: {fileID: 3268974733125562060, guid: 2b1ee2a4e04c76f6a98146e08d61ff4a, type: 3}
+  go: {fileID: 1057018727562672877, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
   ID: 0
   DisplayName: Tomato
   MaxStackSize: 4
   Description: Red Ball of Hell
+  category: 0

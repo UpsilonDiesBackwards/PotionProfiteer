@@ -6,7 +6,7 @@ public class InventorySlot_UI : MonoBehaviour
 {
     [SerializeField] private Image itemSprite;
     [SerializeField] private TextMeshProUGUI itemCount;
-    [SerializeField] private InventorySlot assignedInventorySlot;
+    [SerializeField] public InventorySlot assignedInventorySlot;
 
     Ray2D ray2;
     RaycastHit2D hit2;

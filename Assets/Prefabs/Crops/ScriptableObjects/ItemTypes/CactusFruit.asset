@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CactusFruit
   m_EditorClassIdentifier: 
   Icon: {fileID: -8607048529620018552, guid: 95033a6fdec2561de88d937f88a6dde5, type: 3}
-  go: {fileID: 0}
+  go: {fileID: 1057018727562672877, guid: 894fe18b3e2071f188dd28cceca6d19f, type: 3}
   ID: 0
   DisplayName: Cactus Fruits
   MaxStackSize: 2

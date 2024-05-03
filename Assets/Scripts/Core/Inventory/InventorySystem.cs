@@ -43,7 +43,7 @@ public class InventorySystem
             
                 freeSlot.UpdateInventorySlot(itemToAdd, amountToAdd);
                 OnInventorySlotChanged?.Invoke(freeSlot);
-                return true;           
+                return true;       
             
         }
         return false;

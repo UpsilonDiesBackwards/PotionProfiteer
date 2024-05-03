@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BlueBerries
   m_EditorClassIdentifier: 
   Icon: {fileID: 4884007723737282446, guid: 667498a138bfd38cb9c4814e081e146a, type: 3}
-  go: {fileID: 0}
+  go: {fileID: 1057018727562672877, guid: 7a194319f9a26a9f5a534b8754706abd, type: 3}
   ID: 0
   DisplayName: Blue Berries
   MaxStackSize: 2

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mushroom
   m_EditorClassIdentifier: 
   Icon: {fileID: 4395613265253568142, guid: d39fde9e95e614fe3bd72d2d9dda04fb, type: 3}
-  go: {fileID: 0}
+  go: {fileID: 1057018727562672877, guid: 96bd3d0bfba4a8a91b8f65320ea71fe0, type: 3}
   ID: 0
   DisplayName: Gray Mushrooms
   MaxStackSize: 2

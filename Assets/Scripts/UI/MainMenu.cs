@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit();//allows the player to quit the game
 
     }
 

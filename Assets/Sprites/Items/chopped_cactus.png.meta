@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chopped_cactus_0: -3401164015695883387
+      chopped_cactus_1: 3116049041778836063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

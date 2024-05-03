@@ -64,13 +64,14 @@ public class BrewingManager : MonoBehaviour {
                 matchFound = true;
                 break;   
             }
-            if (!matchFound) {
-                Debug.Log("No recipe found for those ingredients!");
-                Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
-                error.Play();
-            }
+           
         }
-
+        if (!matchFound)
+        {
+            Debug.Log("No recipe found for those ingredients!");
+            Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
+            error.Play();
+        }
         cauldronContents.Clear();
     }
 

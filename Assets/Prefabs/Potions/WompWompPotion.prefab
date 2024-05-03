@@ -100,4 +100,4 @@ MonoBehaviour:
   itemData: {fileID: 11400000, guid: 373225b0d10fa8d4e87ad1f18562fcec, type: 2}
   speed: 2
   pickUpDist: 2.5
-  despawnTime: 8.301089
+  despawnTime: 1000

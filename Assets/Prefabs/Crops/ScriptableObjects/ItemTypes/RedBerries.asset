@@ -16,6 +16,7 @@ MonoBehaviour:
   go: {fileID: 1057018727562672877, guid: dfd39a805e6ab6145b92a5ee705d024d, type: 3}
   ID: 0
   DisplayName: Red Berries
-  MaxStackSize: 2
+  MaxStackSize: 1
   Description: Berry Funny
+  value: 2
   category: 0

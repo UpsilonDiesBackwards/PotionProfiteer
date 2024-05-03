@@ -16,6 +16,7 @@ MonoBehaviour:
   go: {fileID: 8297941263728505269, guid: 0dcfdbbd4a2e0eb42ac6e113c7253918, type: 3}
   ID: 0
   DisplayName: WompWomp_flask
-  MaxStackSize: 0
+  MaxStackSize: 1
   Description: better luck next time
+  value: -10
   category: 0

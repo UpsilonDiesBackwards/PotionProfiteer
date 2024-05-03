@@ -25,16 +25,6 @@ public class BrewingManager : MonoBehaviour {
     public LayerMask resourceLayer;
 
     public void Update() {
-        if (Input.GetKeyUp(KeyCode.I)) {
-            // Debug.Log("Added Tomato");
-            AddIngredient(tomato);
-        }
-
-        if (Input.GetKeyUp(KeyCode.O)) {
-            // Debug.Log("Added Chilli");
-            AddIngredient(chilli);
-        }
-
         if (Input.GetKeyUp(KeyCode.P)) {
             Debug.Log("Confirming ingredients...");
             ConfirmIngredients();
@@ -52,6 +42,7 @@ public class BrewingManager : MonoBehaviour {
             Destroy(other.gameObject);
         }
     }
+
     public void AddIngredient(InventoryItemData ingredientItem) {
         cauldronContents.Add(ingredientItem);
 
@@ -74,8 +65,8 @@ public class BrewingManager : MonoBehaviour {
                 break;   
             }
             if (!matchFound) {
-                // Debug.Log("No recipe found for those ingredients!");
-                //Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
+                Debug.Log("No recipe found for those ingredients!");
+                Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
                 error.Play();
             }
         }

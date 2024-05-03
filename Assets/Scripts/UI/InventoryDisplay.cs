@@ -36,8 +36,10 @@ public abstract class InventoryDisplay : MonoBehaviour
     {
         mouseInventoryItem.UpdateMouseSlot(clickedUISlot.AssignedInventorySlot);
         Instantiate(clickedUISlot.AssignedInventorySlot.ItemData.go, Player.Instance.transform.position, Quaternion.identity);
-        clickedUISlot.UpdateUISlot();
 
+        clickedUISlot.AssignedInventorySlot.RemoveFromStack(1);
+        clickedUISlot.ClearSlot();
+        
         // // clicked slot has item - mouse doesn't have item - pick up item
         // bool isShiftPressed = Mouse.current.rightButton.isPressed;
         // if (clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData == null)

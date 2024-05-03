@@ -11,6 +11,8 @@ public class InventoryItemData : ScriptableObject
     public string DisplayName;
     public int MaxStackSize;
     public string Description;
+
+    public int value;
     
     public enum Category {
         NOTAPLANT,

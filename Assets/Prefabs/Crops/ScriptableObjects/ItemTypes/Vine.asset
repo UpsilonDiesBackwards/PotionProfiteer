@@ -16,6 +16,7 @@ MonoBehaviour:
   go: {fileID: 1057018727562672877, guid: 479f1b69443c4deac8eb9682df21071a, type: 3}
   ID: 0
   DisplayName: VInes
-  MaxStackSize: 2
+  MaxStackSize: 1
   Description: What the FUCK is up KYLE?!
+  value: 2
   category: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3220dba3ce1b8b043bed892944bf7dc4, type: 3}
+  m_Name: MushyPotion
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 681563411949555837, guid: bd5c7a36132b2ae40a6cd43c1fcc18cb, type: 3}
+  go: {fileID: 8297941263728505269, guid: 0dcfdbbd4a2e0eb42ac6e113c7253918, type: 3}
+  ID: 0
+  DisplayName: WompWomp_flask
+  MaxStackSize: 1
+  Description: better luck next time
+  value: 34
+  category: 0

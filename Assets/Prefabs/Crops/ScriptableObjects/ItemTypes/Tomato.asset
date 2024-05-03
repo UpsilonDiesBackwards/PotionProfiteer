@@ -16,6 +16,7 @@ MonoBehaviour:
   go: {fileID: 1057018727562672877, guid: c06cfc7b483ef3a46935932326f8a234, type: 3}
   ID: 0
   DisplayName: Tomato
-  MaxStackSize: 4
+  MaxStackSize: 1
   Description: Red Ball of Hell
+  value: 2
   category: 0

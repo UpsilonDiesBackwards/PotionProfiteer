@@ -16,6 +16,7 @@ MonoBehaviour:
   go: {fileID: 1057018727562672877, guid: 7a194319f9a26a9f5a534b8754706abd, type: 3}
   ID: 0
   DisplayName: Blue Berries
-  MaxStackSize: 2
+  MaxStackSize: 1
   Description: As blue as my balls
+  value: 2
   category: 0

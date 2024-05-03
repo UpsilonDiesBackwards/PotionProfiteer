@@ -67,6 +67,9 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -473,6 +476,34 @@ PrefabInstance:
       propertyPath: collectible
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3359821553556068090, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359821553556068090, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359821553556068090, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359821553556068090, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359821553556068090, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ClearSlots
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359821553556068090, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: DynamicInventoryDisplay, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359821553556068090, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3402798828081428989, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -854,19 +885,19 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
-      propertyPath: '_dialLines.Array.data[0]'
+      propertyPath: _dialLines.Array.data[0]
       value: Drag an item from your inventory
       objectReference: {fileID: 0}
     - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
-      propertyPath: '_dialLines.Array.data[1]'
+      propertyPath: _dialLines.Array.data[1]
       value: Drop it into the cauldron for a SPLASH
       objectReference: {fileID: 0}
     - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
-      propertyPath: '_dialLines.Array.data[2]'
+      propertyPath: _dialLines.Array.data[2]
       value: Press P to brew your Potion
       objectReference: {fileID: 0}
     - target: {fileID: 6776077647097814561, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
-      propertyPath: '_dialLines.Array.data[3]'
+      propertyPath: _dialLines.Array.data[3]
       value: dsn dkamdoasndjasdjopasd oiewdkiewoj caewmocj ekpcmop
       objectReference: {fileID: 0}
     - target: {fileID: 7506892834740345229, guid: 0ba3dddb3f0ceb591a987276bb6b1af5, type: 3}
@@ -1307,14 +1338,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ComponentVersion: 2
+  m_ComponentVersion: 1
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.88309896, g: 0.990566, b: 0.9896292, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
-  m_LightVolumeEnabled: 0
+  m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000c9709b556b98c7af3b3a63035106fffdd95a0e7449231502b7f9f5db33dac6a1079ed99447c20a5487937650
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
@@ -1324,10 +1355,8 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 0
+  m_ShadowIntensityEnabled: 0
   m_ShadowIntensity: 0.75
-  m_ShadowSoftness: 0
-  m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 40228227890091907}
   - component: {fileID: 244118971776310121}
   - component: {fileID: -8265625534225345717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DisgustingPotion
   m_TagString: Potion
   m_Icon: {fileID: 0}

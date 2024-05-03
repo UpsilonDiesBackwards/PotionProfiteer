@@ -34,7 +34,7 @@ public class DynamicInventoryDisplay : InventoryDisplay
         }
     }
 
-    private void ClearSlots()
+    public void ClearSlots()
     {
         foreach (var item in transform.Cast<Transform>())
         {

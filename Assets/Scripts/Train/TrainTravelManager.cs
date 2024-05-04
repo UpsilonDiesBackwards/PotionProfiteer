@@ -46,10 +46,11 @@ public class TrainTravelManager : MonoBehaviour {
     public void Travel(int sceneIndex) {
         _regionManager.ActivateScene(sceneIndex);
 
-        _player.GetComponent<Player>().spondulixs -= travelCost;
+        if (Player.Instance.spondulixs >= travelCost) {
+            _player.GetComponent<Player>().spondulixs -= travelCost;
+        }
 
         GameManager.Instance.UpdatePreviousScene();
-        
         CloseMenu();
     }
 

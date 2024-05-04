@@ -54,7 +54,12 @@ public class RegionManager : MonoBehaviour {
             foreach (GameObject rootObject in nextRootObjects) {
                 rootObject.SetActive(true);
             }
-            
+
+
+            WeatherManager.Instance.ClearWeather();
+            WeatherManager.Instance.StopAudio();
+            WeatherManager.Instance.RollWeather(nextScene.name);
+
             TeleportPlayerToIndicator(nextScene);
 
             currentSceneIndex = sceneIndex;

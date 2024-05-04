@@ -11,13 +11,13 @@ namespace PPPS.Core
         [SerializeField] private float _fadeInSpeed;
         [SerializeField] private float _fadeOutSpeed;
         [SerializeField] private bool _loop;
-        [SerializeField] private AudioClip _sound;
+        [SerializeField] public AudioClip sound;
 
         public float maxVolume;
         private bool _triggered;
 
         void Start() {
-            Reset(false, _sound, 0);
+            Reset(false, sound, 0);
             StartCoroutine(EnableCollider());
         }
 

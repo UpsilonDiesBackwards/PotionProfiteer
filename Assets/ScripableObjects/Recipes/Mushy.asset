@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10e489b7f1f1d54699348bbb2fcbec6, type: 3}
+  m_Name: Mushy
+  m_EditorClassIdentifier: 
+  name: Mushy Potion
+  ingredients:
+  - {fileID: 11400000, guid: 61d28cd479d5f4eb4bf452da61f780bc, type: 2}
+  - {fileID: 11400000, guid: 61d28cd479d5f4eb4bf452da61f780bc, type: 2}
+  potion: {fileID: 1057018727562672877, guid: d837535f389d3acda8055f9e0a67564d, type: 3}

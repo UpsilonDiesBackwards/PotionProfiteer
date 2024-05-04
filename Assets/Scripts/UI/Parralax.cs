@@ -14,6 +14,8 @@ public class Parralax : MonoBehaviour
     void Start()
     {
         startPosition = transform.position;
+        cam = Camera.main;
+        target = Player.Instance.gameObject.transform;
     }
 
     void FixedUpdate()

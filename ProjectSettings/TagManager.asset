@@ -7,6 +7,16 @@ TagManager:
   - Gravitable
   - enemy
   - moveTowards
+  - Startup
+  - Desk
+  - DoorExit
+  - Dialogue
+  - TeleportIndicator
+  - RegionManager
+  - Cauldron
+  - Resource
+  - NPC
+  - Potion
   layers:
   - Default
   - TransparentFX
@@ -14,8 +24,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Interactable
+  - Resource
   - 
   - 
   - 
@@ -46,6 +56,9 @@ TagManager:
     locked: 0
   - name: Floor
     uniqueID: 1947097817
+    locked: 0
+  - name: Crops
+    uniqueID: 1349948295
     locked: 0
   - name: Player
     uniqueID: 34939721

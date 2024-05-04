@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3220dba3ce1b8b043bed892944bf7dc4, type: 3}
+  m_Name: Vine
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 3116049041778836063, guid: 1d34dfaf19f4cce928f956a3035fc70b, type: 3}
+  go: {fileID: 1057018727562672877, guid: 479f1b69443c4deac8eb9682df21071a, type: 3}
+  ID: 0
+  DisplayName: VInes
+  MaxStackSize: 1
+  Description: What the FUCK is up KYLE?!
+  value: 2
+  category: 0

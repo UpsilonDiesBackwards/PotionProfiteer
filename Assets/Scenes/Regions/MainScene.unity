@@ -1592,6 +1592,18 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5796248487001189514, guid: a8927b4529dbb7e16a2b35a61be5755c, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.25490198
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796248487001189514, guid: a8927b4529dbb7e16a2b35a61be5755c, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.21960784
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796248487001189514, guid: a8927b4529dbb7e16a2b35a61be5755c, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.21176471
+      objectReference: {fileID: 0}
     - target: {fileID: 6150807087274020437, guid: a8927b4529dbb7e16a2b35a61be5755c, type: 3}
       propertyPath: _fileName
       value: save.mypp

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WompWomp
   m_EditorClassIdentifier: 
   Icon: {fileID: -3720027903894922356, guid: 761d72e9749d71c4d996d6f1cc7defe7, type: 3}
-  go: {fileID: 8297941263728505269, guid: 0dcfdbbd4a2e0eb42ac6e113c7253918, type: 3}
+  go: {fileID: 1057018727562672877, guid: a3e48612d400c486a898802f5d653421, type: 3}
   ID: 0
   DisplayName: WompWomp_flask
   MaxStackSize: 1

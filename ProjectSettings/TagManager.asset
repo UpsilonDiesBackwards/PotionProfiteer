@@ -17,6 +17,7 @@ TagManager:
   - Resource
   - NPC
   - Potion
+  - IceFloor
   layers:
   - Default
   - TransparentFX

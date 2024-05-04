@@ -10,19 +10,15 @@ public class ItemPickUp : MonoBehaviour {
     public float pickUpDist = 2.5f;
     public float despawnTime = 35.0f;
 
-    void Awake() {
-    }
-
     void Update() {
         despawnTime -= Time.deltaTime;
         if (despawnTime <= 0) { Destroy(gameObject); }
 
         float lootDist = Vector3.Distance(transform.position, Player.Instance.transform.position);
 
-        transform.position = Vector3.MoveTowards(transform.position, Player.Instance.transform.position, 
-            speed * Time.deltaTime);
-
-        if (lootDist > pickUpDist) { return; } // player too far, don't move anwyhere
+        if (lootDist < pickUpDist) {
+            transform.position = Vector3.MoveTowards(transform.position, Player.Instance.transform.position, 
+                speed * Time.deltaTime);
 
         if (lootDist < 0.1f) { // player got close, add to inventory then destroy pickup
             var targetInventory = Player.Instance.GetComponent<Inventory>();
@@ -33,4 +29,6 @@ public class ItemPickUp : MonoBehaviour {
             }
         }
     }
+}
+
 }

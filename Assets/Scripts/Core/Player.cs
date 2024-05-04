@@ -91,10 +91,8 @@ public class Player : MonoBehaviour, IDataPersistence {
 
     public void Freeze(bool freeze) {
         if (freeze) {
-            _animator.SetFloat("direction", 0);
             _rb.velocity = Vector3.zero;
         }
-
         frozen = freeze;
     }
 

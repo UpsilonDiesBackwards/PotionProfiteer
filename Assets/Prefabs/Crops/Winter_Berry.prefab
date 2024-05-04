@@ -212,7 +212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cropGrowth: {fileID: 0}
   loot: {fileID: 4240675380302691923, guid: ef05e41ac64da321381f46a480465fe1, type: 3}
-  spread: 2
+  spawnRadius: 1.75
 --- !u!70 &6434249828603456972
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

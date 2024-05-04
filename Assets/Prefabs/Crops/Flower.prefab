@@ -245,7 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cropGrowth: {fileID: 0}
   loot: {fileID: 4240675380302691923, guid: ef05e41ac64da321381f46a480465fe1, type: 3}
-  spread: 2
+  spawnRadius: 1.75
 --- !u!212 &7379472290646414603
 SpriteRenderer:
   m_ObjectHideFlags: 0

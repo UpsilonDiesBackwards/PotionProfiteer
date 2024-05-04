@@ -98,6 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemData: {fileID: 11400000, guid: 5c6bcfac2d52ccadfb4261dbf134d0e9, type: 2}
-  speed: 2
-  pickUpDist: 2.5
+  speed: 1.25
+  pickUpDist: 1.25
   despawnTime: 10

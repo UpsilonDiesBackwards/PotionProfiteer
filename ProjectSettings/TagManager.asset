@@ -29,6 +29,7 @@ TagManager:
   - Clear
   - InsideRain
   - InsideHeavyRain
+  - Bird
   layers:
   - Default
   - TransparentFX

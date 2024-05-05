@@ -33,20 +33,13 @@ public class WeatherManager : MonoBehaviour {
             WeatherType randomWeatherType = selectedWeather.weatherTypes[Random.Range(0, selectedWeather.weatherTypes.Length)];
 
             GameObject weatherEffect = GameObject.FindGameObjectWithTag(randomWeatherType.tag);
-
-            // Debug.Log("Selected Weather: " + selectedWeather);
-            // Debug.Log("Selected Weather Type: " + randomWeatherType.tag);
-
             if (weatherEffect != null) {
                 ParticleSystem particleSystem = weatherEffect.GetComponentInChildren<ParticleSystem>(true);
                 if (particleSystem != null) {
                     GameObject particleSystemGameObject = particleSystem.gameObject;
-                    Debug.Log("Activating: " + particleSystemGameObject);
                     ActivateWeather(particleSystemGameObject);
 
                     PlayAudio(randomWeatherType.audio);
-                } else {
-                    Debug.LogWarning("ParticleSystem component not found in weather effect: " + weatherEffect.name);
                 }
             } else {
                 Debug.LogWarning("Weather effect with tag " + randomWeatherType.tag + " not found.");

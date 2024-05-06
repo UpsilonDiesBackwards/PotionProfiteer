@@ -30,6 +30,7 @@ TagManager:
   - InsideRain
   - InsideHeavyRain
   - Bird
+  - Empty
   layers:
   - Default
   - TransparentFX
@@ -39,7 +40,7 @@ TagManager:
   - UI
   - Interactable
   - Resource
-  - 
+  - Empty
   - 
   - 
   - 

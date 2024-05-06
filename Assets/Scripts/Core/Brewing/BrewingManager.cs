@@ -33,7 +33,7 @@ public class BrewingManager : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
+        if (other.gameObject.CompareTag("Resource"))
         {
             // Debug.Log("ITs On Trigger");
 

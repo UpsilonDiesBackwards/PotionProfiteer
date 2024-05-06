@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5999981429447698865}
   m_Layer: 7
   m_Name: VeryBlueyPotionDrag
-  m_TagString: Resource
+  m_TagString: Potion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,9 +79,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1409991239
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1195704813413786316, guid: 2d4c3279218cc5049b305c2825958435, type: 3}
+  m_Sprite: {fileID: -555072571517551342, guid: 7fd6a3333950d7d4695a055d8570e960, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

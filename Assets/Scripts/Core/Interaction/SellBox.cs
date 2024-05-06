@@ -6,7 +6,7 @@ public class SellBox : MonoBehaviour {
     public LayerMask resourceLayer;
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer) {
+        if (other.gameObject.CompareTag("Potion")) {
             Player.Instance.spondulixs += other.gameObject.GetComponent<DragableObject>().data.value;
 
             Destroy(other.gameObject);

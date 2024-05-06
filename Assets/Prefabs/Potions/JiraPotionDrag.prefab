@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5999981429447698865}
   m_Layer: 7
   m_Name: JiraPotionDrag
-  m_TagString: Resource
+  m_TagString: Potion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1409991239
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 2182778424186964898, guid: 57edfeb1bd983fa4d98e87dd98562ace, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5999981429447698865}
   m_Layer: 7
   m_Name: SwelteringPotionDrag
-  m_TagString: Resource
+  m_TagString: Potion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,9 +79,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1409991239
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7651786114783511697, guid: 916e55b7427a2394881f2caf84b3210c, type: 3}
+  m_Sprite: {fileID: -395892446034280830, guid: 1a44095fdefeef64b9c9fbfd9d06bc27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

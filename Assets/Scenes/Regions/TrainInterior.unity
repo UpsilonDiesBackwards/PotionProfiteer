@@ -67,6 +67,9 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -442,7 +445,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40651243}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -466,8 +468,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 3.692494, y: 0.3026632}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,6 +479,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 8.384988, y: 4.2892}
   m_EdgeRadius: 0
 --- !u!1 &69140099
@@ -1406,7 +1408,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178039537}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1430,8 +1431,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -1442,6 +1442,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &178039540
@@ -1752,7 +1753,6 @@ TilemapCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237709949}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1776,8 +1776,7 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
@@ -2590,7 +2589,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334891239}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -2614,8 +2612,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -2626,6 +2623,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.93333334, y: 0.93333334}
   m_EdgeRadius: 0
 --- !u!1 &337938957
@@ -4576,7 +4574,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774792998}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -4600,8 +4597,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -4612,6 +4608,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.93333334, y: 0.93333334}
   m_EdgeRadius: 0
 --- !u!1 &782244628
@@ -6340,7 +6337,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337536959}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -6364,8 +6360,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -6376,6 +6371,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.93333334, y: 0.93333334}
   m_EdgeRadius: 0
 --- !u!1 &1366336900
@@ -6987,7 +6983,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423038266}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -7011,8 +7006,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -7023,6 +7017,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.2, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &1434354970
@@ -7508,7 +7503,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627416871}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -7532,8 +7526,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -7544,6 +7537,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.2, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &1637053880
@@ -7641,6 +7635,7 @@ GameObject:
   - component: {fileID: 1646331669}
   - component: {fileID: 1646331671}
   - component: {fileID: 1646331670}
+  - component: {fileID: 1646331672}
   m_Layer: 0
   m_Name: Bin
   m_TagString: Untagged
@@ -7671,7 +7666,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646331668}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -7693,10 +7687,9 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: -0.01792705, y: 0.03584957}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -7707,6 +7700,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 2.287739, y: 2.3235908}
   m_EdgeRadius: 0
 --- !u!212 &1646331671
@@ -7761,6 +7755,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1646331672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646331668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add1763c98f75f24cb9b67a96cc06053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1658826409
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,7 +7810,6 @@ PolygonCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658826409}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -7825,8 +7833,7 @@ PolygonCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -8108,7 +8115,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676124205}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -8132,8 +8138,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.10100138}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -8144,6 +8149,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 2.1333334, y: 0.5979972}
   m_EdgeRadius: 0
 --- !u!212 &1676124208
@@ -8862,7 +8868,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787196219}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -8886,8 +8891,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -8898,6 +8902,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.93333334, y: 0.93333334}
   m_EdgeRadius: 0
 --- !u!1 &1848267879
@@ -8980,14 +8985,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ComponentVersion: 2
+  m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
-  m_LightVolumeEnabled: 0
+  m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000d95a0e748793765049231502b7f9f5db33dac6a1079ed99447c20a54
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
@@ -8997,15 +9002,13 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 0
+  m_ShadowIntensityEnabled: 0
   m_ShadowIntensity: 0.75
-  m_ShadowSoftness: 0
-  m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0039500296, y: -0.0032999516, z: 0}
-    m_Extent: {x: 1.00135, y: 1.0057, z: 0}
+    m_Center: {x: 0.0026500225, y: -0.002300024, z: 0}
+    m_Extent: {x: 1.00375, y: 1.0065, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9390,7 +9393,6 @@ TilemapCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035683331}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -9414,8 +9416,7 @@ TilemapCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
@@ -10128,7 +10129,6 @@ PolygonCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133953234}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -10152,8 +10152,7 @@ PolygonCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -10376,47 +10375,47 @@ PrefabInstance:
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[0]'
+      propertyPath: potionRecipes.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 52fbaf10c67e4971e8cdff66c71c7d33, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[1]'
+      propertyPath: potionRecipes.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: 4515e6507344ab9179c106d0703d44d1, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[2]'
+      propertyPath: potionRecipes.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 34ee9c62a82818c4a82d93282c3b880c, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[3]'
+      propertyPath: potionRecipes.Array.data[3]
       value: 
       objectReference: {fileID: 11400000, guid: 89cb7c14a6869b177a20f8c370ed6686, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[4]'
+      propertyPath: potionRecipes.Array.data[4]
       value: 
       objectReference: {fileID: 11400000, guid: 9022a670c397a429d8865e20bbd5a00f, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[5]'
+      propertyPath: potionRecipes.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: e4059ba3088a9de9eb04f41bd09886b9, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[6]'
+      propertyPath: potionRecipes.Array.data[6]
       value: 
       objectReference: {fileID: 11400000, guid: c57d34a1f5c18840cb42e665c8389e21, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[7]'
+      propertyPath: potionRecipes.Array.data[7]
       value: 
       objectReference: {fileID: 11400000, guid: 36cd0de32b90e3fd8a1fa2cc15e7d3f5, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[8]'
+      propertyPath: potionRecipes.Array.data[8]
       value: 
       objectReference: {fileID: 11400000, guid: fd382925d0de0a99f95238eae96c04ae, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[9]'
+      propertyPath: potionRecipes.Array.data[9]
       value: 
       objectReference: {fileID: 11400000, guid: 79971f3abd62b844e852bc2797b05fd8, type: 2}
     - target: {fileID: 1737925189717394323, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}
-      propertyPath: 'potionRecipes.Array.data[10]'
+      propertyPath: potionRecipes.Array.data[10]
       value: 
       objectReference: {fileID: 11400000, guid: c52c61a875c16e63b85b82c8203a4008, type: 2}
     - target: {fileID: 2948128236314874715, guid: 8c9e63c942daadb43bb253af1d56d6ae, type: 3}

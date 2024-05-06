@@ -105,8 +105,6 @@ public class FrogController : MonoBehaviour {
             yield return new WaitForSeconds(Random.Range(6.0f, 16.0f));
 
             _isBlinking = true;
-            Debug.Log("Blink");
-
             _animator.SetBool("isBlinking", true);
 
             yield return new WaitForSeconds(0.5f);
@@ -123,8 +121,6 @@ public class FrogController : MonoBehaviour {
             yield return new WaitForSeconds(Random.Range(16.0f, 32.0f));
 
             _isCroaking = true;
-            Debug.Log("Croak");
-
             _animator.SetBool("isCroaking", true);
 
             float pitch = Random.Range(minCroakPitch, maxCroakPitch);

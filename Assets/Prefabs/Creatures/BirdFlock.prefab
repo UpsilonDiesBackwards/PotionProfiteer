@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944973064355323886}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.24888444, y: -3.2425678, z: 1.9241787}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7851d6e32959cdfaa46c66ffbc53dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bird: {fileID: 7769308923026788056, guid: 681fa1f65538531849bd40cff7660f96, type: 3}
-  minBirds: 3
-  maxBirds: 7
+  Creature: {fileID: 7769308923026788056, guid: 681fa1f65538531849bd40cff7660f96, type: 3}
+  min: 3
+  max: 7
   areaRadius: 1.5

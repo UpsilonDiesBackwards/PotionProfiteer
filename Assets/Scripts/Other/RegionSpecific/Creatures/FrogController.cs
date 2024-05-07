@@ -43,16 +43,20 @@ public class FrogController : MonoBehaviour {
 
     private Vector2 _movementDirection = Vector2.right;
 
-    void OnEnable() {
-        StartCoroutine(Blink());
-        StartCoroutine(Croak());
-    }
+    void OnEnable() { StartCoroutine(InitialiseBroga()); }
 
     private void Start() {
         _rb = GetComponent<Rigidbody2D>();
         _audioSource = GetComponent<AudioSource>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    IEnumerator InitialiseBroga() {
+        yield return new WaitForSeconds(Random.Range(0f, 2.25f));
+
+        StartCoroutine(Blink());
+        StartCoroutine(Croak());
     }
 
     void Update() {
@@ -97,7 +101,6 @@ public class FrogController : MonoBehaviour {
 
         _audioSource.pitch = pitch;
         _audioSource.PlayOneShot(_walkSound, 0.75f);
-        _audioSource.Stop();
     }
 
     IEnumerator Blink() {

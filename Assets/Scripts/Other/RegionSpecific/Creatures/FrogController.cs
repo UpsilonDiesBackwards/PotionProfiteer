@@ -108,17 +108,16 @@ public class FrogController : MonoBehaviour {
             _animator.SetBool("isBlinking", true);
 
             yield return new WaitForSeconds(0.5f);
-        
+
             _animator.SetBool("isBlinking", false);
 
             _isBlinking = false;
-            StartCoroutine(Blink());
         }
     }
 
     IEnumerator Croak() {
         while (true) {
-            yield return new WaitForSeconds(Random.Range(16.0f, 32.0f));
+            yield return new WaitForSeconds(Random.Range(8.0f, 26.0f));
 
             _isCroaking = true;
             _animator.SetBool("isCroaking", true);

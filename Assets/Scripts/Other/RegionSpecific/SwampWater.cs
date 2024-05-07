@@ -7,7 +7,7 @@ public class SwampWater : MonoBehaviour {
 
     [SerializeField] private float _playerSpeedBuffer;
 
-    void Start() {
+    void OnEnable() {
         _playerSpeedBuffer = Player.Instance.moveSpeed;
     }
 

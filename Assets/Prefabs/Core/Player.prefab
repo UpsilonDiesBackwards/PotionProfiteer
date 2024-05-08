@@ -219,6 +219,7 @@ MonoBehaviour:
   joystick: {fileID: 0}
   cameraEffects: {fileID: 0}
   _graphic: {fileID: 7929700535328977719}
+  animator: {fileID: 0}
   moveSpeed: 2.5
   frozen: 0
   groundType: grass

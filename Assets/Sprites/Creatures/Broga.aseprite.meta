@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638505738033197700
+  platformSettingsDirtyTick: 638506701210821840
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -220,6 +220,26 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
+  - name: Broga_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 16
+      height: 11
+    spriteID: e9c36eb907d2d07f181086a214d5b9ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
     guid: 12825989
@@ -233,7 +253,7 @@ ScriptedImporter:
       cellRect:
         x: 0
         y: 0
-        width: 96
+        width: 112
         height: 17
       spriteId: 94d8888f1913abc1fa0ea2faddefff15
     linkedCells: []

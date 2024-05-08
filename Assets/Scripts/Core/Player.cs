@@ -20,7 +20,7 @@ public class Player : MonoBehaviour, IDataPersistence {
     private Vector2 _lastMove;
     [HideInInspector] public string groundType = "grass";
     private Vector3 _origLocalScale;
-    [SerializeField] public Vector2 direction;
+    public Vector2 direction;
     private float _curAngle;
     private float _dirDegrees;
 

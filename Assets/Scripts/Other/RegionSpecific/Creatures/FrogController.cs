@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
+using NUnit.Framework.Constraints;
 using TMPro.EditorUtilities;
 using Unity.Collections;
 using Unity.VisualScripting;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.iOS;
+using UnityEngine.Rendering;
 
 public class FrogController : MonoBehaviour {
     [Header("Movement")]
@@ -38,6 +42,8 @@ public class FrogController : MonoBehaviour {
     [SerializeField] private bool _isMoving = false;
     [SerializeField] private bool _isBlinking = false;
     [SerializeField] private bool _isCroaking = false;
+    [SerializeField] private bool _isSmiling = false;
+    private bool _isInRange = false;
     [SerializeField] private float _moveTimer = 0f;
     [SerializeField] private float _restTimer = 0f;
 
@@ -61,35 +67,41 @@ public class FrogController : MonoBehaviour {
 
     void Update() {
         Movement();
+
+        if (_isInRange && Input.GetKeyDown(KeyCode.E) && !_isSmiling) {
+            StartCoroutine(Smile());
+        }
     }
 
     void Movement() {
+        if (!_isSmiling) {
             if (_isMoving) {
-            _rb.velocity = _movementDirection * speed;
+                _rb.velocity = _movementDirection * speed;
 
-            _moveTimer += Time.deltaTime;
-            if (_moveTimer >= maxMoveDuration) {
-                _isMoving = false;
-                _animator.SetBool("isMoving", false);
-                _restTimer = 0f;
+                _moveTimer += Time.deltaTime;
+                if (_moveTimer >= maxMoveDuration) {
+                    _isMoving = false;
+                    _animator.SetBool("isMoving", false);
+                    _restTimer = 0f;
 
-            }
-        } else {
-            _rb.velocity = Vector2.zero;
+                }
+            } else {
+                _rb.velocity = Vector2.zero;
 
-            _restTimer += Time.deltaTime;
-            if (_restTimer >= Random.Range(minRestDuration, maxRestDuration)) {
-                _isMoving = true;
-                _animator.SetBool("isMoving", true);
-                _moveTimer = 0f;
+                _restTimer += Time.deltaTime;
+                if (_restTimer >= Random.Range(minRestDuration, maxRestDuration)) {
+                    _isMoving = true;
+                    _animator.SetBool("isMoving", true);
+                    _moveTimer = 0f;
             
-                if (Random.value < turnAroundProbability) {
-                    float randomDirection = Random.Range(0f, 1f);
-                    if (randomDirection < 0.5f) {
-                        _movementDirection = new Vector2(Mathf.Sign(Random.Range(-1f, 1f)), 0f);
-                        _spriteRenderer.flipX = _movementDirection.x < 0f;
-                    } else {
-                        _movementDirection = new Vector2(0f, Mathf.Sign(Random.Range(-1f, 1f)));
+                    if (Random.value < turnAroundProbability) {
+                        float randomDirection = Random.Range(0f, 1f);
+                        if (randomDirection < 0.5f) {
+                            _movementDirection = new Vector2(Mathf.Sign(Random.Range(-1f, 1f)), 0f);
+                            _spriteRenderer.flipX = _movementDirection.x < 0f;
+                        } else {
+                            _movementDirection = new Vector2(0f, Mathf.Sign(Random.Range(-1f, 1f)));
+                        }
                     }
                 }
             }
@@ -134,5 +146,43 @@ public class FrogController : MonoBehaviour {
             _animator.SetBool("isCroaking", false);
             _isCroaking = false;
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D col) {
+        if (col.CompareTag("Player") && !_isSmiling) {
+            // Ensure that the trigger is not activated while the frog is already smiling
+            _isInRange = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D col) {
+        if (col.CompareTag("Player")) {
+            // Reset the trigger flag when the player exits the frog's range
+            _isInRange = false;
+        }
+    }
+
+    IEnumerator Smile() {
+        _isSmiling = true;
+        _animator.SetBool("isSmiling", true);
+        _isMoving = false;
+
+        // Freeze player's movement and trigger petting animation
+        Player.Instance.Freeze(true);
+        Player.Instance.GetComponent<Animator>().SetBool("isPetting", true);
+
+        yield return new WaitForSeconds(1.0f);
+
+        _animator.SetBool("isSmiling", false);
+        _isSmiling = false;
+
+        Player.Instance.GetComponent<Animator>().SetBool("isPetting", false);
+
+        yield return new WaitForSeconds(0.5f);
+
+        // Unfreeze player's movement and reset petting animation
+        Player.Instance.Freeze(false);
+
+        _isMoving = true;
     }
 }

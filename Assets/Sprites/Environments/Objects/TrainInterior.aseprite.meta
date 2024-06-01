@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,13 +90,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638481010356853610
+  platformSettingsDirtyTick: 638503984691663160
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -328,7 +330,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 119
       width: 70
       height: 72
     spriteID: 58a490af03d4c4ac99c3f83b8e0034c2
@@ -388,14 +390,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: TrainInterior
+    - name: TrainInterior_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 4
         width: 319
         height: 107
       spriteId: 26b2585b1e57b04dead17728357d0355
+    - name: TrainInterior_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 4
+        width: 319
+        height: 107
+      spriteId: 2c43203549009b42198c8bc45c3e8d75
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -435,6 +447,19 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 374, y: 111}

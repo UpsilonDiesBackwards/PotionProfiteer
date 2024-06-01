@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -330,6 +332,7 @@ ScriptedImporter:
     cells:
     - name: S_Hit_BlockMan_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 13
@@ -338,6 +341,7 @@ ScriptedImporter:
       spriteId: 4037f07b6c143f749ad1edeea2e902f0
     - name: S_Hit_BlockMan_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 12
@@ -346,6 +350,7 @@ ScriptedImporter:
       spriteId: 05eca96d137ed6d44bec47d9ca9f2902
     - name: S_Hit_BlockMan_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 12
@@ -354,6 +359,7 @@ ScriptedImporter:
       spriteId: 7beee320e1f8e254c94bec7fd040a90d
     - name: S_Hit_BlockMan_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 12
@@ -362,6 +368,7 @@ ScriptedImporter:
       spriteId: 98cd8cb88426fe248aa11c675908bfc4
     - name: S_Hit_BlockMan_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 12
@@ -370,6 +377,7 @@ ScriptedImporter:
       spriteId: 8006defc940d3fc4cbd15171fa00a80a
     - name: S_Hit_BlockMan_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 13
@@ -378,6 +386,7 @@ ScriptedImporter:
       spriteId: bbf8ef77962359740bfca8ccaae91ab9
     - name: S_Hit_BlockMan_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 13
@@ -386,6 +395,7 @@ ScriptedImporter:
       spriteId: 8439cfc6f462401469e92b935aaf8f99
     - name: S_Hit_BlockMan_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 13
@@ -394,6 +404,7 @@ ScriptedImporter:
       spriteId: b83a81c5e5935d74b83a1432aef74431
     - name: S_Hit_BlockMan_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 13
@@ -402,6 +413,7 @@ ScriptedImporter:
       spriteId: 2e086edad0771c64cbc1b757f5b90b09
     - name: S_Hit_BlockMan_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 13
@@ -411,6 +423,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

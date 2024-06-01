@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Very Bluey
   ingredients:
-  - {fileID: 11400000, guid: ef5991dd128012b7e822fa85de7d42f9, type: 2}
-  - {fileID: 11400000, guid: ef5991dd128012b7e822fa85de7d42f9, type: 2}
-  - {fileID: 11400000, guid: ef5991dd128012b7e822fa85de7d42f9, type: 2}
-  potion: {fileID: 1057018727562672877, guid: bb4c0c064d4f4ccc88e0c437c01a6ba4, type: 3}
+  - {fileID: 11400000, guid: 4029352b67af367c7a371c1cb8cf779e, type: 2}
+  - {fileID: 11400000, guid: 4029352b67af367c7a371c1cb8cf779e, type: 2}
+  - {fileID: 11400000, guid: 4029352b67af367c7a371c1cb8cf779e, type: 2}
+  potion: {fileID: 8297941263728505269, guid: 91c78d4c089d81da9974f30c578ba2aa, type: 3}

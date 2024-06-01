@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DISGUSTING
   ingredients:
-  - {fileID: 11400000, guid: 61d28cd479d5f4eb4bf452da61f780bc, type: 2}
-  - {fileID: 11400000, guid: 61d28cd479d5f4eb4bf452da61f780bc, type: 2}
-  - {fileID: 11400000, guid: 8e7a725fb6205b272808a6823458ba44, type: 2}
-  - {fileID: 11400000, guid: 8e7a725fb6205b272808a6823458ba44, type: 2}
-  potion: {fileID: 1057018727562672877, guid: f75e0fcaf4f2f943f8049f0fc45ab49c, type: 3}
+  - {fileID: 11400000, guid: c84f6b13bffa2c31993dfe6e400da242, type: 2}
+  - {fileID: 11400000, guid: c84f6b13bffa2c31993dfe6e400da242, type: 2}
+  - {fileID: 11400000, guid: 2d5490f53d1fefedd90b3519c5214a69, type: 2}
+  - {fileID: 11400000, guid: 2d5490f53d1fefedd90b3519c5214a69, type: 2}
+  potion: {fileID: 8297941263728505269, guid: 9de5005318bc813e2915c6321d080fa8, type: 3}

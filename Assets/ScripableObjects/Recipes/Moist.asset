@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Moist
   ingredients:
-  - {fileID: 11400000, guid: ecbb20a90aaa34747b3ba4e5cd227290, type: 2}
-  - {fileID: 11400000, guid: ecbb20a90aaa34747b3ba4e5cd227290, type: 2}
-  potion: {fileID: 1057018727562672877, guid: 0704fbf7a13a3e304a3e836ae7770d6d, type: 3}
+  - {fileID: 11400000, guid: 52c7942588c2f50e5beadce3708a3209, type: 2}
+  - {fileID: 11400000, guid: 52c7942588c2f50e5beadce3708a3209, type: 2}
+  potion: {fileID: 8297941263728505269, guid: 18f561978389e2f40b3b0362a1cf1dc9, type: 3}

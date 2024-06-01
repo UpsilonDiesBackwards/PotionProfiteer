@@ -7,15 +7,12 @@ using UnityEngine.UIElements;
 public class BrewingManager : MonoBehaviour {
     public List<PotionRecipe> potionRecipes = new List<PotionRecipe>();
 
-    public List<InventoryItemData> cauldronContents = new List<InventoryItemData>();
+    public List<ItemData> cauldronContents = new List<ItemData>();
 
-    public AudioSource plop;
-    public AudioSource error;
-    public AudioSource createdPotion;
-
-    public InventoryItemData tomato;
-    public InventoryItemData chilli;
-    public InventoryItemData wompWomp;
+    private AudioSource source;
+    public AudioClip plopClip;
+    public AudioClip errorClip;
+    public AudioClip createdPotionClip;
 
     public GameObject emptyPotion;
 
@@ -24,32 +21,23 @@ public class BrewingManager : MonoBehaviour {
     public float range = 2f;
     public LayerMask resourceLayer;
 
-    public void Update() {
-        if (Input.GetKeyUp(KeyCode.P)) {
-            Debug.Log("Confirming ingredients...");
-            ConfirmIngredients();
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Resource") || other.gameObject.layer == resourceLayer)
-        {
-            // Debug.Log("ITs On Trigger");
+        if (other.gameObject.CompareTag("Resource")) {
 
-            AddIngredient(other.gameObject.GetComponent<DragableObject>().data);
-            //other.GetComponent<SpriteRenderer>().enabled = false;
+            ItemData itemData = other.gameObject.GetComponent<Item>().itemData;
+            AddIngredient(itemData);
             Destroy(other.gameObject);
         }
     }
 
-    public void AddIngredient(InventoryItemData ingredientItem) {
+    public void AddIngredient(ItemData ingredientItem) {
         cauldronContents.Add(ingredientItem);
 
         if (ingredientItem != null)
         {
-            plop.Play();
-            // Debug.Log("ITEM ADDED TO CAULDRON");
+            PlayAudio(plopClip);
+            Debug.Log("Item added to cauldron: " + ingredientItem.itemName);
         }
     }
 
@@ -58,11 +46,14 @@ public class BrewingManager : MonoBehaviour {
 
         foreach (PotionRecipe recipe in potionRecipes) {
             if (AreListsEqual(cauldronContents, recipe.ingredients)) {
-                // Debug.Log("Recipe match found: " + recipe.name);
-                createdPotion.Play();
-                Instantiate(recipe.potion, potionSpawn.transform.position, Quaternion.identity);
+                Debug.Log("Recipe match found: " + recipe.name);
+                PlayAudio(createdPotionClip);
+                
+                GetComponentInChildren<ItemDrop>().item = recipe.potion;
+                GetComponentInChildren<ItemDrop>().DropItem();
+                
                 matchFound = true;
-                break;   
+                break;
             }
            
         }
@@ -70,22 +61,28 @@ public class BrewingManager : MonoBehaviour {
         {
             Debug.Log("No recipe found for those ingredients!");
             Instantiate(emptyPotion, potionSpawn.transform.position, Quaternion.identity);
-            error.Play();
+            PlayAudio(errorClip);
         }
         cauldronContents.Clear();
     }
 
-    bool AreListsEqual(List<InventoryItemData> cauldron, InventoryItemData[] recipe) // probably uneccesary for this to be a seperate method but for readability sake 
-    {
-        if (cauldron.Count != recipe.Length) // compare length of list first
+    bool AreListsEqual(List<ItemData> cauldron, ItemData[] recipe) {
+        if (cauldron.Count != recipe.Length) // Compare length of list first
             return false;
 
-        for (int i = 0; i < cauldron.Count; i++) // then check contents
-        {
+        for (int i = 0; i < cauldron.Count; i++) { // Then check contents
             if (cauldron[i] != recipe[i])
                 return false;
         }
 
         return true;
+    }
+
+    void PlayAudio(AudioClip clip) {
+        if (!source) {
+            source = gameObject.AddComponent<AudioSource>();
+        }
+
+        source.PlayOneShot(clip, 0.7f);
     }
 }

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
@@ -38,7 +37,7 @@ public class SkinManager : MonoBehaviour
     }
 
     public void PlayGame() { // Load the requested scene.
-        PrefabUtility.SaveAsPrefabAsset(playerSkin, "Assets/Prefabs/SelectedSkin.prefab");
+        // PrefabUtility.SaveAsPrefabAsset(playerSkin, "Assets/Prefabs/SelectedSkin.prefab");
         SceneManager.LoadScene(sceneToLoad);
         // GameManager.Instance.playerSkin = playerSkin;
     }

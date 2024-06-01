@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -230,6 +232,7 @@ ScriptedImporter:
     cells:
     - name: NE_Walk_BlockMan_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 13
@@ -238,6 +241,7 @@ ScriptedImporter:
       spriteId: 27d195d6dd360da4bb63f099aff3279c
     - name: NE_Walk_BlockMan_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 13
@@ -246,6 +250,7 @@ ScriptedImporter:
       spriteId: d935ba829d8af7f4fbd3e62275f0d9aa
     - name: NE_Walk_BlockMan_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 14
@@ -254,6 +259,7 @@ ScriptedImporter:
       spriteId: 1615421a94b65e84596d94df0ef0b6f0
     - name: NE_Walk_BlockMan_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 15
@@ -262,6 +268,7 @@ ScriptedImporter:
       spriteId: 4b5bad9e96cc0184a8adbc6f76325464
     - name: NE_Walk_BlockMan_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 14
@@ -271,6 +278,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

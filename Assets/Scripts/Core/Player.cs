@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,15 +10,17 @@ public class Player : MonoBehaviour, IDataPersistence {
    
     [SerializeField] private GameObject _graphic;
     private Rigidbody2D _rb;
-    private Animator _animator;
+    public Animator animator;
     private Transform _rotTracker;
 
     [Header("Properties")]
     public float moveSpeed;
     public bool frozen = false;
+    private bool _isMoving = false;
+    private Vector2 _lastMove;
     [HideInInspector] public string groundType = "grass";
     private Vector3 _origLocalScale;
-    [SerializeField] public Vector2 direction;
+    public Vector2 direction;
     private float _curAngle;
     private float _dirDegrees;
 
@@ -42,7 +45,7 @@ public class Player : MonoBehaviour, IDataPersistence {
 
     void Start() {
         _rb = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         _rotTracker = GetComponentInChildren<Rotator>().transform;
 
         _origLocalScale = transform.localScale;
@@ -57,7 +60,14 @@ public class Player : MonoBehaviour, IDataPersistence {
 
     void FixedUpdate() {
         if (!frozen) {
-            _rb.velocity = direction * moveSpeed;
+            _isMoving = false;
+
+            float input_hor = Input.GetAxisRaw("Horizontal");
+            float input_ver = Input.GetAxisRaw("Vertical");
+
+            Vector2 movement = new Vector2(input_hor, input_ver).normalized;
+            movement *= moveSpeed;
+            _rb.velocity = movement;
 
             if (Input.touchSupported == true)
             {
@@ -68,13 +78,30 @@ public class Player : MonoBehaviour, IDataPersistence {
             _dirDegrees = ((Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg) + 270) % 360;
             _curAngle = _rotTracker.eulerAngles.z;
         
-            // if (direction.x > 0.01f) { // Flip the player graphic's localScale
-            //     _graphic.transform.localScale = new Vector3(_origLocalScale.x, transform.localScale.y, transform.localScale.z);
-            // } else if (direction.x < 0.01f) {
-            //     _graphic.transform.localScale = new Vector3(-_origLocalScale.x, transform.localScale.y, transform.localScale.z);
-            // }
+            if (input_hor > 0.5f || input_hor < -0.5f) {
+                _isMoving = true;
+                _lastMove = new Vector2(input_hor, 0f);
+            }
 
-            _animator.SetFloat("direction", (_curAngle + 22.5f) % 360);
+            if (input_ver > 0.5f || input_ver < -0.5f)
+            {
+                _isMoving = true;
+                _lastMove = new Vector2(0f, input_ver);
+            }
+
+            if (direction.x > 0.01f || _lastMove.x > 0.01) { // Flip the player graphic's localScale
+                _graphic.transform.localScale = new Vector3(-_origLocalScale.x, transform.localScale.y, transform.localScale.z);
+            } else if (direction.x < 0.01f) {
+                _graphic.transform.localScale = new Vector3(_origLocalScale.x, transform.localScale.y, transform.localScale.z);
+            }
+
+            // _animator.SetFloat("direction", (_curAngle + 22.5f) % 360);
+            animator.SetFloat("moveX", input_hor);
+            animator.SetFloat("moveY", input_ver);
+            animator.SetFloat("lastMoveX", _lastMove.x);
+            animator.SetFloat("lastMoveY", _lastMove.y);
+
+            animator.SetBool("isMoving", _isMoving);
         }
     }
 
@@ -91,16 +118,14 @@ public class Player : MonoBehaviour, IDataPersistence {
 
     public void Freeze(bool freeze) {
         if (freeze) {
-            _animator.SetFloat("direction", 0);
             _rb.velocity = Vector3.zero;
         }
-
         frozen = freeze;
     }
 
     public void PlayStepSound() {
         audioSource.pitch = Random.Range(0.9f, 1.1f);
-        audioSource.PlayOneShot(stepSound, Mathf.Abs(direction.x) / 10 * Mathf.Abs(direction.y) / 10);
+        // audioSource.PlayOneShot(stepSound, Mathf.Abs(direction.x) / 10 * Mathf.Abs(direction.y) / 10);
     }
 
     public void Hide(bool hide) {

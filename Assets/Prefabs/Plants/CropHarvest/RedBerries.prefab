@@ -10,8 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1735903333014254916}
   - component: {fileID: 3290282148813799662}
-  - component: {fileID: 2574487153952848459}
-  m_Layer: 0
+  - component: {fileID: -347664607022419444}
+  - component: {fileID: -6289235735112085942}
+  - component: {fileID: -456010156685475671}
+  m_Layer: 7
   m_Name: RedBerries
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1409991239
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 1
   m_Sprite: {fileID: -8273952346019660760, guid: 60d3ee4301a8ed781aba8cee658191c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -85,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2574487153952848459
+--- !u!114 &-347664607022419444
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,10 +96,74 @@ MonoBehaviour:
   m_GameObject: {fileID: 4240675380302691923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86bd645d090eb8027a6b4710e09236c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 28b531874cf9bb9a1acf011724dc2ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: 793e6246bbd187a389635bc15baabb1f, type: 2}
-  speed: 2
-  pickUpDist: 2.5
-  despawnTime: 10
+  itemData: {fileID: 11400000, guid: 3596b0fe427eedaa39edf548ff50ba61, type: 2}
+  launchForce: 2
+  moveSpeed: 2
+  detectionRadius: 2
+  inventory: {fileID: 0}
+  pickupClip: {fileID: 8300000, guid: dcc286e6b7654d7bd9185ccd09ca33c9, type: 3}
+--- !u!50 &-6289235735112085942
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240675380302691923}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &-456010156685475671
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240675380302691923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 3.75

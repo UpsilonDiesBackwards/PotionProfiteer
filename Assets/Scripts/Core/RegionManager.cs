@@ -1,7 +1,5 @@
 using System.Collections;
 using PPPS.Core;
-using Unity.PlasticSCM.Editor.WebApi;
-using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Rendering;
@@ -54,7 +52,12 @@ public class RegionManager : MonoBehaviour {
             foreach (GameObject rootObject in nextRootObjects) {
                 rootObject.SetActive(true);
             }
-            
+
+
+            WeatherManager.Instance.ClearWeather();
+            WeatherManager.Instance.StopAudio();
+            WeatherManager.Instance.RollWeather(nextScene.name);
+
             TeleportPlayerToIndicator(nextScene);
 
             currentSceneIndex = sceneIndex;

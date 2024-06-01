@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -350,6 +352,7 @@ ScriptedImporter:
     cells:
     - name: Ship_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 14
@@ -358,6 +361,7 @@ ScriptedImporter:
       spriteId: 9faebb9b10d893d4cb26a4dba689db03
     - name: Ship_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 14
@@ -366,6 +370,7 @@ ScriptedImporter:
       spriteId: f19926358de1bca4a97f77c15294d997
     - name: Ship_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 15
@@ -374,6 +379,7 @@ ScriptedImporter:
       spriteId: bf0e52ae251d52e4ba23e21f7c037aeb
     - name: Ship_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 14
@@ -382,6 +388,7 @@ ScriptedImporter:
       spriteId: b50914ce32197ba4885d7615eef662ad
     - name: Ship_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 15
@@ -390,6 +397,7 @@ ScriptedImporter:
       spriteId: d5797609ce31f2048b956df84c9d5b0a
     - name: Ship_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 15
@@ -398,6 +406,7 @@ ScriptedImporter:
       spriteId: 5defce3f102c80944a24531875b87579
     - name: Ship_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 15
@@ -406,6 +415,7 @@ ScriptedImporter:
       spriteId: f58e6483388342e458b236c85a95547a
     - name: Ship_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 14
@@ -414,6 +424,7 @@ ScriptedImporter:
       spriteId: 2514c99d2ac687e4aaa11b066580d6d7
     - name: Ship_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 15
@@ -422,6 +433,7 @@ ScriptedImporter:
       spriteId: b63f9e5df7e2b574dad95cde9da2af44
     - name: Ship_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 15
@@ -430,6 +442,7 @@ ScriptedImporter:
       spriteId: e49a4f6981f8323498b81c4841ab0c9e
     - name: Ship_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 17
@@ -439,6 +452,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

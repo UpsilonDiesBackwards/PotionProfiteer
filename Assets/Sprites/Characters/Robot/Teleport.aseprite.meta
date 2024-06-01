@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -450,6 +452,7 @@ ScriptedImporter:
     cells:
     - name: Teleport_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -458,6 +461,7 @@ ScriptedImporter:
       spriteId: d4fce3b2dc4adac4aab3fd8d8e03b4df
     - name: Teleport_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -466,6 +470,7 @@ ScriptedImporter:
       spriteId: 3860d9ca24786e24f807f9386f166d17
     - name: Teleport_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -474,6 +479,7 @@ ScriptedImporter:
       spriteId: bd5e29111dd18db4bab62cba8e5fd17e
     - name: Teleport_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -482,6 +488,7 @@ ScriptedImporter:
       spriteId: 160739173875cee4c8edcb6f98fe2cfc
     - name: Teleport_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 26
         y: 22
@@ -490,6 +497,7 @@ ScriptedImporter:
       spriteId: 72c901704e1c98a4d82d5258fabe4046
     - name: Teleport_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -498,6 +506,7 @@ ScriptedImporter:
       spriteId: 3fc3c6d7854d1ce4c90574ce75b7fc81
     - name: Teleport_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -506,6 +515,7 @@ ScriptedImporter:
       spriteId: 7214ad735503a5740a4598f7c00d4067
     - name: Teleport_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -514,6 +524,7 @@ ScriptedImporter:
       spriteId: 239e424e313c7504d805b1af7da1cb07
     - name: Teleport_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -522,6 +533,7 @@ ScriptedImporter:
       spriteId: e790b77d20ad681448562608946a5629
     - name: Teleport_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -530,6 +542,7 @@ ScriptedImporter:
       spriteId: 3cbd391e64893db41aad331f81c20a8d
     - name: Teleport_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -538,6 +551,7 @@ ScriptedImporter:
       spriteId: 451de4b81f7f9c140af75621c994211e
     - name: Teleport_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 24
         y: 22
@@ -546,6 +560,7 @@ ScriptedImporter:
       spriteId: 4cb500af9a364ac42a75c225ec972487
     - name: Teleport_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -554,6 +569,7 @@ ScriptedImporter:
       spriteId: b8e81c69b93af364c8c4f3ac3dda95e0
     - name: Teleport_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 22
@@ -562,6 +578,7 @@ ScriptedImporter:
       spriteId: 924d943b5437546449880afaf6d8b3b6
     - name: Teleport_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 23
@@ -570,6 +587,7 @@ ScriptedImporter:
       spriteId: a2d0a4d9fa3333541a61dbf4692153f7
     - name: Teleport_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 28
@@ -579,6 +597,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

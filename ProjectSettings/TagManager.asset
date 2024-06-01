@@ -17,16 +17,31 @@ TagManager:
   - Resource
   - NPC
   - Potion
+  - IceFloor
+  - Rain
+  - HeavyRain
+  - Snow
+  - HeavySnow
+  - Sandstorm
+  - HeavySandstorm
+  - Fog
+  - HeavyFog
+  - Clear
+  - InsideRain
+  - InsideHeavyRain
+  - Bird
+  - Empty
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - Interactable
   - Resource
-  - 
+  - Empty
   - 
   - 
   - 
@@ -65,6 +80,9 @@ TagManager:
     locked: 0
   - name: Walls
     uniqueID: 3690330551
+    locked: 0
+  - name: VFX
+    uniqueID: 654853893
     locked: 0
   - name: Planets
     uniqueID: 2714163763

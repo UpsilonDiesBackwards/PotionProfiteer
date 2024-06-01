@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Mushy Potion
   ingredients:
-  - {fileID: 11400000, guid: 61d28cd479d5f4eb4bf452da61f780bc, type: 2}
-  - {fileID: 11400000, guid: 61d28cd479d5f4eb4bf452da61f780bc, type: 2}
-  potion: {fileID: 1057018727562672877, guid: d837535f389d3acda8055f9e0a67564d, type: 3}
+  - {fileID: 11400000, guid: c84f6b13bffa2c31993dfe6e400da242, type: 2}
+  - {fileID: 11400000, guid: c84f6b13bffa2c31993dfe6e400da242, type: 2}
+  potion: {fileID: 8297941263728505269, guid: 997fca356d814c2c7bacabd79550f157, type: 3}

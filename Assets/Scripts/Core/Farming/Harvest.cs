@@ -1,8 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Callbacks;
-using UnityEditor.TerrainTools;
 using UnityEngine;
 
 public class Harvest : MonoBehaviour {
@@ -14,6 +11,9 @@ public class Harvest : MonoBehaviour {
     private bool isInRange = false;
     [SerializeField] private Collider2D currentCropCollider;
 
+    private AudioSource source;
+    public AudioClip chopClip;
+
     void Awake() {
         _rb = GetComponent<Rigidbody2D>();
     }
@@ -23,6 +23,7 @@ public class Harvest : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.E)) {
                 currentCropCollider.GetComponent<CropGrowth>().OnHarvested();
                 ChopDown();
+                PlayAudio(chopClip);
                 isInRange = false;
             }
         }
@@ -47,5 +48,13 @@ public class Harvest : MonoBehaviour {
                 break;
             }
         }
+    }
+
+    void PlayAudio(AudioClip clip) {
+        if (!source) {
+            source = gameObject.AddComponent<AudioSource>();
+        }
+
+        source.PlayOneShot(clip, 0.7f);
     }
 }

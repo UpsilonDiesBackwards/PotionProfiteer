@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Slightly Stink
   ingredients:
-  - {fileID: 11400000, guid: 8e7a725fb6205b272808a6823458ba44, type: 2}
-  - {fileID: 11400000, guid: 8e7a725fb6205b272808a6823458ba44, type: 2}
-  potion: {fileID: 1057018727562672877, guid: 553e2a0c15b06dabf9a5a34b923c1c3c, type: 3}
+  - {fileID: 11400000, guid: 2d5490f53d1fefedd90b3519c5214a69, type: 2}
+  - {fileID: 11400000, guid: 2d5490f53d1fefedd90b3519c5214a69, type: 2}
+  potion: {fileID: 8297941263728505269, guid: 569fbc59ad0e70a0ba5cace6ae5bfcdd, type: 3}

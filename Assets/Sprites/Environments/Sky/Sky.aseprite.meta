@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -290,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: Sky_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -298,6 +301,7 @@ ScriptedImporter:
       spriteId: 9f6cf36eb79dda9498e0c77c367764b3
     - name: Sky_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -306,6 +310,7 @@ ScriptedImporter:
       spriteId: 95f7ebd3c14c6134a965a92b85777df7
     - name: Sky_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -314,6 +319,7 @@ ScriptedImporter:
       spriteId: 23fe4c7ce2ab82f43ac3c9e3abc8dc69
     - name: Sky_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -322,6 +328,7 @@ ScriptedImporter:
       spriteId: 7177c9eb5ade66f49b92113b0d1f9f59
     - name: Sky_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -330,6 +337,7 @@ ScriptedImporter:
       spriteId: 1f1dc7ae7c2abae41aaff1dd47d90264
     - name: Sky_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -338,6 +346,7 @@ ScriptedImporter:
       spriteId: b24d451a0376a0d4db95930d9fc6c4f7
     - name: Sky_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -346,6 +355,7 @@ ScriptedImporter:
       spriteId: 82e458fc99f7a4243a2a3691f739a650
     - name: Sky_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -355,6 +365,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 1026, y: 576}

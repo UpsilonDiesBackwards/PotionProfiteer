@@ -2,13 +2,15 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class SellBoxDropHandler : MonoBehaviour, IDropHandler {
+    private AudioSource source;
+    public AudioClip plopClip;
+
     public void OnDrop(PointerEventData eventData) {
-        Debug.Log("Item dropped on sell box!");
 
         if (DragHandler.itemBeingDragged != null) {
             InventorySlot slot = DragHandler.itemBeingDragged.GetComponentInParent<InventorySlot>();
             if (slot != null && slot.item != null) {
-                Debug.Log("Item data found: " + slot.item.itemName);
+                PlayAudio(plopClip);
 
                 // Sell the item
                 Player.Instance.spondulixs += slot.item.value;
@@ -23,5 +25,13 @@ public class SellBoxDropHandler : MonoBehaviour, IDropHandler {
         } else {
             Debug.Log("No item being dragged.");
         }
+    }
+
+    void PlayAudio(AudioClip clip) {
+        if (!source) {
+            source = gameObject.AddComponent<AudioSource>();
+        }
+
+        source.PlayOneShot(clip, 0.7f);
     }
 }

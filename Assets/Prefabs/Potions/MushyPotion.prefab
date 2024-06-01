@@ -104,6 +104,7 @@ MonoBehaviour:
   moveSpeed: 2
   detectionRadius: 2
   inventory: {fileID: 0}
+  pickupClip: {fileID: 8300000, guid: dcc286e6b7654d7bd9185ccd09ca33c9, type: 3}
 --- !u!58 &7614028198757167675
 CircleCollider2D:
   m_ObjectHideFlags: 0

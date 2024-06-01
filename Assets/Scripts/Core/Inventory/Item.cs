@@ -61,8 +61,6 @@ public class Item : MonoBehaviour {
         } else if (collision.gameObject.CompareTag("Player")) {
             Destroy(gameObject);
             inventory.AddItem(itemData);
-
-            Debug.Log("askompdsakjdsa");
         }
     }
 }

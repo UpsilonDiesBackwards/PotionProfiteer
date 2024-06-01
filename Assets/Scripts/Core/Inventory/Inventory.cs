@@ -6,6 +6,9 @@ public class Inventory : MonoBehaviour {
     public List<ItemData> items = new List<ItemData>();
     public InventorySlot[] slots;
 
+    private AudioSource source;
+    public AudioClip pickupClip;
+
     public void AddItem(ItemData item) {
         if (items.Count < slots.Length) {
             items.Add(item);
@@ -26,9 +29,18 @@ public class Inventory : MonoBehaviour {
         for (int i = 0; i < slots.Length; i++) {
             if (i < items.Count) {
                 slots[i].AddItem(items[i]);
+                PlayAudio(pickupClip);
             } else {
                 slots[i].ClearSlot();
             }
         }
+    }
+
+    void PlayAudio(AudioClip clip) {
+        if (!source) {
+            source = gameObject.AddComponent<AudioSource>();
+        }
+
+        source.PlayOneShot(clip, 0.7f);
     }
 }

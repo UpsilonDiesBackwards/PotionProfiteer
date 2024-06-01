@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
 using NUnit.Framework.Constraints;
-using TMPro.EditorUtilities;
 using Unity.Collections;
 using Unity.VisualScripting;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem.iOS;
 using UnityEngine.Rendering;
 
 public class FrogController : MonoBehaviour {

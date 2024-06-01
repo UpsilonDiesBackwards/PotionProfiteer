@@ -9,14 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3220dba3ce1b8b043bed892944bf7dc4, type: 3}
+  m_Script: {fileID: 11500000, guid: cfe284d406ce088148699a056369c845, type: 3}
   m_Name: VeryStinkyPotion
   m_EditorClassIdentifier: 
-  Icon: {fileID: 6698527483230418069, guid: 4c585350182e8254fa17403fa41dc53a, type: 3}
-  go: {fileID: 8297941263728505269, guid: 0dcfdbbd4a2e0eb42ac6e113c7253918, type: 3}
-  ID: 0
-  DisplayName: WompWomp_flask
-  MaxStackSize: 1
-  Description: better luck next time
-  value: 65
-  category: 0
+  itemName: Very Stinky Potion
+  icon: {fileID: 6698527483230418069, guid: 4c585350182e8254fa17403fa41dc53a, type: 3}
+  value: 12

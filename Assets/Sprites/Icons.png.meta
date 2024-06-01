@@ -3,7 +3,7 @@ guid: 3e3363b2c35660b4c9de685b5113f18a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -635,7 +635,7 @@ TextureImporter:
         width: 29
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -643,6 +643,69 @@ TextureImporter:
       bones: []
       spriteID: f9641410b23440999a3f62bfbae32a1a
       internalID: 1357707798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 4, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c778d2621a9ca43b84a25b73d8ad41
+      internalID: -709504748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 4, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d00fa2003158650ebee0e2e0a473922
+      internalID: 1809344476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 32
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 4, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b94048595276ef1588f49af3c5ab134
+      internalID: 1906790803
       vertices: []
       indices: 
       edges: []
@@ -676,6 +739,9 @@ TextureImporter:
       Icons_22: -2110671550
       Icons_23: 2095988581
       Icons_24: 1357707798
+      Icons_25: -709504748
+      Icons_26: 1809344476
+      Icons_27: 1906790803
       Icons_3: 110651535
       Icons_4: -164294199
       Icons_5: 2108005594

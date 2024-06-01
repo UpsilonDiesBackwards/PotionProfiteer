@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 40228227890091907}
   - component: {fileID: 244118971776310121}
-  - component: {fileID: -8265625534225345717}
+  - component: {fileID: 7935735480017653350}
+  - component: {fileID: -4601610292298652168}
+  - component: {fileID: -3634176751308976059}
   m_Layer: 7
   m_Name: DisgustingPotion
   m_TagString: Potion
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6698527483230418069, guid: 4c585350182e8254fa17403fa41dc53a, type: 3}
+  m_Sprite: {fileID: 2355862197986168994, guid: 217415af405dc1c789e1267f682e8eb7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-8265625534225345717
+--- !u!114 &7935735480017653350
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,10 +96,73 @@ MonoBehaviour:
   m_GameObject: {fileID: 8297941263728505269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86bd645d090eb8027a6b4710e09236c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 28b531874cf9bb9a1acf011724dc2ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: 47488a788ad20e8f0b87e4b8e00c145b, type: 2}
-  speed: 2
-  pickUpDist: 2.5
-  despawnTime: 1000
+  itemData: {fileID: 11400000, guid: 53ad15408d40381698e570c6828b94cd, type: 2}
+  launchForce: 5
+  moveSpeed: 2
+  detectionRadius: 2
+  inventory: {fileID: 0}
+--- !u!58 &-4601610292298652168
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297941263728505269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.6
+--- !u!50 &-3634176751308976059
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297941263728505269}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

@@ -6,7 +6,7 @@ using UnityEngine;
 public class PotionRecipe : ScriptableObject {
     public string name;
 
-    public InventoryItemData[] ingredients;
+    public ItemData[] ingredients;
 
     public GameObject potion;
 }

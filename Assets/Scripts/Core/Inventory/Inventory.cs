@@ -1,22 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
-[System.Serializable]
 public class Inventory : MonoBehaviour {
-    [SerializeField] private int inventorySize;
-    [SerializeField] protected InventorySystem inventorySystem;
+    public List<ItemData> items = new List<ItemData>();
+    public InventorySlot[] slots;
 
-    public InventorySystem InventorySystem => inventorySystem;
-    public static UnityAction<InventorySystem> OnDynamicInventoryDisplayRequested;
+    public void AddItem(ItemData item) {
+        if (items.Count < slots.Length) {
+            items.Add(item);
+            UpdateUI();
 
-    private void Awake()
-    {
-        inventorySystem = new InventorySystem(inventorySize);
+            Debug.Log("Added to inventory: " + item.name);
+        } else {
+            Debug.Log("Inventory full");
+        }
     }
 
+    public void RemoveItem(ItemData item) {
+        items.Remove(item);
+        Debug.Log("Removed from inventory: " + item.name);
+    }
 
+    void UpdateUI() {
+        for (int i = 0; i < slots.Length; i++) {
+            if (i < items.Count) {
+                slots[i].AddItem(items[i]);
+            } else {
+                slots[i].ClearSlot();
+            }
+        }
+    }
 }
-
-

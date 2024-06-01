@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Swealtering
   ingredients:
-  - {fileID: 11400000, guid: 5c6bcfac2d52ccadfb4261dbf134d0e9, type: 2}
-  - {fileID: 11400000, guid: 5c6bcfac2d52ccadfb4261dbf134d0e9, type: 2}
-  - {fileID: 11400000, guid: 793e6246bbd187a389635bc15baabb1f, type: 2}
+  - {fileID: 11400000, guid: 2fa351cce8efd709c9cf5ac2dac0d054, type: 2}
+  - {fileID: 11400000, guid: 2fa351cce8efd709c9cf5ac2dac0d054, type: 2}
+  - {fileID: 11400000, guid: 2fa351cce8efd709c9cf5ac2dac0d054, type: 2}
   potion: {fileID: 1057018727562672877, guid: 05c4f7fa14af75cbe9d6cb8fbc90ad2d, type: 3}

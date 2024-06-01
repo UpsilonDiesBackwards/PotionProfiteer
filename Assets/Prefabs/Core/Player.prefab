@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 95397432526867556}
   - component: {fileID: 7857352324358577304}
   - component: {fileID: 2603142919936431050}
+  - component: {fileID: 1618709290941079859}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -215,11 +216,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9573614438e30a8b7965d4a7cbc2bd03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 3778328348734343}
   joystick: {fileID: 0}
   cameraEffects: {fileID: 0}
   _graphic: {fileID: 7929700535328977719}
-  animator: {fileID: 0}
+  animator: {fileID: 901054649387345617}
   moveSpeed: 2.5
   frozen: 0
   groundType: grass
@@ -229,8 +230,8 @@ MonoBehaviour:
   snowSound: {fileID: 0}
   sandSound: {fileID: 0}
   bayouSound: {fileID: 0}
-  stepSound: {fileID: 0}
-  spondulixs: 75
+  stepSound: {fileID: 8300000, guid: da148540f92ca94e6a8a8d26e01d0e28, type: 3}
+  spondulixs: 125
 --- !u!114 &1165444225140785423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offsetDist: 0
-  pickUpRadius: 1.5
+  pickUpRadius: 0.5
   currentCropCollider: {fileID: 0}
 --- !u!114 &1137258193833063501
 MonoBehaviour:
@@ -268,7 +269,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7929700535328977719}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0d0e46e9783ce3458b52451808497c9, type: 3}
   m_Name: 
@@ -656,3 +657,99 @@ CapsuleCollider2D:
   m_Offset: {x: 0.002118826, y: 0.15928888}
   m_Size: {x: 0.29156017, y: 0.32865608}
   m_Direction: 0
+--- !u!82 &1618709290941079859
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7929700535328977719}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -9084736834488577408, guid: 43a215bdc7623349795ad160629f0c88, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

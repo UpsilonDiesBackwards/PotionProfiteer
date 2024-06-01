@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Very Stink
   ingredients:
-  - {fileID: 11400000, guid: 8e7a725fb6205b272808a6823458ba44, type: 2}
-  - {fileID: 11400000, guid: 8e7a725fb6205b272808a6823458ba44, type: 2}
-  - {fileID: 11400000, guid: 61d28cd479d5f4eb4bf452da61f780bc, type: 2}
-  potion: {fileID: 1057018727562672877, guid: 5c7ee61b623f0a66594dd533bdbfc121, type: 3}
+  - {fileID: 11400000, guid: 2d5490f53d1fefedd90b3519c5214a69, type: 2}
+  - {fileID: 11400000, guid: 2d5490f53d1fefedd90b3519c5214a69, type: 2}
+  - {fileID: 11400000, guid: 2d5490f53d1fefedd90b3519c5214a69, type: 2}
+  potion: {fileID: 8297941263728505269, guid: da54febfb4b01cc79b650d5804fb6fdb, type: 3}

@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -1730,6 +1732,7 @@ ScriptedImporter:
     cells:
     - name: Robot - Sprint_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1738,6 +1741,7 @@ ScriptedImporter:
       spriteId: 820e6892b96290247a0e875d7a8bbc5b
     - name: Robot - Sprint_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1746,6 +1750,7 @@ ScriptedImporter:
       spriteId: 478b345049737ed468d35bcfcb52b63c
     - name: Robot - Sprint_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1754,6 +1759,7 @@ ScriptedImporter:
       spriteId: 6d4a71f5b79cbac42a392b7978c4333f
     - name: Robot - Sprint_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1762,6 +1768,7 @@ ScriptedImporter:
       spriteId: 28a98f6bb455d4b4a840e9a830533258
     - name: Robot - Sprint_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1770,6 +1777,7 @@ ScriptedImporter:
       spriteId: 516a510249e9f2042ab432c89fe8e045
     - name: Robot - Sprint_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1778,6 +1786,7 @@ ScriptedImporter:
       spriteId: 60e4d6c598f64ea45a616db9b1da2981
     - name: Robot - Sprint_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1786,6 +1795,7 @@ ScriptedImporter:
       spriteId: ef53c865796e10b4ca5662580afd1f16
     - name: Robot - Sprint_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1794,6 +1804,7 @@ ScriptedImporter:
       spriteId: b0a8bc8caa77317408e0a364a47c4a6c
     - name: Robot - Sprint_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1802,6 +1813,7 @@ ScriptedImporter:
       spriteId: fdf353a3c9e32b74cb031139f6016145
     - name: Robot - Sprint_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1810,6 +1822,7 @@ ScriptedImporter:
       spriteId: 0d81be0a2f6940c4cb033053ebe6c6f5
     - name: Robot - Sprint_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1818,6 +1831,7 @@ ScriptedImporter:
       spriteId: e5aefd5cb53f9e14da652bbc5f113d41
     - name: Robot - Sprint_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1826,6 +1840,7 @@ ScriptedImporter:
       spriteId: 224519e36b852f040bcac39587823871
     - name: Robot - Sprint_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1834,6 +1849,7 @@ ScriptedImporter:
       spriteId: f9541162d01c6dd4cb48cb9007ef6e5d
     - name: Robot - Sprint_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1842,6 +1858,7 @@ ScriptedImporter:
       spriteId: deb485ab7f67910499ea6906d2b9af9e
     - name: Robot - Sprint_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1850,6 +1867,7 @@ ScriptedImporter:
       spriteId: a8d7732df3712794ebd1ebff2cd7cf3a
     - name: Robot - Sprint_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1858,6 +1876,7 @@ ScriptedImporter:
       spriteId: 1d6f37464ccba0d478fac5305a374477
     - name: Robot - Sprint_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1866,6 +1885,7 @@ ScriptedImporter:
       spriteId: e92b8e0ce90605c44bfe21cc57859118
     - name: Robot - Sprint_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1874,6 +1894,7 @@ ScriptedImporter:
       spriteId: 898f76f45d8086c45b8926f7b1a8d73d
     - name: Robot - Sprint_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1882,6 +1903,7 @@ ScriptedImporter:
       spriteId: cae27b70b495cf14f925d2336e9d9d6e
     - name: Robot - Sprint_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -1890,6 +1912,7 @@ ScriptedImporter:
       spriteId: 3d64492fb34dad14ab2e15b13704a18c
     - name: Robot - Sprint_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1898,6 +1921,7 @@ ScriptedImporter:
       spriteId: 02dece7bb3dc5ef4e919cd2ab50b271b
     - name: Robot - Sprint_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1906,6 +1930,7 @@ ScriptedImporter:
       spriteId: 86a4ea0ac8acb7342a966209b5116f5f
     - name: Robot - Sprint_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1914,6 +1939,7 @@ ScriptedImporter:
       spriteId: f6c8d37f52b363b479e17e748cb7fe65
     - name: Robot - Sprint_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1922,6 +1948,7 @@ ScriptedImporter:
       spriteId: ffe01b7d271f032499a662d6089b465a
     - name: Robot - Sprint_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1930,6 +1957,7 @@ ScriptedImporter:
       spriteId: 4eb6db0ce6b5a05469c37544bb30179d
     - name: Robot - Sprint_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1938,6 +1966,7 @@ ScriptedImporter:
       spriteId: 7b4223d162e4a1c42b899d4397177d86
     - name: Robot - Sprint_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1946,6 +1975,7 @@ ScriptedImporter:
       spriteId: 4d65963e5ea8cb34fba611812aea2691
     - name: Robot - Sprint_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1954,6 +1984,7 @@ ScriptedImporter:
       spriteId: af37680bcd617bc488c0a2d5e48a32bc
     - name: Robot - Sprint_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1962,6 +1993,7 @@ ScriptedImporter:
       spriteId: 637f1dcdba4564f48b8ffa7e7d54d041
     - name: Robot - Sprint_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1970,6 +2002,7 @@ ScriptedImporter:
       spriteId: cda501bf94b02284ca9a5b414aaf66bf
     - name: Robot - Sprint_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1978,6 +2011,7 @@ ScriptedImporter:
       spriteId: bf089b0cdfbe66c4c92f0bb274009f8d
     - name: Robot - Sprint_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -1986,6 +2020,7 @@ ScriptedImporter:
       spriteId: 0d6ccafe2a801c440911b33f807c9700
     - name: Robot - Sprint_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 21
@@ -1994,6 +2029,7 @@ ScriptedImporter:
       spriteId: 6bbdeaaa777279647a352251b4ecfc7e
     - name: Robot - Sprint_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -2002,6 +2038,7 @@ ScriptedImporter:
       spriteId: b0cff3a908b73024d861cec797bb3691
     - name: Robot - Sprint_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -2010,6 +2047,7 @@ ScriptedImporter:
       spriteId: d393c9740f582c442adf19bfe80ce80c
     - name: Robot - Sprint_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -2018,6 +2056,7 @@ ScriptedImporter:
       spriteId: 4eb202a2e8ff4b54e9e59d2ea2db4194
     - name: Robot - Sprint_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 21
@@ -2026,6 +2065,7 @@ ScriptedImporter:
       spriteId: 5e94b559569ef1a4baa9c40052f1e851
     - name: Robot - Sprint_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -2034,6 +2074,7 @@ ScriptedImporter:
       spriteId: 91486576e08c46f49b09b7db7f2b18c1
     - name: Robot - Sprint_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -2042,6 +2083,7 @@ ScriptedImporter:
       spriteId: 39469fb5d16aebf4d898b950e7f22132
     - name: Robot - Sprint_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 22
@@ -2050,6 +2092,7 @@ ScriptedImporter:
       spriteId: d89bd57eaabd89948aa0307e6e89f8ec
     - name: Robot - Sprint_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2058,6 +2101,7 @@ ScriptedImporter:
       spriteId: 10e330d71c8d3b14b93f68327f0457cd
     - name: Robot - Sprint_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2066,6 +2110,7 @@ ScriptedImporter:
       spriteId: d1eacdb3fee8063448000de8081a458f
     - name: Robot - Sprint_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2074,6 +2119,7 @@ ScriptedImporter:
       spriteId: abce98d5360876845abdf0189d53de68
     - name: Robot - Sprint_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2082,6 +2128,7 @@ ScriptedImporter:
       spriteId: 4c1d5c99d9694364896083351b3e9c4f
     - name: Robot - Sprint_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2090,6 +2137,7 @@ ScriptedImporter:
       spriteId: bd543db9796a3dc489f18c41cc1d15bd
     - name: Robot - Sprint_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2098,6 +2146,7 @@ ScriptedImporter:
       spriteId: 83eff0f3ed0ce59498c2f9ebc3d2c02b
     - name: Robot - Sprint_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2106,6 +2155,7 @@ ScriptedImporter:
       spriteId: 4045aa6e0bc152a4d8e7f9b0c6081a75
     - name: Robot - Sprint_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2114,6 +2164,7 @@ ScriptedImporter:
       spriteId: 61a8bc696634d9b44b5bcb20f12294bd
     - name: Robot - Sprint_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2122,6 +2173,7 @@ ScriptedImporter:
       spriteId: 6ef5ad617622cd24ab7d85e3117cf5a8
     - name: Robot - Sprint_Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 22
@@ -2130,6 +2182,7 @@ ScriptedImporter:
       spriteId: 48ffdc55f3e1dd6409b81b24227dd053
     - name: Robot - Sprint_Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2138,6 +2191,7 @@ ScriptedImporter:
       spriteId: 78260278345799f45b263ff6717e854f
     - name: Robot - Sprint_Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2146,6 +2200,7 @@ ScriptedImporter:
       spriteId: 7083b4a0493374d40909d1b45a7ef215
     - name: Robot - Sprint_Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 21
@@ -2154,6 +2209,7 @@ ScriptedImporter:
       spriteId: efa78af0e9c4da544a622e8187173759
     - name: Robot - Sprint_Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2162,6 +2218,7 @@ ScriptedImporter:
       spriteId: 79c476990da89f544a59295aef6728aa
     - name: Robot - Sprint_Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2170,6 +2227,7 @@ ScriptedImporter:
       spriteId: 1a7c5dc1f7f786b45ab05e9243c31fc2
     - name: Robot - Sprint_Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2178,6 +2236,7 @@ ScriptedImporter:
       spriteId: 4b746eab93f5353428daa122965162ed
     - name: Robot - Sprint_Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 21
@@ -2186,6 +2245,7 @@ ScriptedImporter:
       spriteId: 140fee4cb6912c64fa1b879f1c7417d2
     - name: Robot - Sprint_Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2194,6 +2254,7 @@ ScriptedImporter:
       spriteId: 3a91ad72dc2a3484ca196fb1f98d23fb
     - name: Robot - Sprint_Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2202,6 +2263,7 @@ ScriptedImporter:
       spriteId: 411a857b788e74c4dbf4e7b4154dc165
     - name: Robot - Sprint_Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2210,6 +2272,7 @@ ScriptedImporter:
       spriteId: bb574853048bffe468962d3d326b6c70
     - name: Robot - Sprint_Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2218,6 +2281,7 @@ ScriptedImporter:
       spriteId: 01fbcade78cb8b945a39e97356c9696f
     - name: Robot - Sprint_Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2226,6 +2290,7 @@ ScriptedImporter:
       spriteId: e18c9e5365ce66948847ed0fb779b76b
     - name: Robot - Sprint_Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2234,6 +2299,7 @@ ScriptedImporter:
       spriteId: aaaeee55948542b46a2ba8ee039008be
     - name: Robot - Sprint_Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2242,6 +2308,7 @@ ScriptedImporter:
       spriteId: a1d6dd4c0c2d3ac45be33d2a5668ae30
     - name: Robot - Sprint_Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2250,6 +2317,7 @@ ScriptedImporter:
       spriteId: 5e7dce08bd017d14db5ab0c9e6d10812
     - name: Robot - Sprint_Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2258,6 +2326,7 @@ ScriptedImporter:
       spriteId: 7835ed900b7ec7e4480d369653d8abc7
     - name: Robot - Sprint_Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2266,6 +2335,7 @@ ScriptedImporter:
       spriteId: 61a5244c13ee19f4bbd67a5552a1c356
     - name: Robot - Sprint_Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2274,6 +2344,7 @@ ScriptedImporter:
       spriteId: 1864a7d43cb274a4780ded7bc9e9512d
     - name: Robot - Sprint_Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2282,6 +2353,7 @@ ScriptedImporter:
       spriteId: 28df3ca528c4faf4a885be056c4441a3
     - name: Robot - Sprint_Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 22
@@ -2290,6 +2362,7 @@ ScriptedImporter:
       spriteId: f0671de204a64a447ac44ed7726c2879
     - name: Robot - Sprint_Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2298,6 +2371,7 @@ ScriptedImporter:
       spriteId: 7882569550b494742aa783c990596256
     - name: Robot - Sprint_Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2306,6 +2380,7 @@ ScriptedImporter:
       spriteId: 4cf2f693d5d88e845bdd972ee473a820
     - name: Robot - Sprint_Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2314,6 +2389,7 @@ ScriptedImporter:
       spriteId: 8bb3a39e21d4cc843a58e44105e72c6b
     - name: Robot - Sprint_Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2322,6 +2398,7 @@ ScriptedImporter:
       spriteId: 4b1914f967f43d34d881eeed3e318134
     - name: Robot - Sprint_Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2330,6 +2407,7 @@ ScriptedImporter:
       spriteId: 7dd1fd8bf4396334990e17b131a2d712
     - name: Robot - Sprint_Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2338,6 +2416,7 @@ ScriptedImporter:
       spriteId: 5711eda31394e3245bd837534a8a5789
     - name: Robot - Sprint_Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2346,6 +2425,7 @@ ScriptedImporter:
       spriteId: c2046052a3f6cd84b90782ac49e807bf
     - name: Robot - Sprint_Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2354,6 +2434,7 @@ ScriptedImporter:
       spriteId: 5d646f19750e5b0439f4f6c40c3cf4cf
     - name: Robot - Sprint_Frame_78
       frameIndex: 78
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2362,6 +2443,7 @@ ScriptedImporter:
       spriteId: 25cde87bb2d45954f9fe3ceac7631185
     - name: Robot - Sprint_Frame_79
       frameIndex: 79
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 22
@@ -2371,6 +2453,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 64}

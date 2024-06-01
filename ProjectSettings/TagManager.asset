@@ -31,11 +31,12 @@ TagManager:
   - InsideHeavyRain
   - Bird
   - Empty
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - Interactable

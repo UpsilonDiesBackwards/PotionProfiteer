@@ -125,7 +125,7 @@ public class Player : MonoBehaviour, IDataPersistence {
 
     public void PlayStepSound() {
         audioSource.pitch = Random.Range(0.9f, 1.1f);
-        audioSource.PlayOneShot(stepSound, Mathf.Abs(direction.x) / 10 * Mathf.Abs(direction.y) / 10);
+        // audioSource.PlayOneShot(stepSound, Mathf.Abs(direction.x) / 10 * Mathf.Abs(direction.y) / 10);
     }
 
     public void Hide(bool hide) {

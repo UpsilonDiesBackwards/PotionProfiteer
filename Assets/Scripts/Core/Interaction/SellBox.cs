@@ -1,15 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class SellBox : MonoBehaviour {
-    public LayerMask resourceLayer;
+public class SellBoxDropHandler : MonoBehaviour, IDropHandler {
+    public void OnDrop(PointerEventData eventData) {
+        Debug.Log("Item dropped on sell box!");
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.CompareTag("Potion")) {
-            Player.Instance.spondulixs += other.gameObject.GetComponent<DragableObject>().data.value;
+        if (DragHandler.itemBeingDragged != null) {
+            InventorySlot slot = DragHandler.itemBeingDragged.GetComponentInParent<InventorySlot>();
+            if (slot != null && slot.item != null) {
+                Debug.Log("Item data found: " + slot.item.itemName);
 
-            Destroy(other.gameObject);
+                // Sell the item
+                Player.Instance.spondulixs += slot.item.value;
+                Debug.Log("Sold item: " + slot.item.itemName + " for " + slot.item.value + " spondulixs");
+
+                // Clear the slot
+                slot.ClearSlot();
+                Debug.Log("Item removed from inventory: " + slot.item.itemName);
+            } else {
+                Debug.Log("No item data found in slot.");
+            }
+        } else {
+            Debug.Log("No item being dragged.");
         }
     }
 }
